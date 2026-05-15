@@ -15,7 +15,7 @@
                           "Clothes",
                           "Daily Essentials"
                       ],
-        "priceRange":  "â‚¹â‚¹",
+        "priceRange":  "₹₹",
         "bestTimeToVisit":  "Morning (9AM–11AM) or Evening (5PM–7PM)",
         "location":  "Near Clock Tower, Sirsa",
         "directions":  {
@@ -86,7 +86,7 @@
                           "Shoes",
                           "Accessories"
                       ],
-        "priceRange":  "â‚¹",
+        "priceRange":  "₹",
         "bestTimeToVisit":  "Morning (10AM–12PM)",
         "location":  "Rania Road, Near Bus Stand, Sirsa",
         "directions":  {
@@ -152,7 +152,7 @@
                           "Pulses",
                           "Wholesale Shopping"
                       ],
-        "priceRange":  "â‚¹",
+        "priceRange":  "₹",
         "bestTimeToVisit":  "Early Morning (7AM–10AM)",
         "location":  "Anaj Mandi Road, Sirsa",
         "directions":  {
@@ -217,7 +217,7 @@
                           "Fruits",
                           "Daily Essentials"
                       ],
-        "priceRange":  "â‚¹",
+        "priceRange":  "₹",
         "bestTimeToVisit":  "Early Morning (6AM–9AM)",
         "location":  "Near Old Bus Stand, Sirsa",
         "directions":  {
@@ -283,7 +283,7 @@
                           "Plumbing",
                           "Electrical Goods"
                       ],
-        "priceRange":  "â‚¹â‚¹",
+        "priceRange":  "₹₹",
         "bestTimeToVisit":  "Morning (9AM–12PM)",
         "location":  "Hanumangarh Road, Sirsa",
         "directions":  {
@@ -348,7 +348,7 @@
                           "Budget Clothes",
                           "Snacks"
                       ],
-        "priceRange":  "â‚¹",
+        "priceRange":  "₹",
         "bestTimeToVisit":  "Evening (5PM–9PM)",
         "location":  "Dhobiana Mohalla, Sirsa",
         "directions":  {
@@ -419,7 +419,7 @@
                           "Footwear",
                           "Cosmetics"
                       ],
-        "priceRange":  "â‚¹â‚¹â‚¹",
+        "priceRange":  "₹₹₹",
         "bestTimeToVisit":  "Afternoon (2PM–6PM) or Weekend",
         "location":  "Sector 17, Sirsa",
         "directions":  {
@@ -490,7 +490,7 @@
                           "Bridal Sets",
                           "Precious Stones"
                       ],
-        "priceRange":  "â‚¹â‚¹â‚¹",
+        "priceRange":  "₹₹₹",
         "bestTimeToVisit":  "Morning (10AM–1PM) on weekdays",
         "location":  "Near Ganesh Chowk, Sirsa",
         "directions":  {
@@ -556,7 +556,7 @@
                           "Accessories",
                           "Repairs"
                       ],
-        "priceRange":  "â‚¹â‚¹",
+        "priceRange":  "₹₹",
         "bestTimeToVisit":  "Afternoon (11AM–3PM)",
         "location":  "Subhash Nagar Road, Sirsa",
         "directions":  {
@@ -622,7 +622,7 @@
                           "Street Food",
                           "Textiles"
                       ],
-        "priceRange":  "â‚¹â‚¹",
+        "priceRange":  "₹₹",
         "bestTimeToVisit":  "Morning (9AM–12PM)",
         "location":  "Old City Area, Sirsa",
         "directions":  {
@@ -697,7 +697,7 @@
                           "Bridal Lehengas",
                           "Silver Jewelry"
                       ],
-        "priceRange":  "â‚¹",
+        "priceRange":  "₹",
         "bestTimeToVisit":  "Weekday Mornings (9AM–12PM). Avoid Sunday — most shops closed.",
         "location":  "Chandni Chowk Road, Old Delhi, Delhi — 110006",
         "directions":  {
@@ -779,7 +779,7 @@
                           "Western Wear",
                           "Accessories"
                       ],
-        "priceRange":  "â‚¹",
+        "priceRange":  "₹",
         "bestTimeToVisit":  "Weekday mornings (10AM–12PM). Saturdays are extremely crowded.",
         "location":  "Sarojini Nagar, New Delhi — 110023",
         "directions":  {
@@ -857,7 +857,7 @@
                           "Wedding Shopping",
                           "Kurti \u0026 Suits"
                       ],
-        "priceRange":  "â‚¹â‚¹",
+        "priceRange":  "₹₹",
         "bestTimeToVisit":  "Weekday afternoons (12PM–4PM)",
         "location":  "Central Market, Lajpat Nagar II, New Delhi — 110024",
         "directions":  {
@@ -934,7 +934,7 @@
                           "Shoes",
                           "Watches"
                       ],
-        "priceRange":  "â‚¹â‚¹",
+        "priceRange":  "₹₹",
         "bestTimeToVisit":  "Weekday mornings (11AM–2PM)",
         "location":  "Ajmal Khan Road, Karol Bagh, New Delhi — 110005",
         "directions":  {
@@ -1010,7 +1010,7 @@
                           "Refurbished Devices",
                           "Chargers \u0026 Cables"
                       ],
-        "priceRange":  "â‚¹",
+        "priceRange":  "₹",
         "bestTimeToVisit":  "Weekday afternoons (12PM–4PM)",
         "location":  "Gaffar Market Road, Karol Bagh, New Delhi — 110005",
         "directions":  {
@@ -1080,7 +1080,7 @@
                           "Boho Fashion",
                           "Souvenirs"
                       ],
-        "priceRange":  "â‚¹",
+        "priceRange":  "₹",
         "bestTimeToVisit":  "Morning (10AM–1PM)",
         "location":  "Janpath Lane, Connaught Place, New Delhi — 110001",
         "directions":  {
@@ -1155,7 +1155,7 @@
                           "Budget Clothes",
                           "Accessories"
                       ],
-        "priceRange":  "â‚¹",
+        "priceRange":  "₹",
         "bestTimeToVisit":  "Afternoon (12PM–4PM)",
         "location":  "Connaught Place (Underground), New Delhi — 110001",
         "directions":  {
@@ -1232,7 +1232,7 @@
                           "CCTV",
                           "Networking Gear"
                       ],
-        "priceRange":  "â‚¹â‚¹",
+        "priceRange":  "₹₹",
         "bestTimeToVisit":  "Weekday mornings (10AM–1PM). Market closed on Sundays.",
         "location":  "Nehru Place, South Delhi — 110019",
         "directions":  {
@@ -1308,7 +1308,7 @@
                           "Textiles",
                           "Tribal Art"
                       ],
-        "priceRange":  "â‚¹â‚¹",
+        "priceRange":  "₹₹",
         "bestTimeToVisit":  "Weekday evenings (5PM–8PM) or weekend mornings",
         "location":  "Aurobindo Marg, INA, New Delhi — 110016",
         "directions":  {
@@ -1323,7 +1323,7 @@
                                              "DTC 505"
                                          ],
                            "autoRickshaw":  true,
-                           "tips":  "INA Metro is right next to the market. Entry fee: â‚¹80 for adults. Rotating stalls from different states — check which state is featured during your visit."
+                           "tips":  "INA Metro is right next to the market. Entry fee: ₹80 for adults. Rotating stalls from different states — check which state is featured during your visit."
                        },
         "crowd":  {
                       "morning":  "Low",
@@ -1386,7 +1386,7 @@
                           "Gourmet Food",
                           "Artisan Products"
                       ],
-        "priceRange":  "â‚¹â‚¹â‚¹",
+        "priceRange":  "₹₹₹",
         "bestTimeToVisit":  "Weekday afternoons (12PM–5PM)",
         "location":  "Khan Market, New Delhi — 110003",
         "directions":  {
@@ -1467,7 +1467,7 @@
                           "Stationery",
                           "Student Shopping"
                       ],
-        "priceRange":  "â‚¹",
+        "priceRange":  "₹",
         "bestTimeToVisit":  "Afternoon (1PM–6PM). Liveliest on weekends.",
         "location":  "Kamla Nagar, North Delhi — 110007",
         "directions":  {
@@ -1482,7 +1482,7 @@
                                              "DTC 605"
                                          ],
                            "autoRickshaw":  true,
-                           "tips":  "From Vishwavidyalaya Metro, e-rickshaws run directly to Kamla Nagar Market (â‚¹10). Very student-friendly — food prices are remarkably low."
+                           "tips":  "From Vishwavidyalaya Metro, e-rickshaws run directly to Kamla Nagar Market (₹10). Very student-friendly — food prices are remarkably low."
                        },
         "crowd":  {
                       "morning":  "Low",
@@ -1543,7 +1543,7 @@
                           "Street Shopping (inner lanes)",
                           "Books"
                       ],
-        "priceRange":  "â‚¹â‚¹â‚¹",
+        "priceRange":  "₹₹₹",
         "bestTimeToVisit":  "Evenings (6PM–9PM) or weekend afternoons",
         "location":  "Connaught Place, New Delhi — 110001",
         "directions":  {
@@ -1626,7 +1626,7 @@
                           "Branded Stores",
                           "Evening Hangouts"
                       ],
-        "priceRange":  "â‚¹â‚¹",
+        "priceRange":  "₹₹",
         "bestTimeToVisit":  "Evenings (5PM–9PM) or weekend afternoons",
         "location":  "Sector 18, Noida, Uttar Pradesh — 201301",
         "directions":  {
@@ -1701,7 +1701,7 @@
                           "Daily Essentials",
                           "Budget Shopping"
                       ],
-        "priceRange":  "â‚¹",
+        "priceRange":  "₹",
         "bestTimeToVisit":  "Morning (8AM–11AM)",
         "location":  "Atta Market, Sector 18, Noida — 201301",
         "directions":  {
@@ -1771,7 +1771,7 @@
                           "Premium Brands",
                           "Weekend Brunches"
                       ],
-        "priceRange":  "â‚¹â‚¹â‚¹",
+        "priceRange":  "₹₹₹",
         "bestTimeToVisit":  "Evenings (7PM–11PM) on weekends",
         "location":  "DLF Cyber City, Phase 2, Gurugram, Haryana — 122002",
         "directions":  {
@@ -1851,7 +1851,7 @@
                           "Daily Needs",
                           "Local Handicrafts"
                       ],
-        "priceRange":  "â‚¹",
+        "priceRange":  "₹",
         "bestTimeToVisit":  "Morning (9AM–12PM)",
         "location":  "Sadar Bazaar, Old Gurgaon, Haryana — 122001",
         "directions":  {
@@ -1920,7 +1920,7 @@
                           "Switches",
                           "Wholesale Electrical"
                       ],
-        "priceRange":  "â‚¹",
+        "priceRange":  "₹",
         "bestTimeToVisit":  "Weekday mornings (9AM–12PM). Closed on Sundays.",
         "location":  "Chandni Chowk, Near Fatehpuri, Old Delhi — 110006",
         "directions":  {
@@ -1990,7 +1990,7 @@
                           "Food Court",
                           "Everyday Essentials"
                       ],
-        "priceRange":  "â‚¹â‚¹",
+        "priceRange":  "₹₹",
         "bestTimeToVisit":  "Evening (5PM–8PM)",
         "location":  "Vaishali Sector 4, Ghaziabad, Uttar Pradesh — 201010",
         "directions":  {

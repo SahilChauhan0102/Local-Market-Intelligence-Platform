@@ -62,7 +62,7 @@ export default function ImageGallery({ market }: { market: Market }) {
               key={i}
               onClick={() => setActiveIdx(i)}
               className={`relative flex-shrink-0 w-16 h-16 rounded-lg overflow-hidden border-2 transition-all ${
-                i === activeIdx ? 'border-[#22C55E]' : 'border-transparent opacity-60 hover:opacity-100'
+                i === activeIdx ? 'border-[#F59E0B]' : 'border-transparent opacity-60 hover:opacity-100'
               }`}
               aria-label={`View photo ${i + 1}`}
             >
@@ -88,7 +88,7 @@ export default function ImageGallery({ market }: { market: Market }) {
           onClick={() => setLightboxOpen(false)}
         >
           <button
-            className="absolute top-4 right-4 text-white text-2xl hover:text-[#22C55E] transition-colors"
+            className="absolute top-4 right-4 text-white text-2xl hover:text-[#F59E0B] transition-colors"
             onClick={() => setLightboxOpen(false)}
             aria-label="Close lightbox"
           >

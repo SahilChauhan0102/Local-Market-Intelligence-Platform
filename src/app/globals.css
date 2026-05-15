@@ -1,22 +1,24 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #0F172A;
-  --color-primary-light: #1E293B;
-  --color-accent: #22C55E;
-  --color-accent-dark: #16A34A;
-  --color-background: #F8FAFC;
-  --color-surface: #FFFFFF;
-  --color-text: #111827;
-  --color-muted: #6B7280;
-  --color-border: #E2E8F0;
-  --color-card: #FFFFFF;
+  --color-primary: #F9FAFB;
+  --color-primary-light: #D1D5DB;
+  --color-accent: #38BDF8;
+  --color-accent-dark: #0EA5E9;
+  --color-secondary: #22C55E;
+  --color-background: transparent;
+  --color-background-alt: rgba(255, 255, 255, 0.05);
+  --color-surface: rgba(255, 255, 255, 0.08);
+  --color-text: #F9FAFB;
+  --color-muted: #D1D5DB;
+  --color-border: rgba(255, 255, 255, 0.15);
+  --color-card: rgba(255, 255, 255, 0.08);
 
   --font-sans: 'Inter', system-ui, sans-serif;
 
-  --radius-card: 1rem;
-  --shadow-card: 0 2px 16px 0 rgba(15,23,42,0.08);
-  --shadow-hover: 0 8px 32px 0 rgba(15,23,42,0.14);
+  --radius-card: 16px;
+  --shadow-card: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
+  --shadow-hover: 0 16px 40px 0 rgba(0, 0, 0, 0.3);
 }
 
 @layer base {
@@ -29,7 +31,8 @@
   }
 
   body {
-    background-color: var(--color-background);
+    background: linear-gradient(135deg, #0F172A, #1E293B, #0EA5E9);
+    background-attachment: fixed;
     color: var(--color-text);
     font-family: var(--font-sans);
     -webkit-font-smoothing: antialiased;
@@ -44,14 +47,17 @@
 @layer utilities {
   .card {
     background: var(--color-card);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid var(--color-border);
     border-radius: var(--radius-card);
     box-shadow: var(--shadow-card);
-    transition: box-shadow 0.2s ease, transform 0.2s ease;
+    transition: all 0.3s ease;
   }
 
   .card:hover {
     box-shadow: var(--shadow-hover);
-    transform: translateY(-2px);
+    transform: scale(1.02);
   }
 
   .badge {
@@ -65,18 +71,21 @@
   }
 
   .badge-accent {
-    background-color: #DCFCE7;
-    color: #15803D;
+    background-color: rgba(56, 189, 248, 0.2); /* Light Sky */
+    border: 1px solid rgba(56, 189, 248, 0.4);
+    color: var(--color-accent);
   }
 
   .badge-primary {
-    background-color: #0F172A;
+    background-color: rgba(249, 250, 251, 0.15);
+    border: 1px solid rgba(249, 250, 251, 0.3);
     color: white;
   }
 
   .badge-muted {
-    background-color: #F1F5F9;
-    color: #475569;
+    background-color: var(--color-background-alt);
+    border: 1px solid var(--color-border);
+    color: var(--color-muted);
   }
 
   .section-heading {
@@ -92,20 +101,22 @@
     gap: 0.5rem;
     padding: 0.75rem 1.75rem;
     background-color: var(--color-accent);
-    color: white;
+    color: #0F172A; /* Dark text for contrast on bright sky blue */
     border-radius: 0.75rem;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 0.95rem;
-    transition: all 0.2s ease;
+    transition: all 0.3s ease;
     cursor: pointer;
     border: none;
     text-decoration: none;
+    box-shadow: 0 4px 12px rgba(56, 189, 248, 0.3);
   }
 
   .btn-primary:hover {
-    background-color: var(--color-accent-dark);
-    transform: translateY(-1px);
-    box-shadow: 0 4px 20px rgba(34,197,94,0.35);
+    background-color: #7DD3FC; /* Lighter sky blue */
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(56, 189, 248, 0.5);
+    filter: brightness(1.1);
   }
 
   .btn-outline {
@@ -113,20 +124,23 @@
     align-items: center;
     gap: 0.5rem;
     padding: 0.75rem 1.75rem;
-    background-color: transparent;
+    background-color: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(8px);
     color: var(--color-primary);
     border-radius: 0.75rem;
     font-weight: 600;
     font-size: 0.95rem;
-    transition: all 0.2s ease;
+    transition: all 0.3s ease;
     cursor: pointer;
-    border: 2px solid var(--color-border);
+    border: 1px solid var(--color-border);
     text-decoration: none;
   }
 
   .btn-outline:hover {
+    background-color: rgba(255, 255, 255, 0.15);
     border-color: var(--color-accent);
     color: var(--color-accent);
+    transform: translateY(-2px);
   }
 
   .crowd-bar {

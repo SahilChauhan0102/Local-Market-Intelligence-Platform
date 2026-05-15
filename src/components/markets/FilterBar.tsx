@@ -58,9 +58,9 @@ export default function FilterBar({
   const hasFilters = query || category !== 'All' || crowd !== 'Any' || price !== 'Any' || city !== 'All Cities';
 
   return (
-    <div className="bg-white border border-slate-200 rounded-2xl p-4 space-y-4 shadow-sm">
+    <div className="bg-white/5 border border-white/10 rounded-2xl p-4 space-y-4 shadow-md">
       {/* Search */}
-      <form onSubmit={handleSearch} className="flex items-center gap-2 bg-slate-50 rounded-xl px-3 py-2.5 border border-slate-200 focus-within:border-[#22C55E] focus-within:ring-1 focus-within:ring-[#22C55E] transition-all">
+      <form onSubmit={handleSearch} className="flex items-center gap-2 bg-white/5 rounded-xl px-3 py-2.5 border border-white/10 focus-within:border-[#22C55E] focus-within:ring-1 focus-within:ring-[#22C55E] transition-all">
         <svg className="w-4 h-4 text-[#6B7280] flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
           <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-4.35-4.35M17 11A6 6 0 1 1 5 11a6 6 0 0 1 12 0z" />
         </svg>
@@ -84,7 +84,7 @@ export default function FilterBar({
         <div className="flex flex-wrap gap-2">
           {CITIES.map((c) => (
             <button key={c} id={`filter-city-${c.toLowerCase().replace(' ', '-')}`} onClick={() => handleCity(c)}
-              className={`badge text-xs transition-all ${city === c ? 'badge-primary' : 'badge-muted hover:bg-slate-200'}`}>
+              className={`badge text-xs transition-all ${city === c ? 'badge-primary' : 'badge-muted hover:bg-white/20'}`}>
               {c}
             </button>
           ))}
@@ -97,7 +97,7 @@ export default function FilterBar({
         <div className="flex flex-wrap gap-2">
           {CATEGORIES.map((c) => (
             <button key={c} id={`filter-cat-${c.toLowerCase()}`} onClick={() => handleCat(c)}
-              className={`badge text-xs transition-all ${category === c ? 'badge-primary' : 'badge-muted hover:bg-slate-200'}`}>
+              className={`badge text-xs transition-all ${category === c ? 'badge-primary' : 'badge-muted hover:bg-white/20'}`}>
               {c}
             </button>
           ))}
@@ -111,7 +111,7 @@ export default function FilterBar({
           <div className="flex gap-1.5 flex-wrap">
             {CROWD_LEVELS.map((c) => (
               <button key={c} id={`filter-crowd-${c.toLowerCase()}`} onClick={() => handleCrowd(c)}
-                className={`badge text-xs transition-all ${crowd === c ? 'badge-primary' : 'badge-muted hover:bg-slate-200'}`}>
+                className={`badge text-xs transition-all ${crowd === c ? 'badge-primary' : 'badge-muted hover:bg-white/20'}`}>
                 {c}
               </button>
             ))}
@@ -122,7 +122,7 @@ export default function FilterBar({
           <div className="flex gap-1.5 flex-wrap">
             {PRICE_RANGES.map((p) => (
               <button key={p} id={`filter-price-${p.replace(/₹/g, 'rs')}`} onClick={() => handlePrice(p)}
-                className={`badge text-xs transition-all ${price === p ? 'badge-primary' : 'badge-muted hover:bg-slate-200'}`}>
+                className={`badge text-xs transition-all ${price === p ? 'badge-primary' : 'badge-muted hover:bg-white/20'}`}>
                 {p}
               </button>
             ))}

@@ -16,7 +16,7 @@ export default function Footer() {
               </div>
               <span className="font-extrabold text-lg">Local Market Explorer</span>
             </div>
-            <p className="text-slate-400 text-sm leading-relaxed max-w-xs">
+            <p className="text-gray-400 text-sm leading-relaxed max-w-xs">
               Your smart local guide to discover, explore, and compare markets across Sirsa, Haryana. Know before you go.
             </p>
             <div className="flex items-center gap-2 mt-4">
@@ -26,7 +26,7 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h3 className="font-semibold text-sm uppercase tracking-wider text-slate-400 mb-4">Explore</h3>
+            <h3 className="font-semibold text-sm uppercase tracking-wider text-gray-400 mb-4">Explore</h3>
             <ul className="space-y-2">
               {[
                 { href: '/', label: 'Home' },
@@ -36,7 +36,7 @@ export default function Footer() {
                 { href: '/markets?category=Clothes', label: 'Fashion Markets' },
               ].map(({ href, label }) => (
                 <li key={href}>
-                  <Link href={href} className="text-slate-400 hover:text-[#22C55E] text-sm transition-colors">
+                  <Link href={href} className="text-gray-400 hover:text-[#22C55E] text-sm transition-colors">
                     {label}
                   </Link>
                 </li>
@@ -46,13 +46,13 @@ export default function Footer() {
 
           {/* Categories */}
           <div>
-            <h3 className="font-semibold text-sm uppercase tracking-wider text-slate-400 mb-4">Categories</h3>
+            <h3 className="font-semibold text-sm uppercase tracking-wider text-gray-400 mb-4">Categories</h3>
             <ul className="space-y-2">
               {['Electronics', 'Grocery', 'Jewelry', 'Hardware', 'Fashion', 'Wholesale'].map((cat) => (
                 <li key={cat}>
                   <Link
                     href={`/markets?category=${cat}`}
-                    className="text-slate-400 hover:text-[#22C55E] text-sm transition-colors"
+                    className="text-gray-400 hover:text-[#22C55E] text-sm transition-colors"
                   >
                     {cat}
                   </Link>
@@ -62,11 +62,11 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-slate-800 mt-10 pt-6 flex flex-col sm:flex-row justify-between items-center gap-3">
-          <p className="text-slate-500 text-sm">
+        <div className="border-t border-white/10 mt-10 pt-6 flex flex-col sm:flex-row justify-between items-center gap-3">
+          <p className="text-gray-400 text-sm">
             © {new Date().getFullYear()} Local Market Explorer. Made with ❤️ for Sirsa.
           </p>
-          <p className="text-slate-600 text-xs">
+          <p className="text-gray-300 text-xs">
             Data is for informational purposes only.
           </p>
         </div>

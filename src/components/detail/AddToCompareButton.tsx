@@ -16,8 +16,8 @@ export default function AddToCompareButton({ market }: { market: Market }) {
         inCompare
           ? 'bg-[#0F172A] text-white border-[#0F172A]'
           : canAdd
-          ? 'bg-white text-[#0F172A] border-slate-200 hover:border-[#22C55E] hover:text-[#22C55E]'
-          : 'bg-slate-50 text-slate-300 border-slate-100 cursor-not-allowed'
+          ? 'bg-white/5 text-white border-white/10 hover:border-[#F59E0B] hover:text-[#F59E0B]'
+          : 'bg-white/5 text-gray-400 border-white/5 cursor-not-allowed'
       }`}
     >
       <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>

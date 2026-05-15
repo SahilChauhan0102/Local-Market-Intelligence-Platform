@@ -45,29 +45,29 @@ export default async function MarketDetailPage({ params }: Props) {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       {/* Breadcrumb */}
-      <nav className="flex items-center gap-2 text-xs text-[#6B7280] mb-6" aria-label="Breadcrumb">
-        <Link href="/" className="hover:text-[#22C55E] transition-colors">Home</Link>
+      <nav className="flex items-center gap-2 text-xs text-gray-400 mb-6" aria-label="Breadcrumb">
+        <Link href="/" className="hover:text-[#38BDF8] transition-colors">Home</Link>
         <span>›</span>
-        <Link href="/markets" className="hover:text-[#22C55E] transition-colors">Markets</Link>
+        <Link href="/markets" className="hover:text-[#38BDF8] transition-colors">Markets</Link>
         <span>›</span>
-        <Link href={`/markets?city=${market.city}`} className="hover:text-[#22C55E] transition-colors">{market.city}</Link>
+        <Link href={`/markets?city=${market.city}`} className="hover:text-[#38BDF8] transition-colors">{market.city}</Link>
         <span>›</span>
-        <span className="text-[#0F172A] font-medium">{market.name}</span>
+        <span className="text-gray-50 font-medium">{market.name}</span>
       </nav>
 
       {/* Page Title */}
       <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4 mb-6">
         <div>
           <div className="flex flex-wrap gap-2 mb-2">
-            <span className="badge bg-[#0F172A] text-white text-xs">📍 {market.city}</span>
+            <span className="badge bg-[#38BDF8] text-[#0F172A] text-xs font-bold">📍 {market.city}</span>
             {market.category.map((c) => (
-              <span key={c} className="badge badge-muted text-xs">{c}</span>
+              <span key={c} className="badge bg-white/10 text-gray-200 border border-white/20 text-xs">{c}</span>
             ))}
           </div>
-          <h1 className="text-3xl sm:text-4xl font-extrabold text-[#0F172A] leading-tight">
+          <h1 className="text-3xl sm:text-4xl font-extrabold text-white drop-shadow-md leading-tight">
             {market.name}
           </h1>
-          <p className="text-[#6B7280] mt-1.5 text-sm max-w-xl">{market.tagline}</p>
+          <p className="text-gray-300 mt-1.5 text-sm max-w-xl">{market.tagline}</p>
         </div>
         <div className="flex items-center gap-2 flex-shrink-0">
           <AddToCompareButton market={market} />
@@ -107,8 +107,8 @@ export default async function MarketDetailPage({ params }: Props) {
           <NearbyPlacesWidget market={market} />
 
           {/* Quick info */}
-          <div className="card p-5 bg-[#0F172A] text-white">
-            <h2 className="font-bold text-sm mb-3 text-[#22C55E]">Quick Info</h2>
+          <div className="card p-5 bg-white/5 border border-white/10 text-white">
+            <h2 className="font-bold text-sm mb-3 text-[#38BDF8]">Quick Info</h2>
             <ul className="space-y-2 text-xs text-slate-300">
               <li className="flex items-center gap-2"><span>📍</span> {market.location}</li>
               <li className="flex items-center gap-2"><span>⏰</span> {market.bestTimeToVisit}</li>

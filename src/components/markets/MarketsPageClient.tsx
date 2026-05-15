@@ -37,6 +37,7 @@ function MarketsContent({ markets }: { markets: Market[] }) {
   };
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     applyFilters(initialQ, initialCat, initialCrowd, initialPrice, initialCity);
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
@@ -59,7 +60,7 @@ function MarketsContent({ markets }: { markets: Market[] }) {
         <button
           id="mobile-filter-toggle"
           onClick={() => setShowFilters(!showFilters)}
-          className="lg:hidden flex items-center gap-2 bg-white border border-slate-200 text-sm font-semibold text-[#0F172A] px-3 py-2 rounded-xl shadow-sm flex-shrink-0"
+          className="lg:hidden flex items-center gap-2 bg-white/5 border border-white/10 text-sm font-semibold text-[#0F172A] px-3 py-2 rounded-xl shadow-md flex-shrink-0"
           aria-expanded={showFilters}
         >
           <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>

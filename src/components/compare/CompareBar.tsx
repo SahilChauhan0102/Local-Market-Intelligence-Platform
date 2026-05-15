@@ -11,7 +11,7 @@ export default function CompareBar() {
   return (
     <div
       id="compare-bar"
-      className="fixed bottom-0 left-0 right-0 z-50 bg-[#0F172A] text-white shadow-2xl border-t border-slate-700 animate-fade-up"
+      className="fixed bottom-0 left-0 right-0 z-50 bg-white/10 text-white shadow-2xl border-t border-slate-700 animate-fade-up"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
 
@@ -26,7 +26,7 @@ export default function CompareBar() {
             </div>
           </div>
           <div className="flex items-center gap-2 flex-shrink-0">
-            <button id="clear-compare-btn-mobile" onClick={clearCompare} className="text-xs text-slate-400 hover:text-red-400 transition-colors">✕</button>
+            <button id="clear-compare-btn-mobile" onClick={clearCompare} className="text-xs text-gray-400 hover:text-red-400 transition-colors">✕</button>
             <Link
               href="/compare"
               id="go-to-compare-btn-mobile"
@@ -40,7 +40,7 @@ export default function CompareBar() {
         {/* Desktop layout: full row */}
         <div className="hidden sm:flex items-center justify-between gap-4">
           <div className="flex items-center gap-3 flex-wrap">
-            <span className="text-sm font-semibold text-slate-300 whitespace-nowrap">
+            <span className="text-sm font-semibold text-gray-400 whitespace-nowrap">
               Compare ({compareList.length}/3):
             </span>
             <div className="flex items-center gap-2 flex-wrap">
@@ -50,7 +50,7 @@ export default function CompareBar() {
                   <button
                     id={`remove-compare-${market.slug}`}
                     onClick={() => removeFromCompare(market.slug)}
-                    className="text-slate-400 hover:text-red-400 transition-colors ml-1"
+                    className="text-gray-400 hover:text-red-400 transition-colors ml-1"
                     aria-label={`Remove ${market.name}`}
                   >
                     <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
@@ -61,13 +61,13 @@ export default function CompareBar() {
               ))}
               {Array.from({ length: 3 - compareList.length }).map((_, i) => (
                 <div key={`empty-${i}`} className="flex items-center justify-center w-8 h-8 rounded-lg border-2 border-dashed border-slate-600">
-                  <svg className="w-3.5 h-3.5 text-slate-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" /></svg>
+                  <svg className="w-3.5 h-3.5 text-gray-300" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" /></svg>
                 </div>
               ))}
             </div>
           </div>
           <div className="flex items-center gap-2 flex-shrink-0">
-            <button id="clear-compare-btn" onClick={clearCompare} className="text-xs text-slate-400 hover:text-white transition-colors px-2 py-1">Clear all</button>
+            <button id="clear-compare-btn" onClick={clearCompare} className="text-xs text-gray-400 hover:text-white transition-colors px-2 py-1">Clear all</button>
             <Link href="/compare" id="go-to-compare-btn"
               className={`btn-primary py-2 px-4 text-sm ${compareList.length < 2 ? 'opacity-60 pointer-events-none' : ''}`}>
               Compare Now →
@@ -76,7 +76,7 @@ export default function CompareBar() {
         </div>
 
         {compareList.length < 2 && (
-          <p className="text-xs text-slate-500 mt-1 hidden sm:block">Select at least 2 markets to compare</p>
+          <p className="text-xs text-gray-400 mt-1 hidden sm:block">Select at least 2 markets to compare</p>
         )}
       </div>
     </div>

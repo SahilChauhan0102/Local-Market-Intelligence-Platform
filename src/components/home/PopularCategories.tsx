@@ -11,7 +11,7 @@ const CATEGORIES = [
 
 export default function PopularCategories() {
   return (
-    <section className="bg-white py-16" aria-labelledby="categories-heading">
+    <section className="bg-white/5 py-16" aria-labelledby="categories-heading">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-10">
           <p className="text-[#22C55E] text-sm font-semibold uppercase tracking-wider mb-1">
@@ -29,9 +29,9 @@ export default function PopularCategories() {
               key={cat.name}
               href={`/markets?category=${encodeURIComponent(cat.query)}`}
               id={`category-${cat.query.toLowerCase().replace(/[^a-z]/g, '-')}`}
-              className="group flex flex-col items-center gap-3 p-5 rounded-2xl bg-slate-50 hover:bg-white border border-transparent hover:border-slate-200 hover:shadow-md transition-all duration-200"
+              className="group flex flex-col items-center gap-3 p-5 rounded-2xl bg-white/5 hover:bg-white/5 border border-transparent hover:border-white/10 hover:shadow-md transition-all duration-200"
             >
-              <div className={`w-12 h-12 rounded-xl bg-gradient-to-br ${cat.color} flex items-center justify-center text-2xl shadow-sm group-hover:scale-110 transition-transform`}>
+              <div className={`w-12 h-12 rounded-xl bg-gradient-to-br ${cat.color} flex items-center justify-center text-2xl shadow-md group-hover:scale-110 transition-transform`}>
                 {cat.icon}
               </div>
               <div className="text-center">
