@@ -17,34 +17,38 @@ export default function HeroSection() {
   };
 
   return (
-    <section className="relative min-h-[85vh] flex items-center justify-center overflow-hidden bg-[#0F172A]" aria-label="Hero">
-      {/* Background pattern */}
-      <div className="absolute inset-0 opacity-10">
-        <div className="absolute inset-0" style={{
-          backgroundImage: `radial-gradient(circle at 1px 1px, #22C55E 1px, transparent 0)`,
-          backgroundSize: '40px 40px',
-        }} />
+    <section className="relative min-h-[85vh] flex items-center justify-center overflow-hidden bg-transparent" aria-label="Hero">
+      {/* Looping Graphic/GIF Background */}
+      <div className="absolute inset-0 z-0 overflow-hidden opacity-20 flex items-center justify-center mix-blend-multiply">
+        {/* We use an img tag for a GIF, or a video tag for mp4. Placeholder used here. */}
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img 
+          src="https://media2.giphy.com/media/3o7TKMt1VVNkHV2PaE/giphy.gif" 
+          alt="Market Crowd Moving"
+          className="w-full h-full object-cover blur-[2px] opacity-60"
+        />
       </div>
-      {/* Green glow */}
-      <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-96 h-96 bg-[#22C55E] rounded-full opacity-5 blur-3xl" />
+
+      {/* Amber/Orange subtle glow overlay to blend with the theme */}
+      <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-96 h-96 bg-gradient-to-r from-[#F59E0B] to-[#F97316] rounded-full opacity-20 blur-[100px] z-0" />
 
       <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 text-center">
         {/* Eyebrow */}
-        <div className="inline-flex items-center gap-2 bg-white/10 border border-white/20 text-white/80 text-xs font-medium px-3 py-1.5 rounded-full mb-6 backdrop-blur-sm">
-          <span className="w-1.5 h-1.5 bg-[#22C55E] rounded-full animate-pulse" />
+        <div className="inline-flex items-center gap-2 bg-slate-100/80 border border-slate-200 text-slate-700 text-xs font-medium px-3 py-1.5 rounded-full mb-6 backdrop-blur-sm shadow-sm">
+          <span className="w-1.5 h-1.5 bg-[#10B981] rounded-full animate-pulse" />
           Covering Delhi NCR & Sirsa, Haryana
         </div>
 
         {/* Heading */}
-        <h1 className="text-3xl sm:text-5xl md:text-6xl font-extrabold text-white leading-tight tracking-tight mb-4">
+        <h1 className="text-4xl sm:text-5xl md:text-7xl font-extrabold text-slate-900 leading-[1.1] tracking-tight mb-6">
           Find the{' '}
-          <span className="text-[#22C55E]">perfect bazaar</span>
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#F59E0B] to-[#F97316]">perfect bazaar</span>
           <br className="hidden sm:block" />
           {' '}in Delhi NCR.
         </h1>
 
         {/* Subtext */}
-        <p className="text-white/70 text-base sm:text-lg max-w-xl mx-auto mb-8 leading-relaxed">
+        <p className="text-slate-600 text-base sm:text-lg max-w-xl mx-auto mb-8 leading-relaxed">
           From Chandni Chowk&apos;s 400-year-old lanes to Cyber Hub&apos;s rooftop bars — a smart guide to discover &amp; compare markets across Delhi, Noida, Gurgaon, Ghaziabad &amp; Sirsa. Metro info, crowd levels, prices, shopkeeper vibes — all in one place.
         </p>
 
@@ -75,13 +79,13 @@ export default function HeroSection() {
 
         {/* Quick suggestions */}
         <div className="flex flex-wrap items-center justify-center gap-2">
-          <span className="text-white/40 text-xs">Popular:</span>
+          <span className="text-slate-500 text-xs font-medium">Popular:</span>
           {SUGGESTIONS.map((s) => (
             <button
               key={s}
               id={`hero-suggest-${s.toLowerCase()}`}
               onClick={() => router.push(`/markets?q=${encodeURIComponent(s)}`)}
-              className="text-xs text-white/60 hover:text-[#22C55E] border border-white/10 hover:border-[#22C55E]/30 px-2.5 py-1 rounded-full transition-colors"
+              className="text-xs text-slate-600 hover:text-[#F59E0B] border border-slate-200 hover:border-[#F59E0B]/50 px-2.5 py-1 rounded-full transition-colors bg-white/50"
             >
               {s}
             </button>
@@ -89,7 +93,7 @@ export default function HeroSection() {
         </div>
 
         {/* Stats */}
-        <div className="grid grid-cols-2 sm:flex sm:items-center sm:justify-center gap-6 sm:gap-8 mt-12 pt-8 border-t border-white/10">
+        <div className="grid grid-cols-2 sm:flex sm:items-center sm:justify-center gap-6 sm:gap-8 mt-12 pt-8 border-t border-slate-200">
           {[
             { value: '28+', label: 'Markets Covered' },
             { value: '6', label: 'NCR Cities' },
@@ -97,8 +101,8 @@ export default function HeroSection() {
             { value: '1,00,000+', label: 'Reviews' },
           ].map(({ value, label }) => (
             <div key={label} className="text-center">
-              <p className="text-xl font-extrabold text-white">{value}</p>
-              <p className="text-xs text-white/40 mt-0.5">{label}</p>
+              <p className="text-xl font-extrabold text-slate-900">{value}</p>
+              <p className="text-xs text-slate-500 mt-0.5">{label}</p>
             </div>
           ))}
         </div>
