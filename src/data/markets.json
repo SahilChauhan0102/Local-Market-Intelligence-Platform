@@ -3,7 +3,7 @@
         "id":  "1",
         "name":  "Sirsa Main Market",
         "slug":  "sirsa-main-market",
-        "tagline":  "The heart of Sirsa\u0027s trade â€” everything under one sky",
+        "tagline":  "The heart of Sirsa\u0027s trade — everything under one sky",
         "city":  "Sirsa",
         "category":  [
                          "Mixed",
@@ -16,7 +16,7 @@
                           "Daily Essentials"
                       ],
         "priceRange":  "â‚¹â‚¹",
-        "bestTimeToVisit":  "Morning (9AMâ€“11AM) or Evening (5PMâ€“7PM)",
+        "bestTimeToVisit":  "Morning (9AM–11AM) or Evening (5PM–7PM)",
         "location":  "Near Clock Tower, Sirsa",
         "directions":  {
                            "nearestRailway":  "Sirsa Railway Station",
@@ -27,7 +27,7 @@
                                              "Local Route 12"
                                          ],
                            "autoRickshaw":  true,
-                           "tips":  "Autos readily available from Sirsa Railway Station. Ask for \u0027Clock Tower\u0027 â€” every driver knows it."
+                           "tips":  "Autos readily available from Sirsa Railway Station. Ask for \u0027Clock Tower\u0027 — every driver knows it."
                        },
         "crowd":  {
                       "morning":  "Medium",
@@ -87,7 +87,7 @@
                           "Accessories"
                       ],
         "priceRange":  "â‚¹",
-        "bestTimeToVisit":  "Morning (10AMâ€“12PM)",
+        "bestTimeToVisit":  "Morning (10AM–12PM)",
         "location":  "Rania Road, Near Bus Stand, Sirsa",
         "directions":  {
                            "nearestRailway":  "Sirsa Railway Station",
@@ -97,7 +97,7 @@
                                              "Haryana Roadways Rania Route"
                                          ],
                            "autoRickshaw":  true,
-                           "tips":  "Shared autos run on the Sirsaâ€“Rania route. Alight at \u0027Rania Chowk\u0027 and the bazaar is a 2-min walk."
+                           "tips":  "Shared autos run on the Sirsa–Rania route. Alight at \u0027Rania Chowk\u0027 and the bazaar is a 2-min walk."
                        },
         "crowd":  {
                       "morning":  "Low",
@@ -153,7 +153,7 @@
                           "Wholesale Shopping"
                       ],
         "priceRange":  "â‚¹",
-        "bestTimeToVisit":  "Early Morning (7AMâ€“10AM)",
+        "bestTimeToVisit":  "Early Morning (7AM–10AM)",
         "location":  "Anaj Mandi Road, Sirsa",
         "directions":  {
                            "nearestRailway":  "Sirsa Railway Station",
@@ -163,7 +163,7 @@
                                              "Local City Route 4"
                                          ],
                            "autoRickshaw":  true,
-                           "tips":  "Tell the auto driver \u0027Anaj Mandi\u0027. Busy in early mornings â€” arrive by 8AM for best experience."
+                           "tips":  "Tell the auto driver \u0027Anaj Mandi\u0027. Busy in early mornings — arrive by 8AM for best experience."
                        },
         "crowd":  {
                       "morning":  "High",
@@ -218,7 +218,7 @@
                           "Daily Essentials"
                       ],
         "priceRange":  "â‚¹",
-        "bestTimeToVisit":  "Early Morning (6AMâ€“9AM)",
+        "bestTimeToVisit":  "Early Morning (6AM–9AM)",
         "location":  "Near Old Bus Stand, Sirsa",
         "directions":  {
                            "nearestRailway":  "Sirsa Railway Station",
@@ -284,7 +284,7 @@
                           "Electrical Goods"
                       ],
         "priceRange":  "â‚¹â‚¹",
-        "bestTimeToVisit":  "Morning (9AMâ€“12PM)",
+        "bestTimeToVisit":  "Morning (9AM–12PM)",
         "location":  "Hanumangarh Road, Sirsa",
         "directions":  {
                            "nearestRailway":  "Sirsa Railway Station",
@@ -349,7 +349,7 @@
                           "Snacks"
                       ],
         "priceRange":  "â‚¹",
-        "bestTimeToVisit":  "Evening (5PMâ€“9PM)",
+        "bestTimeToVisit":  "Evening (5PM–9PM)",
         "location":  "Dhobiana Mohalla, Sirsa",
         "directions":  {
                            "nearestRailway":  "Sirsa Railway Station",
@@ -359,7 +359,7 @@
                                              "Local City Route 7"
                                          ],
                            "autoRickshaw":  true,
-                           "tips":  "Ask for \u0027Dhobiana Mohalla\u0027 â€” a well-known locality. No parking nearby so prefer auto or on foot."
+                           "tips":  "Ask for \u0027Dhobiana Mohalla\u0027 — a well-known locality. No parking nearby so prefer auto or on foot."
                        },
         "crowd":  {
                       "morning":  "Low",
@@ -420,7 +420,7 @@
                           "Cosmetics"
                       ],
         "priceRange":  "â‚¹â‚¹â‚¹",
-        "bestTimeToVisit":  "Afternoon (2PMâ€“6PM) or Weekend",
+        "bestTimeToVisit":  "Afternoon (2PM–6PM) or Weekend",
         "location":  "Sector 17, Sirsa",
         "directions":  {
                            "nearestRailway":  "Sirsa Railway Station",
@@ -491,7 +491,7 @@
                           "Precious Stones"
                       ],
         "priceRange":  "â‚¹â‚¹â‚¹",
-        "bestTimeToVisit":  "Morning (10AMâ€“1PM) on weekdays",
+        "bestTimeToVisit":  "Morning (10AM–1PM) on weekdays",
         "location":  "Near Ganesh Chowk, Sirsa",
         "directions":  {
                            "nearestRailway":  "Sirsa Railway Station",
@@ -501,7 +501,7 @@
                                              "Local City Route 3"
                                          ],
                            "autoRickshaw":  true,
-                           "tips":  "Ask for \u0027Ganesh Chowk\u0027 â€” a central landmark. The jewelry lane is 1 min walk from the chowk."
+                           "tips":  "Ask for \u0027Ganesh Chowk\u0027 — a central landmark. The jewelry lane is 1 min walk from the chowk."
                        },
         "crowd":  {
                       "morning":  "Medium",
@@ -557,7 +557,7 @@
                           "Repairs"
                       ],
         "priceRange":  "â‚¹â‚¹",
-        "bestTimeToVisit":  "Afternoon (11AMâ€“3PM)",
+        "bestTimeToVisit":  "Afternoon (11AM–3PM)",
         "location":  "Subhash Nagar Road, Sirsa",
         "directions":  {
                            "nearestRailway":  "Sirsa Railway Station",
@@ -623,7 +623,7 @@
                           "Textiles"
                       ],
         "priceRange":  "â‚¹â‚¹",
-        "bestTimeToVisit":  "Morning (9AMâ€“12PM)",
+        "bestTimeToVisit":  "Morning (9AM–12PM)",
         "location":  "Old City Area, Sirsa",
         "directions":  {
                            "nearestRailway":  "Sirsa Railway Station",
@@ -634,7 +634,7 @@
                                              "Local City Route 8"
                                          ],
                            "autoRickshaw":  true,
-                           "tips":  "Very close to the railway station. Walk or take a short auto to \u0027Old City Chowk\u0027. Narrow lanes â€” leave vehicles outside."
+                           "tips":  "Very close to the railway station. Walk or take a short auto to \u0027Old City Chowk\u0027. Narrow lanes — leave vehicles outside."
                        },
         "crowd":  {
                       "morning":  "High",
@@ -681,7 +681,7 @@
         "id":  "11",
         "name":  "Chandni Chowk",
         "slug":  "chandni-chowk-delhi",
-        "tagline":  "Delhi\u0027s oldest \u0026 grandest bazaar â€” 400 years of trade in every lane",
+        "tagline":  "Delhi\u0027s oldest \u0026 grandest bazaar — 400 years of trade in every lane",
         "city":  "Delhi",
         "category":  [
                          "Wholesale",
@@ -698,10 +698,10 @@
                           "Silver Jewelry"
                       ],
         "priceRange":  "â‚¹",
-        "bestTimeToVisit":  "Weekday Mornings (9AMâ€“12PM). Avoid Sunday â€” most shops closed.",
-        "location":  "Chandni Chowk Road, Old Delhi, Delhi â€” 110006",
+        "bestTimeToVisit":  "Weekday Mornings (9AM–12PM). Avoid Sunday — most shops closed.",
+        "location":  "Chandni Chowk Road, Old Delhi, Delhi — 110006",
         "directions":  {
-                           "nearestMetro":  "Chandni Chowk â€” Yellow Line",
+                           "nearestMetro":  "Chandni Chowk — Yellow Line",
                            "metroWalkTime":  "2 min walk (exit gate 4, the market starts immediately)",
                            "nearestRailway":  "Old Delhi Railway Station (Delhi Junction)",
                            "railwayDistance":  "0.8 km, 10 min walk or 5 min cycle-rickshaw",
@@ -713,7 +713,7 @@
                                              "DTC 720"
                                          ],
                            "autoRickshaw":  true,
-                           "tips":  "Metro is the BEST option â€” park your car at Kashmere Gate and take Yellow Line to Chandni Chowk. Cycle-rickshaws are iconic here and great for short hops inside the bazaar. Do NOT drive into the market lanes â€” it\u0027s a pedestrian zone."
+                           "tips":  "Metro is the BEST option — park your car at Kashmere Gate and take Yellow Line to Chandni Chowk. Cycle-rickshaws are iconic here and great for short hops inside the bazaar. Do NOT drive into the market lanes — it\u0027s a pedestrian zone."
                        },
         "crowd":  {
                       "morning":  "High",
@@ -766,7 +766,7 @@
         "id":  "12",
         "name":  "Sarojini Nagar Market",
         "slug":  "sarojini-nagar-market",
-        "tagline":  "Delhi\u0027s fashion capital â€” export surplus \u0026 street style at rock-bottom prices",
+        "tagline":  "Delhi\u0027s fashion capital — export surplus \u0026 street style at rock-bottom prices",
         "city":  "Delhi",
         "category":  [
                          "Clothes",
@@ -780,10 +780,10 @@
                           "Accessories"
                       ],
         "priceRange":  "â‚¹",
-        "bestTimeToVisit":  "Weekday mornings (10AMâ€“12PM). Saturdays are extremely crowded.",
-        "location":  "Sarojini Nagar, New Delhi â€” 110023",
+        "bestTimeToVisit":  "Weekday mornings (10AM–12PM). Saturdays are extremely crowded.",
+        "location":  "Sarojini Nagar, New Delhi — 110023",
         "directions":  {
-                           "nearestMetro":  "Sarojini Nagar â€” Pink Line (exit gate 1, 2 min walk)",
+                           "nearestMetro":  "Sarojini Nagar — Pink Line (exit gate 1, 2 min walk)",
                            "metroWalkTime":  "2 min walk",
                            "nearestRailway":  "Hazrat Nizamuddin Railway Station",
                            "railwayDistance":  "5 km, 20 min auto",
@@ -795,7 +795,7 @@
                                              "DTC 505CL"
                                          ],
                            "autoRickshaw":  true,
-                           "tips":  "Metro is perfect â€” alight at Sarojini Nagar station (Pink Line). Arrive by 10AM on weekdays for thin crowds and first pick. Carry a big bag and cash â€” most vendors don\u0027t accept cards."
+                           "tips":  "Metro is perfect — alight at Sarojini Nagar station (Pink Line). Arrive by 10AM on weekdays for thin crowds and first pick. Carry a big bag and cash — most vendors don\u0027t accept cards."
                        },
         "crowd":  {
                       "morning":  "Medium",
@@ -843,7 +843,7 @@
         "id":  "13",
         "name":  "Lajpat Nagar Central Market",
         "slug":  "lajpat-nagar-central-market",
-        "tagline":  "Ethnic wear, home dÃ©cor \u0026 wedding shopping â€” all in one buzzing bazaar",
+        "tagline":  "Ethnic wear, home décor \u0026 wedding shopping — all in one buzzing bazaar",
         "city":  "Delhi",
         "category":  [
                          "Clothes",
@@ -858,10 +858,10 @@
                           "Kurti \u0026 Suits"
                       ],
         "priceRange":  "â‚¹â‚¹",
-        "bestTimeToVisit":  "Weekday afternoons (12PMâ€“4PM)",
-        "location":  "Central Market, Lajpat Nagar II, New Delhi â€” 110024",
+        "bestTimeToVisit":  "Weekday afternoons (12PM–4PM)",
+        "location":  "Central Market, Lajpat Nagar II, New Delhi — 110024",
         "directions":  {
-                           "nearestMetro":  "Lajpat Nagar â€” Pink Line (direct access from exit 1)",
+                           "nearestMetro":  "Lajpat Nagar — Pink Line (direct access from exit 1)",
                            "metroWalkTime":  "1 min walk",
                            "nearestRailway":  "Hazrat Nizamuddin Railway Station",
                            "railwayDistance":  "3.5 km, 15 min auto",
@@ -872,7 +872,7 @@
                                              "DTC 543"
                                          ],
                            "autoRickshaw":  true,
-                           "tips":  "One of Delhi\u0027s best-connected markets. Metro Pink Line drops you at the market entrance. Auto and e-rickshaws available from the metro exit. Avoid Saturday evening â€” peak crowd."
+                           "tips":  "One of Delhi\u0027s best-connected markets. Metro Pink Line drops you at the market entrance. Auto and e-rickshaws available from the metro exit. Avoid Saturday evening — peak crowd."
                        },
         "crowd":  {
                       "morning":  "Low",
@@ -919,7 +919,7 @@
         "id":  "14",
         "name":  "Karol Bagh Market",
         "slug":  "karol-bagh-market",
-        "tagline":  "Electronics, bridal wear and cosmetics â€” the all-rounder of Delhi markets",
+        "tagline":  "Electronics, bridal wear and cosmetics — the all-rounder of Delhi markets",
         "city":  "Delhi",
         "category":  [
                          "Electronics",
@@ -935,10 +935,10 @@
                           "Watches"
                       ],
         "priceRange":  "â‚¹â‚¹",
-        "bestTimeToVisit":  "Weekday mornings (11AMâ€“2PM)",
-        "location":  "Ajmal Khan Road, Karol Bagh, New Delhi â€” 110005",
+        "bestTimeToVisit":  "Weekday mornings (11AM–2PM)",
+        "location":  "Ajmal Khan Road, Karol Bagh, New Delhi — 110005",
         "directions":  {
-                           "nearestMetro":  "Karol Bagh â€” Blue Line (exit 2, market is 3 min walk)",
+                           "nearestMetro":  "Karol Bagh — Blue Line (exit 2, market is 3 min walk)",
                            "metroWalkTime":  "3 min walk",
                            "nearestRailway":  "New Delhi Railway Station",
                            "railwayDistance":  "2.5 km, 15 min auto",
@@ -1011,10 +1011,10 @@
                           "Chargers \u0026 Cables"
                       ],
         "priceRange":  "â‚¹",
-        "bestTimeToVisit":  "Weekday afternoons (12PMâ€“4PM)",
-        "location":  "Gaffar Market Road, Karol Bagh, New Delhi â€” 110005",
+        "bestTimeToVisit":  "Weekday afternoons (12PM–4PM)",
+        "location":  "Gaffar Market Road, Karol Bagh, New Delhi — 110005",
         "directions":  {
-                           "nearestMetro":  "Karol Bagh â€” Blue Line (5 min walk north of station)",
+                           "nearestMetro":  "Karol Bagh — Blue Line (5 min walk north of station)",
                            "metroWalkTime":  "5 min walk",
                            "nearestRailway":  "New Delhi Railway Station",
                            "railwayDistance":  "3 km, 15 min auto",
@@ -1066,7 +1066,7 @@
         "id":  "16",
         "name":  "Janpath Market",
         "slug":  "janpath-market-delhi",
-        "tagline":  "Trinkets, handicrafts and bohemian fashion â€” a traveller\u0027s treasure chest",
+        "tagline":  "Trinkets, handicrafts and bohemian fashion — a traveller\u0027s treasure chest",
         "city":  "Delhi",
         "category":  [
                          "Handicrafts",
@@ -1081,10 +1081,10 @@
                           "Souvenirs"
                       ],
         "priceRange":  "â‚¹",
-        "bestTimeToVisit":  "Morning (10AMâ€“1PM)",
-        "location":  "Janpath Lane, Connaught Place, New Delhi â€” 110001",
+        "bestTimeToVisit":  "Morning (10AM–1PM)",
+        "location":  "Janpath Lane, Connaught Place, New Delhi — 110001",
         "directions":  {
-                           "nearestMetro":  "Rajiv Chowk â€” Blue \u0026 Yellow Line (exit 7, 5 min walk)",
+                           "nearestMetro":  "Rajiv Chowk — Blue \u0026 Yellow Line (exit 7, 5 min walk)",
                            "metroWalkTime":  "5 min walk",
                            "nearestRailway":  "New Delhi Railway Station",
                            "railwayDistance":  "2 km, 10 min auto",
@@ -1095,7 +1095,7 @@
                                              "DTC 470"
                                          ],
                            "autoRickshaw":  true,
-                           "tips":  "Rajiv Chowk is the central hub â€” from there Janpath is a 5-min walk. Bargain hard â€” vendors quote double the fair price to tourists."
+                           "tips":  "Rajiv Chowk is the central hub — from there Janpath is a 5-min walk. Bargain hard — vendors quote double the fair price to tourists."
                        },
         "crowd":  {
                       "morning":  "Medium",
@@ -1142,7 +1142,7 @@
         "id":  "17",
         "name":  "Palika Bazaar",
         "slug":  "palika-bazaar-delhi",
-        "tagline":  "Delhi\u0027s iconic underground market â€” electronics, fashion and more",
+        "tagline":  "Delhi\u0027s iconic underground market — electronics, fashion and more",
         "city":  "Delhi",
         "category":  [
                          "Electronics",
@@ -1156,10 +1156,10 @@
                           "Accessories"
                       ],
         "priceRange":  "â‚¹",
-        "bestTimeToVisit":  "Afternoon (12PMâ€“4PM)",
-        "location":  "Connaught Place (Underground), New Delhi â€” 110001",
+        "bestTimeToVisit":  "Afternoon (12PM–4PM)",
+        "location":  "Connaught Place (Underground), New Delhi — 110001",
         "directions":  {
-                           "nearestMetro":  "Rajiv Chowk â€” Blue \u0026 Yellow Line (the market entrance is RIGHT at exit 7)",
+                           "nearestMetro":  "Rajiv Chowk — Blue \u0026 Yellow Line (the market entrance is RIGHT at exit 7)",
                            "metroWalkTime":  "1 min walk",
                            "nearestRailway":  "New Delhi Railway Station",
                            "railwayDistance":  "2 km, 12 min auto",
@@ -1171,7 +1171,7 @@
                                              "DTC 470"
                                          ],
                            "autoRickshaw":  true,
-                           "tips":  "The market entrance is underground at Rajiv Chowk junction â€” you literally walk down from the Metro exit. Bargain extremely hard here â€” opening prices are 3x the fair value."
+                           "tips":  "The market entrance is underground at Rajiv Chowk junction — you literally walk down from the Metro exit. Bargain extremely hard here — opening prices are 3x the fair value."
                        },
         "crowd":  {
                       "morning":  "Low",
@@ -1218,7 +1218,7 @@
         "id":  "18",
         "name":  "Nehru Place IT Market",
         "slug":  "nehru-place-it-market",
-        "tagline":  "South Asia\u0027s largest computer \u0026 IT products market â€” all things tech",
+        "tagline":  "South Asia\u0027s largest computer \u0026 IT products market — all things tech",
         "city":  "Delhi",
         "category":  [
                          "Electronics",
@@ -1233,10 +1233,10 @@
                           "Networking Gear"
                       ],
         "priceRange":  "â‚¹â‚¹",
-        "bestTimeToVisit":  "Weekday mornings (10AMâ€“1PM). Market closed on Sundays.",
-        "location":  "Nehru Place, South Delhi â€” 110019",
+        "bestTimeToVisit":  "Weekday mornings (10AM–1PM). Market closed on Sundays.",
+        "location":  "Nehru Place, South Delhi — 110019",
         "directions":  {
-                           "nearestMetro":  "Nehru Place â€” Violet Line (exit 1, market is directly outside)",
+                           "nearestMetro":  "Nehru Place — Violet Line (exit 1, market is directly outside)",
                            "metroWalkTime":  "2 min walk",
                            "nearestRailway":  "Hazrat Nizamuddin Railway Station",
                            "railwayDistance":  "4 km, 20 min auto",
@@ -1247,7 +1247,7 @@
                                              "DTC 534"
                                          ],
                            "autoRickshaw":  true,
-                           "tips":  "Violet Line Metro is fastest. Get off at Nehru Place station â€” the market towers are right outside. Carry your laptop for repairs â€” dozens of reliable service centres. Closed on Sundays."
+                           "tips":  "Violet Line Metro is fastest. Get off at Nehru Place station — the market towers are right outside. Carry your laptop for repairs — dozens of reliable service centres. Closed on Sundays."
                        },
         "crowd":  {
                       "morning":  "High",
@@ -1294,7 +1294,7 @@
         "id":  "19",
         "name":  "Dilli Haat (INA)",
         "slug":  "dilli-haat-ina",
-        "tagline":  "India\u0027s 29 states under one roof â€” crafts, cuisine and culture",
+        "tagline":  "India\u0027s 29 states under one roof — crafts, cuisine and culture",
         "city":  "Delhi",
         "category":  [
                          "Handicrafts",
@@ -1309,10 +1309,10 @@
                           "Tribal Art"
                       ],
         "priceRange":  "â‚¹â‚¹",
-        "bestTimeToVisit":  "Weekday evenings (5PMâ€“8PM) or weekend mornings",
-        "location":  "Aurobindo Marg, INA, New Delhi â€” 110016",
+        "bestTimeToVisit":  "Weekday evenings (5PM–8PM) or weekend mornings",
+        "location":  "Aurobindo Marg, INA, New Delhi — 110016",
         "directions":  {
-                           "nearestMetro":  "INA â€” Pink \u0026 Yellow Line (exit 3, market gate is 3 min walk)",
+                           "nearestMetro":  "INA — Pink \u0026 Yellow Line (exit 3, market gate is 3 min walk)",
                            "metroWalkTime":  "3 min walk",
                            "nearestRailway":  "Hazrat Nizamuddin Railway Station",
                            "railwayDistance":  "5.5 km, 25 min auto",
@@ -1323,7 +1323,7 @@
                                              "DTC 505"
                                          ],
                            "autoRickshaw":  true,
-                           "tips":  "INA Metro is right next to the market. Entry fee: â‚¹80 for adults. Rotating stalls from different states â€” check which state is featured during your visit."
+                           "tips":  "INA Metro is right next to the market. Entry fee: â‚¹80 for adults. Rotating stalls from different states — check which state is featured during your visit."
                        },
         "crowd":  {
                       "morning":  "Low",
@@ -1371,7 +1371,7 @@
         "id":  "20",
         "name":  "Khan Market",
         "slug":  "khan-market-delhi",
-        "tagline":  "Delhi\u0027s most expensive high street â€” boutiques, books and world-class cafes",
+        "tagline":  "Delhi\u0027s most expensive high street — boutiques, books and world-class cafes",
         "city":  "Delhi",
         "category":  [
                          "Fashion",
@@ -1387,10 +1387,10 @@
                           "Artisan Products"
                       ],
         "priceRange":  "â‚¹â‚¹â‚¹",
-        "bestTimeToVisit":  "Weekday afternoons (12PMâ€“5PM)",
-        "location":  "Khan Market, New Delhi â€” 110003",
+        "bestTimeToVisit":  "Weekday afternoons (12PM–5PM)",
+        "location":  "Khan Market, New Delhi — 110003",
         "directions":  {
-                           "nearestMetro":  "Khan Market â€” Violet Line (exit 1, market is 2 min walk)",
+                           "nearestMetro":  "Khan Market — Violet Line (exit 1, market is 2 min walk)",
                            "metroWalkTime":  "2 min walk",
                            "nearestRailway":  "Hazrat Nizamuddin Railway Station",
                            "railwayDistance":  "4 km, 18 min auto",
@@ -1400,7 +1400,7 @@
                                              "DTC 534"
                                          ],
                            "autoRickshaw":  true,
-                           "tips":  "Violet Line Metro is the best option. Parking is very scarce â€” Metro recommended. Khan Market Road is one-way; tell auto driver your specific destination shop."
+                           "tips":  "Violet Line Metro is the best option. Parking is very scarce — Metro recommended. Khan Market Road is one-way; tell auto driver your specific destination shop."
                        },
         "crowd":  {
                       "morning":  "Low",
@@ -1452,7 +1452,7 @@
         "id":  "21",
         "name":  "Kamla Nagar Market",
         "slug":  "kamla-nagar-market-delhi",
-        "tagline":  "Delhi University\u0027s favourite budget market â€” fashion, food and fun",
+        "tagline":  "Delhi University\u0027s favourite budget market — fashion, food and fun",
         "city":  "Delhi",
         "category":  [
                          "Clothes",
@@ -1468,10 +1468,10 @@
                           "Student Shopping"
                       ],
         "priceRange":  "â‚¹",
-        "bestTimeToVisit":  "Afternoon (1PMâ€“6PM). Liveliest on weekends.",
-        "location":  "Kamla Nagar, North Delhi â€” 110007",
+        "bestTimeToVisit":  "Afternoon (1PM–6PM). Liveliest on weekends.",
+        "location":  "Kamla Nagar, North Delhi — 110007",
         "directions":  {
-                           "nearestMetro":  "Vishwavidyalaya â€” Yellow Line (10 min walk or e-rickshaw)",
+                           "nearestMetro":  "Vishwavidyalaya — Yellow Line (10 min walk or e-rickshaw)",
                            "metroWalkTime":  "10 min walk or 3 min e-rickshaw",
                            "nearestRailway":  "Delhi Sarai Rohilla Railway Station",
                            "railwayDistance":  "3.5 km, 15 min auto",
@@ -1482,7 +1482,7 @@
                                              "DTC 605"
                                          ],
                            "autoRickshaw":  true,
-                           "tips":  "From Vishwavidyalaya Metro, e-rickshaws run directly to Kamla Nagar Market (â‚¹10). Very student-friendly â€” food prices are remarkably low."
+                           "tips":  "From Vishwavidyalaya Metro, e-rickshaws run directly to Kamla Nagar Market (â‚¹10). Very student-friendly — food prices are remarkably low."
                        },
         "crowd":  {
                       "morning":  "Low",
@@ -1529,7 +1529,7 @@
         "id":  "22",
         "name":  "Connaught Place (CP)",
         "slug":  "connaught-place-delhi",
-        "tagline":  "The iconic circular hub of Delhi â€” premium brands, cafes and great vibes",
+        "tagline":  "The iconic circular hub of Delhi — premium brands, cafes and great vibes",
         "city":  "Delhi",
         "category":  [
                          "Mixed",
@@ -1544,10 +1544,10 @@
                           "Books"
                       ],
         "priceRange":  "â‚¹â‚¹â‚¹",
-        "bestTimeToVisit":  "Evenings (6PMâ€“9PM) or weekend afternoons",
-        "location":  "Connaught Place, New Delhi â€” 110001",
+        "bestTimeToVisit":  "Evenings (6PM–9PM) or weekend afternoons",
+        "location":  "Connaught Place, New Delhi — 110001",
         "directions":  {
-                           "nearestMetro":  "Rajiv Chowk â€” Blue \u0026 Yellow Line (the market encircles the metro station)",
+                           "nearestMetro":  "Rajiv Chowk — Blue \u0026 Yellow Line (the market encircles the metro station)",
                            "metroWalkTime":  "1 min walk",
                            "nearestRailway":  "New Delhi Railway Station",
                            "railwayDistance":  "2.5 km, 12 min auto",
@@ -1559,7 +1559,7 @@
                                              "DTC 460"
                                          ],
                            "autoRickshaw":  true,
-                           "tips":  "Rajiv Chowk Metro is literally at the centre of CP â€” the best option by far. The market is divided into Aâ€“N blocks arranged in concentric circles. Inner circle has premium shops; outer has affordable options."
+                           "tips":  "Rajiv Chowk Metro is literally at the centre of CP — the best option by far. The market is divided into A–N blocks arranged in concentric circles. Inner circle has premium shops; outer has affordable options."
                        },
         "crowd":  {
                       "morning":  "Low",
@@ -1612,7 +1612,7 @@
         "id":  "23",
         "name":  "Sector 18 Market (Noida)",
         "slug":  "sector-18-market-noida",
-        "tagline":  "Noida\u0027s most vibrant commercial hub â€” malls, street shops and great food",
+        "tagline":  "Noida\u0027s most vibrant commercial hub — malls, street shops and great food",
         "city":  "Noida",
         "category":  [
                          "Mixed",
@@ -1627,10 +1627,10 @@
                           "Evening Hangouts"
                       ],
         "priceRange":  "â‚¹â‚¹",
-        "bestTimeToVisit":  "Evenings (5PMâ€“9PM) or weekend afternoons",
-        "location":  "Sector 18, Noida, Uttar Pradesh â€” 201301",
+        "bestTimeToVisit":  "Evenings (5PM–9PM) or weekend afternoons",
+        "location":  "Sector 18, Noida, Uttar Pradesh — 201301",
         "directions":  {
-                           "nearestMetro":  "Noida Sector 18 â€” Blue Line (exit 2, market is 1 min walk)",
+                           "nearestMetro":  "Noida Sector 18 — Blue Line (exit 2, market is 1 min walk)",
                            "metroWalkTime":  "1 min walk",
                            "nearestRailway":  "Ghaziabad Junction",
                            "railwayDistance":  "12 km, 35 min auto",
@@ -1640,7 +1640,7 @@
                                              "DTC Noida Link"
                                          ],
                            "autoRickshaw":  true,
-                           "tips":  "Blue Line Metro directly connects Delhi to Noida Sector 18 â€” most convenient option from Delhi. E-rickshaws ferry people within the market area. Atta Market and Great India Place mall are adjacent."
+                           "tips":  "Blue Line Metro directly connects Delhi to Noida Sector 18 — most convenient option from Delhi. E-rickshaws ferry people within the market area. Atta Market and Great India Place mall are adjacent."
                        },
         "crowd":  {
                       "morning":  "Low",
@@ -1702,10 +1702,10 @@
                           "Budget Shopping"
                       ],
         "priceRange":  "â‚¹",
-        "bestTimeToVisit":  "Morning (8AMâ€“11AM)",
-        "location":  "Atta Market, Sector 18, Noida â€” 201301",
+        "bestTimeToVisit":  "Morning (8AM–11AM)",
+        "location":  "Atta Market, Sector 18, Noida — 201301",
         "directions":  {
-                           "nearestMetro":  "Noida Sector 18 â€” Blue Line (3 min walk)",
+                           "nearestMetro":  "Noida Sector 18 — Blue Line (3 min walk)",
                            "metroWalkTime":  "3 min walk",
                            "nearestRailway":  "Ghaziabad Junction",
                            "railwayDistance":  "12 km, 35 min auto",
@@ -1714,7 +1714,7 @@
                                              "UP Roadways Noida Sector 18"
                                          ],
                            "autoRickshaw":  true,
-                           "tips":  "Adjacent to Sector 18 Metro. Walk out and turn left â€” Atta Market is next to the main market complex. E-rickshaws from the station entrance."
+                           "tips":  "Adjacent to Sector 18 Metro. Walk out and turn left — Atta Market is next to the main market complex. E-rickshaws from the station entrance."
                        },
         "crowd":  {
                       "morning":  "High",
@@ -1756,7 +1756,7 @@
         "id":  "25",
         "name":  "Cyber Hub (Gurugram)",
         "slug":  "cyber-hub-gurugram",
-        "tagline":  "Gurgaon\u0027s premium F\u0026B and retail destination â€” rooftop bars, global cuisine",
+        "tagline":  "Gurgaon\u0027s premium F\u0026B and retail destination — rooftop bars, global cuisine",
         "city":  "Gurgaon",
         "category":  [
                          "Premium",
@@ -1772,10 +1772,10 @@
                           "Weekend Brunches"
                       ],
         "priceRange":  "â‚¹â‚¹â‚¹",
-        "bestTimeToVisit":  "Evenings (7PMâ€“11PM) on weekends",
-        "location":  "DLF Cyber City, Phase 2, Gurugram, Haryana â€” 122002",
+        "bestTimeToVisit":  "Evenings (7PM–11PM) on weekends",
+        "location":  "DLF Cyber City, Phase 2, Gurugram, Haryana — 122002",
         "directions":  {
-                           "nearestMetro":  "Cyber City â€” Rapid Metro (direct metro station inside the complex)",
+                           "nearestMetro":  "Cyber City — Rapid Metro (direct metro station inside the complex)",
                            "metroWalkTime":  "2 min walk",
                            "nearestRailway":  "Gurgaon Railway Station",
                            "railwayDistance":  "5 km, 20 min cab",
@@ -1785,7 +1785,7 @@
                                              "HRTC AC Buses"
                                          ],
                            "autoRickshaw":  true,
-                           "tips":  "Rapid Metro (Cyber City station) is inside the DLF Cyber City complex â€” the easiest option. From Delhi, take Yellow Line to HUDA City Centre and switch to Rapid Metro. Parking is available but expensive on weekends."
+                           "tips":  "Rapid Metro (Cyber City station) is inside the DLF Cyber City complex — the easiest option. From Delhi, take Yellow Line to HUDA City Centre and switch to Rapid Metro. Parking is available but expensive on weekends."
                        },
         "crowd":  {
                       "morning":  "Low",
@@ -1837,7 +1837,7 @@
         "id":  "26",
         "name":  "Sadar Bazaar (Gurugram)",
         "slug":  "sadar-bazaar-gurugram",
-        "tagline":  "Old Gurgaon\u0027s traditional market â€” authentic, affordable and local",
+        "tagline":  "Old Gurgaon\u0027s traditional market — authentic, affordable and local",
         "city":  "Gurgaon",
         "category":  [
                          "Mixed",
@@ -1852,11 +1852,11 @@
                           "Local Handicrafts"
                       ],
         "priceRange":  "â‚¹",
-        "bestTimeToVisit":  "Morning (9AMâ€“12PM)",
-        "location":  "Sadar Bazaar, Old Gurgaon, Haryana â€” 122001",
+        "bestTimeToVisit":  "Morning (9AM–12PM)",
+        "location":  "Sadar Bazaar, Old Gurgaon, Haryana — 122001",
         "directions":  {
-                           "nearestMetro":  "Guru Dronacharya â€” Yellow Line (2 km, 10 min auto)",
-                           "metroWalkTime":  "Not walkable â€” take 10 min auto from metro",
+                           "nearestMetro":  "Guru Dronacharya — Yellow Line (2 km, 10 min auto)",
+                           "metroWalkTime":  "Not walkable — take 10 min auto from metro",
                            "nearestRailway":  "Gurgaon Railway Station",
                            "railwayDistance":  "1.5 km, 8 min auto",
                            "nearestBusStop":  "Sadar Bazaar Bus Stand",
@@ -1865,7 +1865,7 @@
                                              "HRTC City Buses"
                                          ],
                            "autoRickshaw":  true,
-                           "tips":  "Easiest from Gurgaon Railway Station â€” 8 min auto. From Metro, get off at Guru Dronacharya and take an auto to \u0027Old Gurgaon Sadar Bazaar\u0027."
+                           "tips":  "Easiest from Gurgaon Railway Station — 8 min auto. From Metro, get off at Guru Dronacharya and take an auto to \u0027Old Gurgaon Sadar Bazaar\u0027."
                        },
         "crowd":  {
                       "morning":  "High",
@@ -1907,7 +1907,7 @@
         "id":  "27",
         "name":  "Bhagirathi Palace (Batti Market)",
         "slug":  "bhagirathi-palace-delhi",
-        "tagline":  "Asia\u0027s largest electrical goods wholesale market â€” trade only",
+        "tagline":  "Asia\u0027s largest electrical goods wholesale market — trade only",
         "city":  "Delhi",
         "category":  [
                          "Electronics",
@@ -1921,10 +1921,10 @@
                           "Wholesale Electrical"
                       ],
         "priceRange":  "â‚¹",
-        "bestTimeToVisit":  "Weekday mornings (9AMâ€“12PM). Closed on Sundays.",
-        "location":  "Chandni Chowk, Near Fatehpuri, Old Delhi â€” 110006",
+        "bestTimeToVisit":  "Weekday mornings (9AM–12PM). Closed on Sundays.",
+        "location":  "Chandni Chowk, Near Fatehpuri, Old Delhi — 110006",
         "directions":  {
-                           "nearestMetro":  "Chandni Chowk â€” Yellow Line (7 min walk west toward Fatehpuri)",
+                           "nearestMetro":  "Chandni Chowk — Yellow Line (7 min walk west toward Fatehpuri)",
                            "metroWalkTime":  "7 min walk",
                            "nearestRailway":  "Old Delhi Railway Station",
                            "railwayDistance":  "1 km, 8 min cycle-rickshaw",
@@ -1991,10 +1991,10 @@
                           "Everyday Essentials"
                       ],
         "priceRange":  "â‚¹â‚¹",
-        "bestTimeToVisit":  "Evening (5PMâ€“8PM)",
-        "location":  "Vaishali Sector 4, Ghaziabad, Uttar Pradesh â€” 201010",
+        "bestTimeToVisit":  "Evening (5PM–8PM)",
+        "location":  "Vaishali Sector 4, Ghaziabad, Uttar Pradesh — 201010",
         "directions":  {
-                           "nearestMetro":  "Vaishali â€” Blue Line (the market is 3 min walk from station)",
+                           "nearestMetro":  "Vaishali — Blue Line (the market is 3 min walk from station)",
                            "metroWalkTime":  "3 min walk",
                            "nearestRailway":  "Ghaziabad Junction",
                            "railwayDistance":  "6 km, 25 min auto",
@@ -2004,7 +2004,7 @@
                                              "Local Ghaziabad Routes"
                                          ],
                            "autoRickshaw":  true,
-                           "tips":  "Blue Line Metro terminates at Vaishali â€” very easy from Delhi. Market is walkable from the metro exit. E-rickshaws available for deeper parts of the sector."
+                           "tips":  "Blue Line Metro terminates at Vaishali — very easy from Delhi. Market is walkable from the metro exit. E-rickshaws available for deeper parts of the sector."
                        },
         "crowd":  {
                       "morning":  "Low",
