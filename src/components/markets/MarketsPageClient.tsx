@@ -22,11 +22,6 @@ function MarketsContent({ markets }: { markets: Market[] }) {
   const [filtered, setFiltered] = useState<Market[]>(markets);
   const [showFilters, setShowFilters] = useState(false);
 
-  useEffect(() => {
-    applyFilters(initialQ, initialCat, initialCrowd, initialPrice, initialCity);
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
-
   const applyFilters = (q: string, category: string, crowd: string, price: string, city: string) => {
     let result = searchMarketsClient(q, markets);
     if (city !== 'All Cities') result = result.filter((m) => m.city === city);
@@ -40,6 +35,11 @@ function MarketsContent({ markets }: { markets: Market[] }) {
     setFiltered(result);
     setShowFilters(false); // close drawer after applying on mobile
   };
+
+  useEffect(() => {
+    applyFilters(initialQ, initialCat, initialCrowd, initialPrice, initialCity);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   const cities = Array.from(new Set(filtered.map((m) => m.city)));
 
