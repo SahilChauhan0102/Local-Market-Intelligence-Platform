@@ -1,0 +1,2050 @@
+[
+    {
+        "id":  "1",
+        "name":  "Sirsa Main Market",
+        "slug":  "sirsa-main-market",
+        "tagline":  "The heart of Sirsa\u0027s trade â€” everything under one sky",
+        "city":  "Sirsa",
+        "category":  [
+                         "Mixed",
+                         "Electronics",
+                         "Clothes"
+                     ],
+        "famousFor":  [
+                          "Electronics",
+                          "Clothes",
+                          "Daily Essentials"
+                      ],
+        "priceRange":  "â‚¹â‚¹",
+        "bestTimeToVisit":  "Morning (9AMâ€“11AM) or Evening (5PMâ€“7PM)",
+        "location":  "Near Clock Tower, Sirsa",
+        "directions":  {
+                           "nearestRailway":  "Sirsa Railway Station",
+                           "railwayDistance":  "1.5 km, 10 min auto",
+                           "nearestBusStop":  "Clock Tower Bus Stop",
+                           "busRoutes":  [
+                                             "Haryana Roadways 56",
+                                             "Local Route 12"
+                                         ],
+                           "autoRickshaw":  true,
+                           "tips":  "Autos readily available from Sirsa Railway Station. Ask for \u0027Clock Tower\u0027 â€” every driver knows it."
+                       },
+        "crowd":  {
+                      "morning":  "Medium",
+                      "afternoon":  "High",
+                      "evening":  "High"
+                  },
+        "experience":  {
+                           "behaviour":  "Friendly",
+                           "bargaining":  true,
+                           "familyFriendly":  true,
+                           "parking":  "Limited"
+                       },
+        "foodNearby":  [
+                           {
+                               "name":  "Annapurna Dhaba",
+                               "rating":  4.3,
+                               "type":  "North Indian"
+                           },
+                           {
+                               "name":  "Sharma Chaat Corner",
+                               "rating":  4.6,
+                               "type":  "Street Food"
+                           },
+                           {
+                               "name":  "Bake \u0026 Brew Cafe",
+                               "rating":  4.1,
+                               "type":  "Cafe"
+                           }
+                       ],
+        "nearbyPlaces":  [
+                             "Sirsa Clock Tower",
+                             "Gurudwara Choti Sangat",
+                             "Bhagwan Parshuram Park"
+                         ],
+        "images":  [
+                       "/images/markets/sirsa-main-market-1.jpg",
+                       "/images/markets/sirsa-main-market-2.jpg"
+                   ],
+        "featured":  true,
+        "rating":  4.2,
+        "reviewCount":  318
+    },
+    {
+        "id":  "2",
+        "name":  "Rania Bazaar",
+        "slug":  "rania-bazaar",
+        "tagline":  "Sirsa\u0027s best-kept secret for fashion at unbeatable prices",
+        "city":  "Sirsa",
+        "category":  [
+                         "Clothes",
+                         "Shoes",
+                         "Fashion"
+                     ],
+        "famousFor":  [
+                          "Clothes",
+                          "Shoes",
+                          "Accessories"
+                      ],
+        "priceRange":  "â‚¹",
+        "bestTimeToVisit":  "Morning (10AMâ€“12PM)",
+        "location":  "Rania Road, Near Bus Stand, Sirsa",
+        "directions":  {
+                           "nearestRailway":  "Sirsa Railway Station",
+                           "railwayDistance":  "3 km, 15 min auto",
+                           "nearestBusStop":  "Rania Bus Stand",
+                           "busRoutes":  [
+                                             "Haryana Roadways Rania Route"
+                                         ],
+                           "autoRickshaw":  true,
+                           "tips":  "Shared autos run on the Sirsaâ€“Rania route. Alight at \u0027Rania Chowk\u0027 and the bazaar is a 2-min walk."
+                       },
+        "crowd":  {
+                      "morning":  "Low",
+                      "afternoon":  "Medium",
+                      "evening":  "High"
+                  },
+        "experience":  {
+                           "behaviour":  "Friendly",
+                           "bargaining":  true,
+                           "familyFriendly":  true,
+                           "parking":  "Available"
+                       },
+        "foodNearby":  [
+                           {
+                               "name":  "Sharma Chaat",
+                               "rating":  4.5,
+                               "type":  "Street Food"
+                           },
+                           {
+                               "name":  "Punjabi Tadka",
+                               "rating":  4.0,
+                               "type":  "North Indian"
+                           }
+                       ],
+        "nearbyPlaces":  [
+                             "City Park",
+                             "Shiva Temple",
+                             "Rania Bus Stand"
+                         ],
+        "images":  [
+                       "/images/markets/rania-bazaar-1.jpg",
+                       "/images/markets/rania-bazaar-2.jpg"
+                   ],
+        "featured":  true,
+        "rating":  4.4,
+        "reviewCount":  214
+    },
+    {
+        "id":  "3",
+        "name":  "Grain Market (Anaj Mandi)",
+        "slug":  "anaj-mandi-sirsa",
+        "tagline":  "Where Haryana\u0027s agricultural bounty meets everyday life",
+        "city":  "Sirsa",
+        "category":  [
+                         "Grocery",
+                         "Spices",
+                         "Wholesale"
+                     ],
+        "famousFor":  [
+                          "Spices",
+                          "Grains",
+                          "Pulses",
+                          "Wholesale Shopping"
+                      ],
+        "priceRange":  "â‚¹",
+        "bestTimeToVisit":  "Early Morning (7AMâ€“10AM)",
+        "location":  "Anaj Mandi Road, Sirsa",
+        "directions":  {
+                           "nearestRailway":  "Sirsa Railway Station",
+                           "railwayDistance":  "2 km, 12 min auto",
+                           "nearestBusStop":  "Anaj Mandi Bus Stop",
+                           "busRoutes":  [
+                                             "Local City Route 4"
+                                         ],
+                           "autoRickshaw":  true,
+                           "tips":  "Tell the auto driver \u0027Anaj Mandi\u0027. Busy in early mornings â€” arrive by 8AM for best experience."
+                       },
+        "crowd":  {
+                      "morning":  "High",
+                      "afternoon":  "Medium",
+                      "evening":  "Low"
+                  },
+        "experience":  {
+                           "behaviour":  "Average",
+                           "bargaining":  true,
+                           "familyFriendly":  false,
+                           "parking":  "Available"
+                       },
+        "foodNearby":  [
+                           {
+                               "name":  "Mandi Wala Dhaba",
+                               "rating":  4.2,
+                               "type":  "Dhaba"
+                           },
+                           {
+                               "name":  "Early Bird Tea Stall",
+                               "rating":  4.0,
+                               "type":  "Tea \u0026 Snacks"
+                           }
+                       ],
+        "nearbyPlaces":  [
+                             "Sirsa Bus Stand",
+                             "Agricultural Office",
+                             "Grain Godowns"
+                         ],
+        "images":  [
+                       "/images/markets/anaj-mandi-1.jpg",
+                       "/images/markets/anaj-mandi-2.jpg"
+                   ],
+        "featured":  false,
+        "rating":  3.9,
+        "reviewCount":  142
+    },
+    {
+        "id":  "4",
+        "name":  "Sabzi Mandi (Vegetable Market)",
+        "slug":  "sabzi-mandi-sirsa",
+        "tagline":  "Fresh from the farm to your plate every single morning",
+        "city":  "Sirsa",
+        "category":  [
+                         "Grocery",
+                         "Vegetables",
+                         "Daily Needs"
+                     ],
+        "famousFor":  [
+                          "Fresh Vegetables",
+                          "Fruits",
+                          "Daily Essentials"
+                      ],
+        "priceRange":  "â‚¹",
+        "bestTimeToVisit":  "Early Morning (6AMâ€“9AM)",
+        "location":  "Near Old Bus Stand, Sirsa",
+        "directions":  {
+                           "nearestRailway":  "Sirsa Railway Station",
+                           "railwayDistance":  "1 km, 7 min auto",
+                           "nearestBusStop":  "Old Bus Stand Sirsa",
+                           "busRoutes":  [
+                                             "Haryana Roadways Multiple Routes"
+                                         ],
+                           "autoRickshaw":  true,
+                           "tips":  "Very close to the Old Bus Stand. If arriving by train, take an auto to \u0027Old Bus Stand\u0027 and walk 3 mins."
+                       },
+        "crowd":  {
+                      "morning":  "High",
+                      "afternoon":  "Low",
+                      "evening":  "Medium"
+                  },
+        "experience":  {
+                           "behaviour":  "Friendly",
+                           "bargaining":  true,
+                           "familyFriendly":  true,
+                           "parking":  "Limited"
+                       },
+        "foodNearby":  [
+                           {
+                               "name":  "Puri Sabji Wala",
+                               "rating":  4.7,
+                               "type":  "Street Food"
+                           },
+                           {
+                               "name":  "Morning Tea Corner",
+                               "rating":  4.3,
+                               "type":  "Tea \u0026 Snacks"
+                           }
+                       ],
+        "nearbyPlaces":  [
+                             "Old Bus Stand",
+                             "Hanuman Temple",
+                             "Public Library"
+                         ],
+        "images":  [
+                       "/images/markets/sabzi-mandi-1.jpg",
+                       "/images/markets/sabzi-mandi-2.jpg"
+                   ],
+        "featured":  true,
+        "rating":  4.3,
+        "reviewCount":  267
+    },
+    {
+        "id":  "5",
+        "name":  "Hanumangarh Road Market",
+        "slug":  "hanumangarh-road-market",
+        "tagline":  "Hardware, tools and building supplies for every project",
+        "city":  "Sirsa",
+        "category":  [
+                         "Hardware",
+                         "Tools",
+                         "Construction"
+                     ],
+        "famousFor":  [
+                          "Hardware",
+                          "Tools",
+                          "Plumbing",
+                          "Electrical Goods"
+                      ],
+        "priceRange":  "â‚¹â‚¹",
+        "bestTimeToVisit":  "Morning (9AMâ€“12PM)",
+        "location":  "Hanumangarh Road, Sirsa",
+        "directions":  {
+                           "nearestRailway":  "Sirsa Railway Station",
+                           "railwayDistance":  "4 km, 20 min auto",
+                           "nearestBusStop":  "Hanumangarh Road Chowk",
+                           "busRoutes":  [
+                                             "Haryana Roadways Hanumangarh Route"
+                                         ],
+                           "autoRickshaw":  true,
+                           "tips":  "Autos are the easiest option from the city centre. Ask for \u0027Hanumangarh Road Market\u0027."
+                       },
+        "crowd":  {
+                      "morning":  "Medium",
+                      "afternoon":  "Medium",
+                      "evening":  "Low"
+                  },
+        "experience":  {
+                           "behaviour":  "Average",
+                           "bargaining":  false,
+                           "familyFriendly":  false,
+                           "parking":  "Available"
+                       },
+        "foodNearby":  [
+                           {
+                               "name":  "Roadside Dhaba No. 1",
+                               "rating":  3.9,
+                               "type":  "Dhaba"
+                           },
+                           {
+                               "name":  "Cold Drink Corner",
+                               "rating":  3.7,
+                               "type":  "Beverages"
+                           }
+                       ],
+        "nearbyPlaces":  [
+                             "PWD Office",
+                             "Regional Transport Office",
+                             "Highway NH9"
+                         ],
+        "images":  [
+                       "/images/markets/hanumangarh-road-1.jpg",
+                       "/images/markets/hanumangarh-road-2.jpg"
+                   ],
+        "featured":  false,
+        "rating":  3.7,
+        "reviewCount":  98
+    },
+    {
+        "id":  "6",
+        "name":  "Dhobiana Bazaar",
+        "slug":  "dhobiana-bazaar",
+        "tagline":  "Sirsa\u0027s legendary street food \u0026 budget shopping destination",
+        "city":  "Sirsa",
+        "category":  [
+                         "Street Food",
+                         "Budget",
+                         "Clothes"
+                     ],
+        "famousFor":  [
+                          "Street Food",
+                          "Budget Clothes",
+                          "Snacks"
+                      ],
+        "priceRange":  "â‚¹",
+        "bestTimeToVisit":  "Evening (5PMâ€“9PM)",
+        "location":  "Dhobiana Mohalla, Sirsa",
+        "directions":  {
+                           "nearestRailway":  "Sirsa Railway Station",
+                           "railwayDistance":  "1.8 km, 10 min auto",
+                           "nearestBusStop":  "Dhobiana Chowk",
+                           "busRoutes":  [
+                                             "Local City Route 7"
+                                         ],
+                           "autoRickshaw":  true,
+                           "tips":  "Ask for \u0027Dhobiana Mohalla\u0027 â€” a well-known locality. No parking nearby so prefer auto or on foot."
+                       },
+        "crowd":  {
+                      "morning":  "Low",
+                      "afternoon":  "Low",
+                      "evening":  "High"
+                  },
+        "experience":  {
+                           "behaviour":  "Friendly",
+                           "bargaining":  true,
+                           "familyFriendly":  true,
+                           "parking":  "None"
+                       },
+        "foodNearby":  [
+                           {
+                               "name":  "Famous Chhole Bhature",
+                               "rating":  4.8,
+                               "type":  "Street Food"
+                           },
+                           {
+                               "name":  "Jalebi Wala",
+                               "rating":  4.7,
+                               "type":  "Sweets"
+                           },
+                           {
+                               "name":  "Golgappa King",
+                               "rating":  4.6,
+                               "type":  "Street Food"
+                           }
+                       ],
+        "nearbyPlaces":  [
+                             "Dhobi Ghat",
+                             "Local Park",
+                             "Community Centre"
+                         ],
+        "images":  [
+                       "/images/markets/dhobiana-bazaar-1.jpg",
+                       "/images/markets/dhobiana-bazaar-2.jpg"
+                   ],
+        "featured":  true,
+        "rating":  4.6,
+        "reviewCount":  412
+    },
+    {
+        "id":  "7",
+        "name":  "Sector 17 Fashion Market",
+        "slug":  "sector-17-fashion-market",
+        "tagline":  "Modern fashion, trendy accessories, and lifestyle brands",
+        "city":  "Sirsa",
+        "category":  [
+                         "Fashion",
+                         "Accessories",
+                         "Clothes"
+                     ],
+        "famousFor":  [
+                          "Branded Clothes",
+                          "Accessories",
+                          "Footwear",
+                          "Cosmetics"
+                      ],
+        "priceRange":  "â‚¹â‚¹â‚¹",
+        "bestTimeToVisit":  "Afternoon (2PMâ€“6PM) or Weekend",
+        "location":  "Sector 17, Sirsa",
+        "directions":  {
+                           "nearestRailway":  "Sirsa Railway Station",
+                           "railwayDistance":  "3.5 km, 18 min auto",
+                           "nearestBusStop":  "Sector 17 Gate",
+                           "busRoutes":  [
+                                             "Local Sector Route"
+                                         ],
+                           "autoRickshaw":  true,
+                           "tips":  "Autos available from city centre. Tell driver \u0027Sector 17 Market\u0027. Parking is available on weekdays."
+                       },
+        "crowd":  {
+                      "morning":  "Low",
+                      "afternoon":  "High",
+                      "evening":  "High"
+                  },
+        "experience":  {
+                           "behaviour":  "Friendly",
+                           "bargaining":  false,
+                           "familyFriendly":  true,
+                           "parking":  "Available"
+                       },
+        "foodNearby":  [
+                           {
+                               "name":  "Cafe Artisan",
+                               "rating":  4.5,
+                               "type":  "Cafe"
+                           },
+                           {
+                               "name":  "Pizza Hub",
+                               "rating":  4.2,
+                               "type":  "Fast Food"
+                           },
+                           {
+                               "name":  "Juice Junction",
+                               "rating":  4.4,
+                               "type":  "Beverages"
+                           }
+                       ],
+        "nearbyPlaces":  [
+                             "City Mall",
+                             "Sports Complex",
+                             "Sector Park"
+                         ],
+        "images":  [
+                       "/images/markets/sector-17-1.jpg",
+                       "/images/markets/sector-17-2.jpg"
+                   ],
+        "featured":  false,
+        "rating":  4.1,
+        "reviewCount":  183
+    },
+    {
+        "id":  "8",
+        "name":  "Jewelry \u0026 Gold Market",
+        "slug":  "jewelry-gold-market-sirsa",
+        "tagline":  "Timeless gold, silver and precious jewellery since generations",
+        "city":  "Sirsa",
+        "category":  [
+                         "Jewelry",
+                         "Gold",
+                         "Silver"
+                     ],
+        "famousFor":  [
+                          "Gold Jewelry",
+                          "Silver Items",
+                          "Bridal Sets",
+                          "Precious Stones"
+                      ],
+        "priceRange":  "â‚¹â‚¹â‚¹",
+        "bestTimeToVisit":  "Morning (10AMâ€“1PM) on weekdays",
+        "location":  "Near Ganesh Chowk, Sirsa",
+        "directions":  {
+                           "nearestRailway":  "Sirsa Railway Station",
+                           "railwayDistance":  "2 km, 12 min auto",
+                           "nearestBusStop":  "Ganesh Chowk Bus Stop",
+                           "busRoutes":  [
+                                             "Local City Route 3"
+                                         ],
+                           "autoRickshaw":  true,
+                           "tips":  "Ask for \u0027Ganesh Chowk\u0027 â€” a central landmark. The jewelry lane is 1 min walk from the chowk."
+                       },
+        "crowd":  {
+                      "morning":  "Medium",
+                      "afternoon":  "High",
+                      "evening":  "Medium"
+                  },
+        "experience":  {
+                           "behaviour":  "Friendly",
+                           "bargaining":  false,
+                           "familyFriendly":  true,
+                           "parking":  "Limited"
+                       },
+        "foodNearby":  [
+                           {
+                               "name":  "Mithai Wala",
+                               "rating":  4.6,
+                               "type":  "Sweets"
+                           },
+                           {
+                               "name":  "Sharma Restaurant",
+                               "rating":  4.3,
+                               "type":  "North Indian"
+                           }
+                       ],
+        "nearbyPlaces":  [
+                             "Ganesh Chowk",
+                             "Old Fort Area",
+                             "Heritage Haveli"
+                         ],
+        "images":  [
+                       "/images/markets/jewelry-market-1.jpg",
+                       "/images/markets/jewelry-market-2.jpg"
+                   ],
+        "featured":  false,
+        "rating":  4.5,
+        "reviewCount":  156
+    },
+    {
+        "id":  "9",
+        "name":  "Electronics Hub",
+        "slug":  "electronics-hub-sirsa",
+        "tagline":  "Gadgets, mobile phones and tech accessories at best prices",
+        "city":  "Sirsa",
+        "category":  [
+                         "Electronics",
+                         "Mobile",
+                         "Gadgets"
+                     ],
+        "famousFor":  [
+                          "Mobile Phones",
+                          "Laptops",
+                          "Accessories",
+                          "Repairs"
+                      ],
+        "priceRange":  "â‚¹â‚¹",
+        "bestTimeToVisit":  "Afternoon (11AMâ€“3PM)",
+        "location":  "Subhash Nagar Road, Sirsa",
+        "directions":  {
+                           "nearestRailway":  "Sirsa Railway Station",
+                           "railwayDistance":  "2.5 km, 15 min auto",
+                           "nearestBusStop":  "Subhash Nagar Chowk",
+                           "busRoutes":  [
+                                             "Local City Route 5"
+                                         ],
+                           "autoRickshaw":  true,
+                           "tips":  "Tell the auto \u0027Subhash Nagar Electronics Market\u0027. Multiple repair shops also available here."
+                       },
+        "crowd":  {
+                      "morning":  "Low",
+                      "afternoon":  "High",
+                      "evening":  "Medium"
+                  },
+        "experience":  {
+                           "behaviour":  "Average",
+                           "bargaining":  false,
+                           "familyFriendly":  true,
+                           "parking":  "Limited"
+                       },
+        "foodNearby":  [
+                           {
+                               "name":  "Tech Cafe",
+                               "rating":  4.0,
+                               "type":  "Cafe"
+                           },
+                           {
+                               "name":  "Quick Bites",
+                               "rating":  3.8,
+                               "type":  "Fast Food"
+                           }
+                       ],
+        "nearbyPlaces":  [
+                             "Subhash Nagar Park",
+                             "Government ITI",
+                             "Police Station"
+                         ],
+        "images":  [
+                       "/images/markets/electronics-hub-1.jpg",
+                       "/images/markets/electronics-hub-2.jpg"
+                   ],
+        "featured":  false,
+        "rating":  3.8,
+        "reviewCount":  129
+    },
+    {
+        "id":  "10",
+        "name":  "Purani Dilli Bazaar (Sirsa)",
+        "slug":  "purani-dilli-bazaar-sirsa",
+        "tagline":  "Old world charm meets everyday needs in the old city lanes",
+        "city":  "Sirsa",
+        "category":  [
+                         "Mixed",
+                         "Street Food",
+                         "Traditional"
+                     ],
+        "famousFor":  [
+                          "Traditional Handicrafts",
+                          "Spices",
+                          "Street Food",
+                          "Textiles"
+                      ],
+        "priceRange":  "â‚¹â‚¹",
+        "bestTimeToVisit":  "Morning (9AMâ€“12PM)",
+        "location":  "Old City Area, Sirsa",
+        "directions":  {
+                           "nearestRailway":  "Sirsa Railway Station",
+                           "railwayDistance":  "1.2 km, 8 min auto",
+                           "nearestBusStop":  "Old City Chowk",
+                           "busRoutes":  [
+                                             "Local City Route 2",
+                                             "Local City Route 8"
+                                         ],
+                           "autoRickshaw":  true,
+                           "tips":  "Very close to the railway station. Walk or take a short auto to \u0027Old City Chowk\u0027. Narrow lanes â€” leave vehicles outside."
+                       },
+        "crowd":  {
+                      "morning":  "High",
+                      "afternoon":  "Medium",
+                      "evening":  "High"
+                  },
+        "experience":  {
+                           "behaviour":  "Friendly",
+                           "bargaining":  true,
+                           "familyFriendly":  true,
+                           "parking":  "None"
+                       },
+        "foodNearby":  [
+                           {
+                               "name":  "Old City Halwai",
+                               "rating":  4.8,
+                               "type":  "Sweets"
+                           },
+                           {
+                               "name":  "Lassi Shop 1950",
+                               "rating":  4.9,
+                               "type":  "Beverages"
+                           },
+                           {
+                               "name":  "Parathe Wali Gali",
+                               "rating":  4.7,
+                               "type":  "Street Food"
+                           }
+                       ],
+        "nearbyPlaces":  [
+                             "Jama Masjid Area",
+                             "Heritage Clock",
+                             "Old Haveli Tours"
+                         ],
+        "images":  [
+                       "/images/markets/purani-dilli-bazaar-1.jpg",
+                       "/images/markets/purani-dilli-bazaar-2.jpg"
+                   ],
+        "featured":  true,
+        "rating":  4.7,
+        "reviewCount":  534
+    },
+    {
+        "id":  "11",
+        "name":  "Chandni Chowk",
+        "slug":  "chandni-chowk-delhi",
+        "tagline":  "Delhi\u0027s oldest \u0026 grandest bazaar â€” 400 years of trade in every lane",
+        "city":  "Delhi",
+        "category":  [
+                         "Wholesale",
+                         "Spices",
+                         "Street Food",
+                         "Textiles",
+                         "Jewelry"
+                     ],
+        "famousFor":  [
+                          "Wholesale Goods",
+                          "Spices",
+                          "Street Food",
+                          "Bridal Lehengas",
+                          "Silver Jewelry"
+                      ],
+        "priceRange":  "â‚¹",
+        "bestTimeToVisit":  "Weekday Mornings (9AMâ€“12PM). Avoid Sunday â€” most shops closed.",
+        "location":  "Chandni Chowk Road, Old Delhi, Delhi â€” 110006",
+        "directions":  {
+                           "nearestMetro":  "Chandni Chowk â€” Yellow Line",
+                           "metroWalkTime":  "2 min walk (exit gate 4, the market starts immediately)",
+                           "nearestRailway":  "Old Delhi Railway Station (Delhi Junction)",
+                           "railwayDistance":  "0.8 km, 10 min walk or 5 min cycle-rickshaw",
+                           "nearestBusStop":  "Chandni Chowk Bus Terminal",
+                           "busRoutes":  [
+                                             "DTC 901",
+                                             "DTC 780A",
+                                             "DTC 903",
+                                             "DTC 720"
+                                         ],
+                           "autoRickshaw":  true,
+                           "tips":  "Metro is the BEST option â€” park your car at Kashmere Gate and take Yellow Line to Chandni Chowk. Cycle-rickshaws are iconic here and great for short hops inside the bazaar. Do NOT drive into the market lanes â€” it\u0027s a pedestrian zone."
+                       },
+        "crowd":  {
+                      "morning":  "High",
+                      "afternoon":  "High",
+                      "evening":  "Medium"
+                  },
+        "experience":  {
+                           "behaviour":  "Average",
+                           "bargaining":  true,
+                           "familyFriendly":  true,
+                           "parking":  "None"
+                       },
+        "foodNearby":  [
+                           {
+                               "name":  "Paranthe Wali Gali",
+                               "rating":  4.7,
+                               "type":  "Street Food"
+                           },
+                           {
+                               "name":  "Natraj Dahi Bhalle",
+                               "rating":  4.6,
+                               "type":  "Street Food"
+                           },
+                           {
+                               "name":  "Jain Chaat Bhandar",
+                               "rating":  4.5,
+                               "type":  "Chaat"
+                           },
+                           {
+                               "name":  "Ghantewala Halwai (Heritage)",
+                               "rating":  4.4,
+                               "type":  "Sweets"
+                           }
+                       ],
+        "nearbyPlaces":  [
+                             "Red Fort",
+                             "Jama Masjid",
+                             "Sis Ganj Gurudwara",
+                             "Fatehpuri Masjid"
+                         ],
+        "images":  [
+                       "/images/markets/chandni-chowk-1.jpg",
+                       "/images/markets/chandni-chowk-2.jpg"
+                   ],
+        "featured":  true,
+        "rating":  4.5,
+        "reviewCount":  8420
+    },
+    {
+        "id":  "12",
+        "name":  "Sarojini Nagar Market",
+        "slug":  "sarojini-nagar-market",
+        "tagline":  "Delhi\u0027s fashion capital â€” export surplus \u0026 street style at rock-bottom prices",
+        "city":  "Delhi",
+        "category":  [
+                         "Clothes",
+                         "Fashion",
+                         "Budget"
+                     ],
+        "famousFor":  [
+                          "Export Surplus Clothes",
+                          "Budget Fashion",
+                          "Western Wear",
+                          "Accessories"
+                      ],
+        "priceRange":  "â‚¹",
+        "bestTimeToVisit":  "Weekday mornings (10AMâ€“12PM). Saturdays are extremely crowded.",
+        "location":  "Sarojini Nagar, New Delhi â€” 110023",
+        "directions":  {
+                           "nearestMetro":  "Sarojini Nagar â€” Pink Line (exit gate 1, 2 min walk)",
+                           "metroWalkTime":  "2 min walk",
+                           "nearestRailway":  "Hazrat Nizamuddin Railway Station",
+                           "railwayDistance":  "5 km, 20 min auto",
+                           "nearestBusStop":  "Sarojini Nagar Bus Depot",
+                           "busRoutes":  [
+                                             "DTC 505",
+                                             "DTC 615",
+                                             "DTC 615A",
+                                             "DTC 505CL"
+                                         ],
+                           "autoRickshaw":  true,
+                           "tips":  "Metro is perfect â€” alight at Sarojini Nagar station (Pink Line). Arrive by 10AM on weekdays for thin crowds and first pick. Carry a big bag and cash â€” most vendors don\u0027t accept cards."
+                       },
+        "crowd":  {
+                      "morning":  "Medium",
+                      "afternoon":  "High",
+                      "evening":  "High"
+                  },
+        "experience":  {
+                           "behaviour":  "Friendly",
+                           "bargaining":  true,
+                           "familyFriendly":  true,
+                           "parking":  "Limited"
+                       },
+        "foodNearby":  [
+                           {
+                               "name":  "Roshan Di Kulfi",
+                               "rating":  4.6,
+                               "type":  "Desserts"
+                           },
+                           {
+                               "name":  "Giani\u0027s Ice Cream",
+                               "rating":  4.3,
+                               "type":  "Desserts"
+                           },
+                           {
+                               "name":  "CafÃ© Lota (nearby IHC)",
+                               "rating":  4.5,
+                               "type":  "Cafe"
+                           }
+                       ],
+        "nearbyPlaces":  [
+                             "INA Market",
+                             "Deer Park",
+                             "Safdarjung Tomb",
+                             "Dilli Haat INA"
+                         ],
+        "images":  [
+                       "/images/markets/sarojini-nagar-1.jpg",
+                       "/images/markets/sarojini-nagar-2.jpg"
+                   ],
+        "featured":  true,
+        "rating":  4.4,
+        "reviewCount":  6180
+    },
+    {
+        "id":  "13",
+        "name":  "Lajpat Nagar Central Market",
+        "slug":  "lajpat-nagar-central-market",
+        "tagline":  "Ethnic wear, home dÃ©cor \u0026 wedding shopping â€” all in one buzzing bazaar",
+        "city":  "Delhi",
+        "category":  [
+                         "Clothes",
+                         "Home Decor",
+                         "Ethnic Wear"
+                     ],
+        "famousFor":  [
+                          "Ethnic Wear",
+                          "Dupattas",
+                          "Home Decor",
+                          "Wedding Shopping",
+                          "Kurti \u0026 Suits"
+                      ],
+        "priceRange":  "â‚¹â‚¹",
+        "bestTimeToVisit":  "Weekday afternoons (12PMâ€“4PM)",
+        "location":  "Central Market, Lajpat Nagar II, New Delhi â€” 110024",
+        "directions":  {
+                           "nearestMetro":  "Lajpat Nagar â€” Pink Line (direct access from exit 1)",
+                           "metroWalkTime":  "1 min walk",
+                           "nearestRailway":  "Hazrat Nizamuddin Railway Station",
+                           "railwayDistance":  "3.5 km, 15 min auto",
+                           "nearestBusStop":  "Lajpat Nagar Metro Bus Stop",
+                           "busRoutes":  [
+                                             "DTC 419",
+                                             "DTC 501",
+                                             "DTC 543"
+                                         ],
+                           "autoRickshaw":  true,
+                           "tips":  "One of Delhi\u0027s best-connected markets. Metro Pink Line drops you at the market entrance. Auto and e-rickshaws available from the metro exit. Avoid Saturday evening â€” peak crowd."
+                       },
+        "crowd":  {
+                      "morning":  "Low",
+                      "afternoon":  "High",
+                      "evening":  "High"
+                  },
+        "experience":  {
+                           "behaviour":  "Friendly",
+                           "bargaining":  true,
+                           "familyFriendly":  true,
+                           "parking":  "Limited"
+                       },
+        "foodNearby":  [
+                           {
+                               "name":  "Al-Kausar",
+                               "rating":  4.7,
+                               "type":  "Mughlai"
+                           },
+                           {
+                               "name":  "Haldiram\u0027s",
+                               "rating":  4.4,
+                               "type":  "Snacks \u0026 Sweets"
+                           },
+                           {
+                               "name":  "Cafe 27",
+                               "rating":  4.2,
+                               "type":  "Cafe"
+                           }
+                       ],
+        "nearbyPlaces":  [
+                             "Defence Colony",
+                             "Moolchand Flyover",
+                             "Lodhi Garden (4 km)"
+                         ],
+        "images":  [
+                       "/images/markets/lajpat-nagar-1.jpg",
+                       "/images/markets/lajpat-nagar-2.jpg"
+                   ],
+        "featured":  true,
+        "rating":  4.3,
+        "reviewCount":  4920
+    },
+    {
+        "id":  "14",
+        "name":  "Karol Bagh Market",
+        "slug":  "karol-bagh-market",
+        "tagline":  "Electronics, bridal wear and cosmetics â€” the all-rounder of Delhi markets",
+        "city":  "Delhi",
+        "category":  [
+                         "Electronics",
+                         "Clothes",
+                         "Jewelry",
+                         "Cosmetics"
+                     ],
+        "famousFor":  [
+                          "Electronics",
+                          "Bridal Lehengas",
+                          "Cosmetics",
+                          "Shoes",
+                          "Watches"
+                      ],
+        "priceRange":  "â‚¹â‚¹",
+        "bestTimeToVisit":  "Weekday mornings (11AMâ€“2PM)",
+        "location":  "Ajmal Khan Road, Karol Bagh, New Delhi â€” 110005",
+        "directions":  {
+                           "nearestMetro":  "Karol Bagh â€” Blue Line (exit 2, market is 3 min walk)",
+                           "metroWalkTime":  "3 min walk",
+                           "nearestRailway":  "New Delhi Railway Station",
+                           "railwayDistance":  "2.5 km, 15 min auto",
+                           "nearestBusStop":  "Karol Bagh Bus Terminal",
+                           "busRoutes":  [
+                                             "DTC 851",
+                                             "DTC 720",
+                                             "DTC 920",
+                                             "DTC 850"
+                                         ],
+                           "autoRickshaw":  true,
+                           "tips":  "Blue Line Metro is most convenient. Get off at Karol Bagh station. The main Ajmal Khan Road market is walkable. For Gaffar Market (mobiles), take a 5-min walk north of the station."
+                       },
+        "crowd":  {
+                      "morning":  "Medium",
+                      "afternoon":  "High",
+                      "evening":  "High"
+                  },
+        "experience":  {
+                           "behaviour":  "Friendly",
+                           "bargaining":  true,
+                           "familyFriendly":  true,
+                           "parking":  "Limited"
+                       },
+        "foodNearby":  [
+                           {
+                               "name":  "Roshan Di Kulfi",
+                               "rating":  4.8,
+                               "type":  "Desserts"
+                           },
+                           {
+                               "name":  "Kwality Restaurant",
+                               "rating":  4.3,
+                               "type":  "North Indian"
+                           },
+                           {
+                               "name":  "Bikaner Sweets",
+                               "rating":  4.5,
+                               "type":  "Sweets"
+                           }
+                       ],
+        "nearbyPlaces":  [
+                             "Gaffar Market",
+                             "Tank Road Market",
+                             "Hanuman Mandir Karol Bagh"
+                         ],
+        "images":  [
+                       "/images/markets/karol-bagh-1.jpg",
+                       "/images/markets/karol-bagh-2.jpg"
+                   ],
+        "featured":  true,
+        "rating":  4.2,
+        "reviewCount":  5340
+    },
+    {
+        "id":  "15",
+        "name":  "Gaffar Market",
+        "slug":  "gaffar-market-delhi",
+        "tagline":  "Delhi\u0027s biggest mobile phone \u0026 electronics grey market",
+        "city":  "Delhi",
+        "category":  [
+                         "Electronics",
+                         "Mobile",
+                         "Gadgets"
+                     ],
+        "famousFor":  [
+                          "Mobile Phones",
+                          "Accessories",
+                          "Refurbished Devices",
+                          "Chargers \u0026 Cables"
+                      ],
+        "priceRange":  "â‚¹",
+        "bestTimeToVisit":  "Weekday afternoons (12PMâ€“4PM)",
+        "location":  "Gaffar Market Road, Karol Bagh, New Delhi â€” 110005",
+        "directions":  {
+                           "nearestMetro":  "Karol Bagh â€” Blue Line (5 min walk north of station)",
+                           "metroWalkTime":  "5 min walk",
+                           "nearestRailway":  "New Delhi Railway Station",
+                           "railwayDistance":  "3 km, 15 min auto",
+                           "nearestBusStop":  "Karol Bagh Bus Stand",
+                           "busRoutes":  [
+                                             "DTC 720",
+                                             "DTC 851"
+                                         ],
+                           "autoRickshaw":  true,
+                           "tips":  "From Karol Bagh metro, exit and walk north on Arya Samaj Road for 5 mins. The market is in a lane to your left. Always verify IMEI before buying any device."
+                       },
+        "crowd":  {
+                      "morning":  "Low",
+                      "afternoon":  "High",
+                      "evening":  "Medium"
+                  },
+        "experience":  {
+                           "behaviour":  "Average",
+                           "bargaining":  true,
+                           "familyFriendly":  false,
+                           "parking":  "None"
+                       },
+        "foodNearby":  [
+                           {
+                               "name":  "Karol Bagh Chaat Wala",
+                               "rating":  4.4,
+                               "type":  "Street Food"
+                           },
+                           {
+                               "name":  "Bikaner Sweets",
+                               "rating":  4.5,
+                               "type":  "Sweets"
+                           }
+                       ],
+        "nearbyPlaces":  [
+                             "Karol Bagh Market",
+                             "Tank Road",
+                             "WEA Market"
+                         ],
+        "images":  [
+                       "/images/markets/gaffar-market-1.jpg",
+                       "/images/markets/gaffar-market-2.jpg"
+                   ],
+        "featured":  false,
+        "rating":  3.9,
+        "reviewCount":  3100
+    },
+    {
+        "id":  "16",
+        "name":  "Janpath Market",
+        "slug":  "janpath-market-delhi",
+        "tagline":  "Trinkets, handicrafts and bohemian fashion â€” a traveller\u0027s treasure chest",
+        "city":  "Delhi",
+        "category":  [
+                         "Handicrafts",
+                         "Fashion",
+                         "Souvenirs"
+                     ],
+        "famousFor":  [
+                          "Handicrafts",
+                          "Trinkets",
+                          "Tibetan Goods",
+                          "Boho Fashion",
+                          "Souvenirs"
+                      ],
+        "priceRange":  "â‚¹",
+        "bestTimeToVisit":  "Morning (10AMâ€“1PM)",
+        "location":  "Janpath Lane, Connaught Place, New Delhi â€” 110001",
+        "directions":  {
+                           "nearestMetro":  "Rajiv Chowk â€” Blue \u0026 Yellow Line (exit 7, 5 min walk)",
+                           "metroWalkTime":  "5 min walk",
+                           "nearestRailway":  "New Delhi Railway Station",
+                           "railwayDistance":  "2 km, 10 min auto",
+                           "nearestBusStop":  "Janpath Bus Stop",
+                           "busRoutes":  [
+                                             "DTC 501",
+                                             "DTC 610",
+                                             "DTC 470"
+                                         ],
+                           "autoRickshaw":  true,
+                           "tips":  "Rajiv Chowk is the central hub â€” from there Janpath is a 5-min walk. Bargain hard â€” vendors quote double the fair price to tourists."
+                       },
+        "crowd":  {
+                      "morning":  "Medium",
+                      "afternoon":  "High",
+                      "evening":  "Medium"
+                  },
+        "experience":  {
+                           "behaviour":  "Average",
+                           "bargaining":  true,
+                           "familyFriendly":  true,
+                           "parking":  "None"
+                       },
+        "foodNearby":  [
+                           {
+                               "name":  "Wenger\u0027s Bakery",
+                               "rating":  4.6,
+                               "type":  "Bakery"
+                           },
+                           {
+                               "name":  "United Coffee House",
+                               "rating":  4.5,
+                               "type":  "Restaurant"
+                           },
+                           {
+                               "name":  "Saravana Bhavan",
+                               "rating":  4.3,
+                               "type":  "South Indian"
+                           }
+                       ],
+        "nearbyPlaces":  [
+                             "Connaught Place",
+                             "National Museum (2 km)",
+                             "Palika Bazaar"
+                         ],
+        "images":  [
+                       "/images/markets/janpath-1.jpg",
+                       "/images/markets/janpath-2.jpg"
+                   ],
+        "featured":  false,
+        "rating":  4.1,
+        "reviewCount":  2870
+    },
+    {
+        "id":  "17",
+        "name":  "Palika Bazaar",
+        "slug":  "palika-bazaar-delhi",
+        "tagline":  "Delhi\u0027s iconic underground market â€” electronics, fashion and more",
+        "city":  "Delhi",
+        "category":  [
+                         "Electronics",
+                         "Clothes",
+                         "Mixed"
+                     ],
+        "famousFor":  [
+                          "Electronics",
+                          "Pirated DVDs",
+                          "Budget Clothes",
+                          "Accessories"
+                      ],
+        "priceRange":  "â‚¹",
+        "bestTimeToVisit":  "Afternoon (12PMâ€“4PM)",
+        "location":  "Connaught Place (Underground), New Delhi â€” 110001",
+        "directions":  {
+                           "nearestMetro":  "Rajiv Chowk â€” Blue \u0026 Yellow Line (the market entrance is RIGHT at exit 7)",
+                           "metroWalkTime":  "1 min walk",
+                           "nearestRailway":  "New Delhi Railway Station",
+                           "railwayDistance":  "2 km, 12 min auto",
+                           "nearestBusStop":  "Connaught Place Bus Stop",
+                           "busRoutes":  [
+                                             "DTC 501",
+                                             "DTC 610",
+                                             "DTC 460",
+                                             "DTC 470"
+                                         ],
+                           "autoRickshaw":  true,
+                           "tips":  "The market entrance is underground at Rajiv Chowk junction â€” you literally walk down from the Metro exit. Bargain extremely hard here â€” opening prices are 3x the fair value."
+                       },
+        "crowd":  {
+                      "morning":  "Low",
+                      "afternoon":  "High",
+                      "evening":  "High"
+                  },
+        "experience":  {
+                           "behaviour":  "Average",
+                           "bargaining":  true,
+                           "familyFriendly":  false,
+                           "parking":  "Available"
+                       },
+        "foodNearby":  [
+                           {
+                               "name":  "Wenger\u0027s",
+                               "rating":  4.6,
+                               "type":  "Bakery"
+                           },
+                           {
+                               "name":  "Keventers",
+                               "rating":  4.3,
+                               "type":  "Milkshakes"
+                           },
+                           {
+                               "name":  "Haldiram\u0027s CP",
+                               "rating":  4.4,
+                               "type":  "Snacks"
+                           }
+                       ],
+        "nearbyPlaces":  [
+                             "Connaught Place",
+                             "Janpath Market",
+                             "Central Park CP"
+                         ],
+        "images":  [
+                       "/images/markets/palika-bazaar-1.jpg",
+                       "/images/markets/palika-bazaar-2.jpg"
+                   ],
+        "featured":  false,
+        "rating":  3.8,
+        "reviewCount":  4210
+    },
+    {
+        "id":  "18",
+        "name":  "Nehru Place IT Market",
+        "slug":  "nehru-place-it-market",
+        "tagline":  "South Asia\u0027s largest computer \u0026 IT products market â€” all things tech",
+        "city":  "Delhi",
+        "category":  [
+                         "Electronics",
+                         "IT",
+                         "Gadgets"
+                     ],
+        "famousFor":  [
+                          "Laptops",
+                          "Computer Parts",
+                          "Software",
+                          "CCTV",
+                          "Networking Gear"
+                      ],
+        "priceRange":  "â‚¹â‚¹",
+        "bestTimeToVisit":  "Weekday mornings (10AMâ€“1PM). Market closed on Sundays.",
+        "location":  "Nehru Place, South Delhi â€” 110019",
+        "directions":  {
+                           "nearestMetro":  "Nehru Place â€” Violet Line (exit 1, market is directly outside)",
+                           "metroWalkTime":  "2 min walk",
+                           "nearestRailway":  "Hazrat Nizamuddin Railway Station",
+                           "railwayDistance":  "4 km, 20 min auto",
+                           "nearestBusStop":  "Nehru Place Bus Terminal",
+                           "busRoutes":  [
+                                             "DTC 419",
+                                             "DTC 501CL",
+                                             "DTC 534"
+                                         ],
+                           "autoRickshaw":  true,
+                           "tips":  "Violet Line Metro is fastest. Get off at Nehru Place station â€” the market towers are right outside. Carry your laptop for repairs â€” dozens of reliable service centres. Closed on Sundays."
+                       },
+        "crowd":  {
+                      "morning":  "High",
+                      "afternoon":  "High",
+                      "evening":  "Medium"
+                  },
+        "experience":  {
+                           "behaviour":  "Average",
+                           "bargaining":  true,
+                           "familyFriendly":  false,
+                           "parking":  "Available"
+                       },
+        "foodNearby":  [
+                           {
+                               "name":  "Sagar Ratna",
+                               "rating":  4.4,
+                               "type":  "South Indian"
+                           },
+                           {
+                               "name":  "Haldiram\u0027s Nehru Place",
+                               "rating":  4.3,
+                               "type":  "Snacks"
+                           },
+                           {
+                               "name":  "McDonald\u0027s Nehru Place",
+                               "rating":  4.0,
+                               "type":  "Fast Food"
+                           }
+                       ],
+        "nearbyPlaces":  [
+                             "Kalkaji Temple",
+                             "Okhla Bird Sanctuary",
+                             "Select Citywalk (5 km)"
+                         ],
+        "images":  [
+                       "/images/markets/nehru-place-1.jpg",
+                       "/images/markets/nehru-place-2.jpg"
+                   ],
+        "featured":  true,
+        "rating":  4.2,
+        "reviewCount":  6780
+    },
+    {
+        "id":  "19",
+        "name":  "Dilli Haat (INA)",
+        "slug":  "dilli-haat-ina",
+        "tagline":  "India\u0027s 29 states under one roof â€” crafts, cuisine and culture",
+        "city":  "Delhi",
+        "category":  [
+                         "Handicrafts",
+                         "Food",
+                         "Culture"
+                     ],
+        "famousFor":  [
+                          "State Handicrafts",
+                          "Regional Food",
+                          "Pottery",
+                          "Textiles",
+                          "Tribal Art"
+                      ],
+        "priceRange":  "â‚¹â‚¹",
+        "bestTimeToVisit":  "Weekday evenings (5PMâ€“8PM) or weekend mornings",
+        "location":  "Aurobindo Marg, INA, New Delhi â€” 110016",
+        "directions":  {
+                           "nearestMetro":  "INA â€” Pink \u0026 Yellow Line (exit 3, market gate is 3 min walk)",
+                           "metroWalkTime":  "3 min walk",
+                           "nearestRailway":  "Hazrat Nizamuddin Railway Station",
+                           "railwayDistance":  "5.5 km, 25 min auto",
+                           "nearestBusStop":  "INA Market Bus Stop",
+                           "busRoutes":  [
+                                             "DTC 615",
+                                             "DTC 543",
+                                             "DTC 505"
+                                         ],
+                           "autoRickshaw":  true,
+                           "tips":  "INA Metro is right next to the market. Entry fee: â‚¹80 for adults. Rotating stalls from different states â€” check which state is featured during your visit."
+                       },
+        "crowd":  {
+                      "morning":  "Low",
+                      "afternoon":  "Medium",
+                      "evening":  "High"
+                  },
+        "experience":  {
+                           "behaviour":  "Friendly",
+                           "bargaining":  false,
+                           "familyFriendly":  true,
+                           "parking":  "Available"
+                       },
+        "foodNearby":  [
+                           {
+                               "name":  "Dilli Haat Food Court",
+                               "rating":  4.5,
+                               "type":  "Multi-Cuisine"
+                           },
+                           {
+                               "name":  "INA Market Eateries",
+                               "rating":  4.2,
+                               "type":  "Mixed"
+                           },
+                           {
+                               "name":  "Sagar Ratna INA",
+                               "rating":  4.4,
+                               "type":  "South Indian"
+                           }
+                       ],
+        "nearbyPlaces":  [
+                             "INA Market",
+                             "Safdarjung Hospital",
+                             "AIIMS",
+                             "Sarojini Nagar (2 km)"
+                         ],
+        "images":  [
+                       "/images/markets/dilli-haat-1.jpg",
+                       "/images/markets/dilli-haat-2.jpg"
+                   ],
+        "featured":  true,
+        "rating":  4.6,
+        "reviewCount":  9120
+    },
+    {
+        "id":  "20",
+        "name":  "Khan Market",
+        "slug":  "khan-market-delhi",
+        "tagline":  "Delhi\u0027s most expensive high street â€” boutiques, books and world-class cafes",
+        "city":  "Delhi",
+        "category":  [
+                         "Fashion",
+                         "Books",
+                         "Cafe",
+                         "Premium"
+                     ],
+        "famousFor":  [
+                          "Premium Boutiques",
+                          "Bookstores",
+                          "Cafes",
+                          "Gourmet Food",
+                          "Artisan Products"
+                      ],
+        "priceRange":  "â‚¹â‚¹â‚¹",
+        "bestTimeToVisit":  "Weekday afternoons (12PMâ€“5PM)",
+        "location":  "Khan Market, New Delhi â€” 110003",
+        "directions":  {
+                           "nearestMetro":  "Khan Market â€” Violet Line (exit 1, market is 2 min walk)",
+                           "metroWalkTime":  "2 min walk",
+                           "nearestRailway":  "Hazrat Nizamuddin Railway Station",
+                           "railwayDistance":  "4 km, 18 min auto",
+                           "nearestBusStop":  "Khan Market Bus Stop",
+                           "busRoutes":  [
+                                             "DTC 419",
+                                             "DTC 534"
+                                         ],
+                           "autoRickshaw":  true,
+                           "tips":  "Violet Line Metro is the best option. Parking is very scarce â€” Metro recommended. Khan Market Road is one-way; tell auto driver your specific destination shop."
+                       },
+        "crowd":  {
+                      "morning":  "Low",
+                      "afternoon":  "High",
+                      "evening":  "High"
+                  },
+        "experience":  {
+                           "behaviour":  "Friendly",
+                           "bargaining":  false,
+                           "familyFriendly":  true,
+                           "parking":  "Limited"
+                       },
+        "foodNearby":  [
+                           {
+                               "name":  "The Big Chill Cafe",
+                               "rating":  4.7,
+                               "type":  "Continental"
+                           },
+                           {
+                               "name":  "Cafe Turtle",
+                               "rating":  4.6,
+                               "type":  "Cafe"
+                           },
+                           {
+                               "name":  "Amici Cafe",
+                               "rating":  4.4,
+                               "type":  "Italian"
+                           },
+                           {
+                               "name":  "Bhai Saheb",
+                               "rating":  4.5,
+                               "type":  "North Indian"
+                           }
+                       ],
+        "nearbyPlaces":  [
+                             "Lodhi Garden",
+                             "India International Centre",
+                             "Humayun\u0027s Tomb (3 km)"
+                         ],
+        "images":  [
+                       "/images/markets/khan-market-1.jpg",
+                       "/images/markets/khan-market-2.jpg"
+                   ],
+        "featured":  false,
+        "rating":  4.5,
+        "reviewCount":  7340
+    },
+    {
+        "id":  "21",
+        "name":  "Kamla Nagar Market",
+        "slug":  "kamla-nagar-market-delhi",
+        "tagline":  "Delhi University\u0027s favourite budget market â€” fashion, food and fun",
+        "city":  "Delhi",
+        "category":  [
+                         "Clothes",
+                         "Fashion",
+                         "Budget",
+                         "Street Food"
+                     ],
+        "famousFor":  [
+                          "Budget Clothes",
+                          "Street Food",
+                          "Accessories",
+                          "Stationery",
+                          "Student Shopping"
+                      ],
+        "priceRange":  "â‚¹",
+        "bestTimeToVisit":  "Afternoon (1PMâ€“6PM). Liveliest on weekends.",
+        "location":  "Kamla Nagar, North Delhi â€” 110007",
+        "directions":  {
+                           "nearestMetro":  "Vishwavidyalaya â€” Yellow Line (10 min walk or e-rickshaw)",
+                           "metroWalkTime":  "10 min walk or 3 min e-rickshaw",
+                           "nearestRailway":  "Delhi Sarai Rohilla Railway Station",
+                           "railwayDistance":  "3.5 km, 15 min auto",
+                           "nearestBusStop":  "Kamla Nagar Bus Stop",
+                           "busRoutes":  [
+                                             "DTC 601",
+                                             "DTC 620",
+                                             "DTC 605"
+                                         ],
+                           "autoRickshaw":  true,
+                           "tips":  "From Vishwavidyalaya Metro, e-rickshaws run directly to Kamla Nagar Market (â‚¹10). Very student-friendly â€” food prices are remarkably low."
+                       },
+        "crowd":  {
+                      "morning":  "Low",
+                      "afternoon":  "High",
+                      "evening":  "High"
+                  },
+        "experience":  {
+                           "behaviour":  "Friendly",
+                           "bargaining":  true,
+                           "familyFriendly":  true,
+                           "parking":  "Limited"
+                       },
+        "foodNearby":  [
+                           {
+                               "name":  "Chacha Di Hatti",
+                               "rating":  4.8,
+                               "type":  "Street Food"
+                           },
+                           {
+                               "name":  "Giani\u0027s Ice Cream",
+                               "rating":  4.4,
+                               "type":  "Desserts"
+                           },
+                           {
+                               "name":  "Momo King",
+                               "rating":  4.5,
+                               "type":  "Street Food"
+                           }
+                       ],
+        "nearbyPlaces":  [
+                             "Delhi University North Campus",
+                             "Mukherjee Nagar",
+                             "Civil Lines"
+                         ],
+        "images":  [
+                       "/images/markets/kamla-nagar-1.jpg",
+                       "/images/markets/kamla-nagar-2.jpg"
+                   ],
+        "featured":  false,
+        "rating":  4.3,
+        "reviewCount":  3890
+    },
+    {
+        "id":  "22",
+        "name":  "Connaught Place (CP)",
+        "slug":  "connaught-place-delhi",
+        "tagline":  "The iconic circular hub of Delhi â€” premium brands, cafes and great vibes",
+        "city":  "Delhi",
+        "category":  [
+                         "Mixed",
+                         "Premium",
+                         "Fashion",
+                         "Food"
+                     ],
+        "famousFor":  [
+                          "Brand Stores",
+                          "Restaurants \u0026 Cafes",
+                          "Street Shopping (inner lanes)",
+                          "Books"
+                      ],
+        "priceRange":  "â‚¹â‚¹â‚¹",
+        "bestTimeToVisit":  "Evenings (6PMâ€“9PM) or weekend afternoons",
+        "location":  "Connaught Place, New Delhi â€” 110001",
+        "directions":  {
+                           "nearestMetro":  "Rajiv Chowk â€” Blue \u0026 Yellow Line (the market encircles the metro station)",
+                           "metroWalkTime":  "1 min walk",
+                           "nearestRailway":  "New Delhi Railway Station",
+                           "railwayDistance":  "2.5 km, 12 min auto",
+                           "nearestBusStop":  "Connaught Place (Multiple bus stops on outer ring)",
+                           "busRoutes":  [
+                                             "DTC 505",
+                                             "DTC 610",
+                                             "DTC 901",
+                                             "DTC 460"
+                                         ],
+                           "autoRickshaw":  true,
+                           "tips":  "Rajiv Chowk Metro is literally at the centre of CP â€” the best option by far. The market is divided into Aâ€“N blocks arranged in concentric circles. Inner circle has premium shops; outer has affordable options."
+                       },
+        "crowd":  {
+                      "morning":  "Low",
+                      "afternoon":  "Medium",
+                      "evening":  "High"
+                  },
+        "experience":  {
+                           "behaviour":  "Friendly",
+                           "bargaining":  false,
+                           "familyFriendly":  true,
+                           "parking":  "Available"
+                       },
+        "foodNearby":  [
+                           {
+                               "name":  "Wenger\u0027s Bakery",
+                               "rating":  4.7,
+                               "type":  "Bakery"
+                           },
+                           {
+                               "name":  "Cafe Coffee Day CP",
+                               "rating":  4.2,
+                               "type":  "Cafe"
+                           },
+                           {
+                               "name":  "Farzi Cafe",
+                               "rating":  4.6,
+                               "type":  "Modern Indian"
+                           },
+                           {
+                               "name":  "Saravana Bhavan",
+                               "rating":  4.4,
+                               "type":  "South Indian"
+                           }
+                       ],
+        "nearbyPlaces":  [
+                             "Janpath",
+                             "Palika Bazaar",
+                             "Agrasen ki Baoli",
+                             "National Museum"
+                         ],
+        "images":  [
+                       "/images/markets/connaught-place-1.jpg",
+                       "/images/markets/connaught-place-2.jpg"
+                   ],
+        "featured":  true,
+        "rating":  4.4,
+        "reviewCount":  11200
+    },
+    {
+        "id":  "23",
+        "name":  "Sector 18 Market (Noida)",
+        "slug":  "sector-18-market-noida",
+        "tagline":  "Noida\u0027s most vibrant commercial hub â€” malls, street shops and great food",
+        "city":  "Noida",
+        "category":  [
+                         "Mixed",
+                         "Fashion",
+                         "Food",
+                         "Electronics"
+                     ],
+        "famousFor":  [
+                          "Street Shopping",
+                          "Restaurants",
+                          "Branded Stores",
+                          "Evening Hangouts"
+                      ],
+        "priceRange":  "â‚¹â‚¹",
+        "bestTimeToVisit":  "Evenings (5PMâ€“9PM) or weekend afternoons",
+        "location":  "Sector 18, Noida, Uttar Pradesh â€” 201301",
+        "directions":  {
+                           "nearestMetro":  "Noida Sector 18 â€” Blue Line (exit 2, market is 1 min walk)",
+                           "metroWalkTime":  "1 min walk",
+                           "nearestRailway":  "Ghaziabad Junction",
+                           "railwayDistance":  "12 km, 35 min auto",
+                           "nearestBusStop":  "Sector 18 Bus Stop",
+                           "busRoutes":  [
+                                             "UP Roadways Noida Route",
+                                             "DTC Noida Link"
+                                         ],
+                           "autoRickshaw":  true,
+                           "tips":  "Blue Line Metro directly connects Delhi to Noida Sector 18 â€” most convenient option from Delhi. E-rickshaws ferry people within the market area. Atta Market and Great India Place mall are adjacent."
+                       },
+        "crowd":  {
+                      "morning":  "Low",
+                      "afternoon":  "Medium",
+                      "evening":  "High"
+                  },
+        "experience":  {
+                           "behaviour":  "Friendly",
+                           "bargaining":  true,
+                           "familyFriendly":  true,
+                           "parking":  "Available"
+                       },
+        "foodNearby":  [
+                           {
+                               "name":  "Sector 18 Food Street",
+                               "rating":  4.4,
+                               "type":  "Street Food"
+                           },
+                           {
+                               "name":  "Barbeque Nation Noida",
+                               "rating":  4.5,
+                               "type":  "Grill"
+                           },
+                           {
+                               "name":  "Haldiram\u0027s Sector 18",
+                               "rating":  4.3,
+                               "type":  "Snacks"
+                           }
+                       ],
+        "nearbyPlaces":  [
+                             "Atta Market",
+                             "Great India Place Mall",
+                             "DLF Mall of India (5 km)"
+                         ],
+        "images":  [
+                       "/images/markets/sector-18-noida-1.jpg",
+                       "/images/markets/sector-18-noida-2.jpg"
+                   ],
+        "featured":  false,
+        "rating":  4.2,
+        "reviewCount":  3120
+    },
+    {
+        "id":  "24",
+        "name":  "Atta Market (Noida)",
+        "slug":  "atta-market-noida",
+        "tagline":  "Noida\u0027s everyday neighbourhood market for fresh produce and daily needs",
+        "city":  "Noida",
+        "category":  [
+                         "Grocery",
+                         "Vegetables",
+                         "Daily Needs",
+                         "Clothes"
+                     ],
+        "famousFor":  [
+                          "Fresh Vegetables",
+                          "Spices",
+                          "Daily Essentials",
+                          "Budget Shopping"
+                      ],
+        "priceRange":  "â‚¹",
+        "bestTimeToVisit":  "Morning (8AMâ€“11AM)",
+        "location":  "Atta Market, Sector 18, Noida â€” 201301",
+        "directions":  {
+                           "nearestMetro":  "Noida Sector 18 â€” Blue Line (3 min walk)",
+                           "metroWalkTime":  "3 min walk",
+                           "nearestRailway":  "Ghaziabad Junction",
+                           "railwayDistance":  "12 km, 35 min auto",
+                           "nearestBusStop":  "Atta Market Bus Stop",
+                           "busRoutes":  [
+                                             "UP Roadways Noida Sector 18"
+                                         ],
+                           "autoRickshaw":  true,
+                           "tips":  "Adjacent to Sector 18 Metro. Walk out and turn left â€” Atta Market is next to the main market complex. E-rickshaws from the station entrance."
+                       },
+        "crowd":  {
+                      "morning":  "High",
+                      "afternoon":  "Medium",
+                      "evening":  "Low"
+                  },
+        "experience":  {
+                           "behaviour":  "Friendly",
+                           "bargaining":  true,
+                           "familyFriendly":  true,
+                           "parking":  "Limited"
+                       },
+        "foodNearby":  [
+                           {
+                               "name":  "Sector 18 Chaat Corner",
+                               "rating":  4.5,
+                               "type":  "Street Food"
+                           },
+                           {
+                               "name":  "Morning Poori Wala",
+                               "rating":  4.3,
+                               "type":  "Street Food"
+                           }
+                       ],
+        "nearbyPlaces":  [
+                             "Sector 18 Market",
+                             "Great India Place Mall",
+                             "Noida Golf Course"
+                         ],
+        "images":  [
+                       "/images/markets/atta-market-noida-1.jpg",
+                       "/images/markets/atta-market-noida-2.jpg"
+                   ],
+        "featured":  false,
+        "rating":  4.0,
+        "reviewCount":  1890
+    },
+    {
+        "id":  "25",
+        "name":  "Cyber Hub (Gurugram)",
+        "slug":  "cyber-hub-gurugram",
+        "tagline":  "Gurgaon\u0027s premium F\u0026B and retail destination â€” rooftop bars, global cuisine",
+        "city":  "Gurgaon",
+        "category":  [
+                         "Premium",
+                         "Food",
+                         "Cafe",
+                         "Fashion"
+                     ],
+        "famousFor":  [
+                          "Fine Dining",
+                          "Rooftop Bars",
+                          "Craft Beer",
+                          "Premium Brands",
+                          "Weekend Brunches"
+                      ],
+        "priceRange":  "â‚¹â‚¹â‚¹",
+        "bestTimeToVisit":  "Evenings (7PMâ€“11PM) on weekends",
+        "location":  "DLF Cyber City, Phase 2, Gurugram, Haryana â€” 122002",
+        "directions":  {
+                           "nearestMetro":  "Cyber City â€” Rapid Metro (direct metro station inside the complex)",
+                           "metroWalkTime":  "2 min walk",
+                           "nearestRailway":  "Gurgaon Railway Station",
+                           "railwayDistance":  "5 km, 20 min cab",
+                           "nearestBusStop":  "Cyber City Bus Stop",
+                           "busRoutes":  [
+                                             "Haryana Roadways Gurgaon Routes",
+                                             "HRTC AC Buses"
+                                         ],
+                           "autoRickshaw":  true,
+                           "tips":  "Rapid Metro (Cyber City station) is inside the DLF Cyber City complex â€” the easiest option. From Delhi, take Yellow Line to HUDA City Centre and switch to Rapid Metro. Parking is available but expensive on weekends."
+                       },
+        "crowd":  {
+                      "morning":  "Low",
+                      "afternoon":  "Medium",
+                      "evening":  "High"
+                  },
+        "experience":  {
+                           "behaviour":  "Friendly",
+                           "bargaining":  false,
+                           "familyFriendly":  true,
+                           "parking":  "Available"
+                       },
+        "foodNearby":  [
+                           {
+                               "name":  "Farzi Cafe",
+                               "rating":  4.7,
+                               "type":  "Modern Indian"
+                           },
+                           {
+                               "name":  "The Beer Cafe",
+                               "rating":  4.5,
+                               "type":  "Bar"
+                           },
+                           {
+                               "name":  "Molecule Air Bar",
+                               "rating":  4.4,
+                               "type":  "Bar \u0026 Grill"
+                           },
+                           {
+                               "name":  "Chaayos",
+                               "rating":  4.3,
+                               "type":  "Cafe"
+                           }
+                       ],
+        "nearbyPlaces":  [
+                             "DLF Cyber City",
+                             "Leisure Valley Park",
+                             "Kingdom of Dreams (8 km)"
+                         ],
+        "images":  [
+                       "/images/markets/cyber-hub-1.jpg",
+                       "/images/markets/cyber-hub-2.jpg"
+                   ],
+        "featured":  true,
+        "rating":  4.5,
+        "reviewCount":  8900
+    },
+    {
+        "id":  "26",
+        "name":  "Sadar Bazaar (Gurugram)",
+        "slug":  "sadar-bazaar-gurugram",
+        "tagline":  "Old Gurgaon\u0027s traditional market â€” authentic, affordable and local",
+        "city":  "Gurgaon",
+        "category":  [
+                         "Mixed",
+                         "Clothes",
+                         "Grocery",
+                         "Traditional"
+                     ],
+        "famousFor":  [
+                          "Traditional Clothes",
+                          "Spices",
+                          "Daily Needs",
+                          "Local Handicrafts"
+                      ],
+        "priceRange":  "â‚¹",
+        "bestTimeToVisit":  "Morning (9AMâ€“12PM)",
+        "location":  "Sadar Bazaar, Old Gurgaon, Haryana â€” 122001",
+        "directions":  {
+                           "nearestMetro":  "Guru Dronacharya â€” Yellow Line (2 km, 10 min auto)",
+                           "metroWalkTime":  "Not walkable â€” take 10 min auto from metro",
+                           "nearestRailway":  "Gurgaon Railway Station",
+                           "railwayDistance":  "1.5 km, 8 min auto",
+                           "nearestBusStop":  "Sadar Bazaar Bus Stand",
+                           "busRoutes":  [
+                                             "Haryana Roadways Local Routes",
+                                             "HRTC City Buses"
+                                         ],
+                           "autoRickshaw":  true,
+                           "tips":  "Easiest from Gurgaon Railway Station â€” 8 min auto. From Metro, get off at Guru Dronacharya and take an auto to \u0027Old Gurgaon Sadar Bazaar\u0027."
+                       },
+        "crowd":  {
+                      "morning":  "High",
+                      "afternoon":  "Medium",
+                      "evening":  "Medium"
+                  },
+        "experience":  {
+                           "behaviour":  "Friendly",
+                           "bargaining":  true,
+                           "familyFriendly":  true,
+                           "parking":  "Limited"
+                       },
+        "foodNearby":  [
+                           {
+                               "name":  "Old Gurgaon Chaat",
+                               "rating":  4.5,
+                               "type":  "Street Food"
+                           },
+                           {
+                               "name":  "Sharma Dhaba",
+                               "rating":  4.2,
+                               "type":  "Dhaba"
+                           }
+                       ],
+        "nearbyPlaces":  [
+                             "Gurgaon Railway Station",
+                             "Sheetla Mata Mandir",
+                             "Leisure Valley Park (4 km)"
+                         ],
+        "images":  [
+                       "/images/markets/sadar-bazaar-gurugram-1.jpg",
+                       "/images/markets/sadar-bazaar-gurugram-2.jpg"
+                   ],
+        "featured":  false,
+        "rating":  4.0,
+        "reviewCount":  1420
+    },
+    {
+        "id":  "27",
+        "name":  "Bhagirathi Palace (Batti Market)",
+        "slug":  "bhagirathi-palace-delhi",
+        "tagline":  "Asia\u0027s largest electrical goods wholesale market â€” trade only",
+        "city":  "Delhi",
+        "category":  [
+                         "Electronics",
+                         "Electrical",
+                         "Wholesale"
+                     ],
+        "famousFor":  [
+                          "Electrical Goods",
+                          "Wires \u0026 Cables",
+                          "Switches",
+                          "Wholesale Electrical"
+                      ],
+        "priceRange":  "â‚¹",
+        "bestTimeToVisit":  "Weekday mornings (9AMâ€“12PM). Closed on Sundays.",
+        "location":  "Chandni Chowk, Near Fatehpuri, Old Delhi â€” 110006",
+        "directions":  {
+                           "nearestMetro":  "Chandni Chowk â€” Yellow Line (7 min walk west toward Fatehpuri)",
+                           "metroWalkTime":  "7 min walk",
+                           "nearestRailway":  "Old Delhi Railway Station",
+                           "railwayDistance":  "1 km, 8 min cycle-rickshaw",
+                           "nearestBusStop":  "Fatehpuri Bus Stop",
+                           "busRoutes":  [
+                                             "DTC 901",
+                                             "DTC 903"
+                                         ],
+                           "autoRickshaw":  true,
+                           "tips":  "Best reached from Chandni Chowk Metro. Walk west on the main road toward Fatehpuri Mosque. The electrical market lanes start just before the Mosque. Wholesale quantities usually required."
+                       },
+        "crowd":  {
+                      "morning":  "High",
+                      "afternoon":  "High",
+                      "evening":  "Low"
+                  },
+        "experience":  {
+                           "behaviour":  "Average",
+                           "bargaining":  true,
+                           "familyFriendly":  false,
+                           "parking":  "None"
+                       },
+        "foodNearby":  [
+                           {
+                               "name":  "Paranthe Wali Gali",
+                               "rating":  4.7,
+                               "type":  "Street Food"
+                           },
+                           {
+                               "name":  "Fatehpuri Mithai",
+                               "rating":  4.5,
+                               "type":  "Sweets"
+                           }
+                       ],
+        "nearbyPlaces":  [
+                             "Fatehpuri Masjid",
+                             "Chandni Chowk Market",
+                             "Sis Ganj Gurudwara"
+                         ],
+        "images":  [
+                       "/images/markets/bhagirathi-palace-1.jpg",
+                       "/images/markets/bhagirathi-palace-2.jpg"
+                   ],
+        "featured":  false,
+        "rating":  4.0,
+        "reviewCount":  2340
+    },
+    {
+        "id":  "28",
+        "name":  "Vaishali Market (Ghaziabad)",
+        "slug":  "vaishali-market-ghaziabad",
+        "tagline":  "Ghaziabad\u0027s well-planned commercial hub for everyday and lifestyle needs",
+        "city":  "Ghaziabad",
+        "category":  [
+                         "Mixed",
+                         "Clothes",
+                         "Food",
+                         "Daily Needs"
+                     ],
+        "famousFor":  [
+                          "Clothes",
+                          "Electronics",
+                          "Food Court",
+                          "Everyday Essentials"
+                      ],
+        "priceRange":  "â‚¹â‚¹",
+        "bestTimeToVisit":  "Evening (5PMâ€“8PM)",
+        "location":  "Vaishali Sector 4, Ghaziabad, Uttar Pradesh â€” 201010",
+        "directions":  {
+                           "nearestMetro":  "Vaishali â€” Blue Line (the market is 3 min walk from station)",
+                           "metroWalkTime":  "3 min walk",
+                           "nearestRailway":  "Ghaziabad Junction",
+                           "railwayDistance":  "6 km, 25 min auto",
+                           "nearestBusStop":  "Vaishali Metro Bus Stop",
+                           "busRoutes":  [
+                                             "UP Roadways GZB-Delhi",
+                                             "Local Ghaziabad Routes"
+                                         ],
+                           "autoRickshaw":  true,
+                           "tips":  "Blue Line Metro terminates at Vaishali â€” very easy from Delhi. Market is walkable from the metro exit. E-rickshaws available for deeper parts of the sector."
+                       },
+        "crowd":  {
+                      "morning":  "Low",
+                      "afternoon":  "Medium",
+                      "evening":  "High"
+                  },
+        "experience":  {
+                           "behaviour":  "Friendly",
+                           "bargaining":  true,
+                           "familyFriendly":  true,
+                           "parking":  "Available"
+                       },
+        "foodNearby":  [
+                           {
+                               "name":  "Haldiram\u0027s Vaishali",
+                               "rating":  4.5,
+                               "type":  "Snacks \u0026 Sweets"
+                           },
+                           {
+                               "name":  "Bikanervala",
+                               "rating":  4.3,
+                               "type":  "North Indian"
+                           },
+                           {
+                               "name":  "Vaishali Food Court",
+                               "rating":  4.1,
+                               "type":  "Mixed"
+                           }
+                       ],
+        "nearbyPlaces":  [
+                             "Wave Mall Vaishali",
+                             "Shipra Mall (5 km)",
+                             "Hindon River Bank"
+                         ],
+        "images":  [
+                       "/images/markets/vaishali-market-1.jpg",
+                       "/images/markets/vaishali-market-2.jpg"
+                   ],
+        "featured":  false,
+        "rating":  4.1,
+        "reviewCount":  2010
+    }
+]

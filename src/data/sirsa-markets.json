@@ -1,0 +1,316 @@
+[
+  {
+    "id": "1",
+    "name": "Sirsa Main Market",
+    "slug": "sirsa-main-market",
+    "tagline": "The heart of Sirsa's trade — everything under one sky",
+    "city": "Sirsa",
+    "category": ["Mixed", "Electronics", "Clothes"],
+    "famousFor": ["Electronics", "Clothes", "Daily Essentials"],
+    "priceRange": "₹₹",
+    "bestTimeToVisit": "Morning (9AM–11AM) or Evening (5PM–7PM)",
+    "location": "Near Clock Tower, Sirsa",
+    "directions": {
+      "nearestRailway": "Sirsa Railway Station",
+      "railwayDistance": "1.5 km, 10 min auto",
+      "nearestBusStop": "Clock Tower Bus Stop",
+      "busRoutes": ["Haryana Roadways 56", "Local Route 12"],
+      "autoRickshaw": true,
+      "tips": "Autos readily available from Sirsa Railway Station. Ask for 'Clock Tower' — every driver knows it."
+    },
+    "crowd": { "morning": "Medium", "afternoon": "High", "evening": "High" },
+    "experience": { "behaviour": "Friendly", "bargaining": true, "familyFriendly": true, "parking": "Limited" },
+    "foodNearby": [
+      { "name": "Annapurna Dhaba", "rating": 4.3, "type": "North Indian" },
+      { "name": "Sharma Chaat Corner", "rating": 4.6, "type": "Street Food" },
+      { "name": "Bake & Brew Cafe", "rating": 4.1, "type": "Cafe" }
+    ],
+    "nearbyPlaces": ["Sirsa Clock Tower", "Gurudwara Choti Sangat", "Bhagwan Parshuram Park"],
+    "images": ["/images/markets/sirsa-main-market-1.jpg", "/images/markets/sirsa-main-market-2.jpg"],
+    "featured": true,
+    "rating": 4.2,
+    "reviewCount": 318
+  },
+  {
+    "id": "2",
+    "name": "Rania Bazaar",
+    "slug": "rania-bazaar",
+    "tagline": "Sirsa's best-kept secret for fashion at unbeatable prices",
+    "city": "Sirsa",
+    "category": ["Clothes", "Shoes", "Fashion"],
+    "famousFor": ["Clothes", "Shoes", "Accessories"],
+    "priceRange": "₹",
+    "bestTimeToVisit": "Morning (10AM–12PM)",
+    "location": "Rania Road, Near Bus Stand, Sirsa",
+    "directions": {
+      "nearestRailway": "Sirsa Railway Station",
+      "railwayDistance": "3 km, 15 min auto",
+      "nearestBusStop": "Rania Bus Stand",
+      "busRoutes": ["Haryana Roadways Rania Route"],
+      "autoRickshaw": true,
+      "tips": "Shared autos run on the Sirsa–Rania route. Alight at 'Rania Chowk' and the bazaar is a 2-min walk."
+    },
+    "crowd": { "morning": "Low", "afternoon": "Medium", "evening": "High" },
+    "experience": { "behaviour": "Friendly", "bargaining": true, "familyFriendly": true, "parking": "Available" },
+    "foodNearby": [
+      { "name": "Sharma Chaat", "rating": 4.5, "type": "Street Food" },
+      { "name": "Punjabi Tadka", "rating": 4.0, "type": "North Indian" }
+    ],
+    "nearbyPlaces": ["City Park", "Shiva Temple", "Rania Bus Stand"],
+    "images": ["/images/markets/rania-bazaar-1.jpg", "/images/markets/rania-bazaar-2.jpg"],
+    "featured": true,
+    "rating": 4.4,
+    "reviewCount": 214
+  },
+  {
+    "id": "3",
+    "name": "Grain Market (Anaj Mandi)",
+    "slug": "anaj-mandi-sirsa",
+    "tagline": "Where Haryana's agricultural bounty meets everyday life",
+    "city": "Sirsa",
+    "category": ["Grocery", "Spices", "Wholesale"],
+    "famousFor": ["Spices", "Grains", "Pulses", "Wholesale Shopping"],
+    "priceRange": "₹",
+    "bestTimeToVisit": "Early Morning (7AM–10AM)",
+    "location": "Anaj Mandi Road, Sirsa",
+    "directions": {
+      "nearestRailway": "Sirsa Railway Station",
+      "railwayDistance": "2 km, 12 min auto",
+      "nearestBusStop": "Anaj Mandi Bus Stop",
+      "busRoutes": ["Local City Route 4"],
+      "autoRickshaw": true,
+      "tips": "Tell the auto driver 'Anaj Mandi'. Busy in early mornings — arrive by 8AM for best experience."
+    },
+    "crowd": { "morning": "High", "afternoon": "Medium", "evening": "Low" },
+    "experience": { "behaviour": "Average", "bargaining": true, "familyFriendly": false, "parking": "Available" },
+    "foodNearby": [
+      { "name": "Mandi Wala Dhaba", "rating": 4.2, "type": "Dhaba" },
+      { "name": "Early Bird Tea Stall", "rating": 4.0, "type": "Tea & Snacks" }
+    ],
+    "nearbyPlaces": ["Sirsa Bus Stand", "Agricultural Office", "Grain Godowns"],
+    "images": ["/images/markets/anaj-mandi-1.jpg", "/images/markets/anaj-mandi-2.jpg"],
+    "featured": false,
+    "rating": 3.9,
+    "reviewCount": 142
+  },
+  {
+    "id": "4",
+    "name": "Sabzi Mandi (Vegetable Market)",
+    "slug": "sabzi-mandi-sirsa",
+    "tagline": "Fresh from the farm to your plate every single morning",
+    "city": "Sirsa",
+    "category": ["Grocery", "Vegetables", "Daily Needs"],
+    "famousFor": ["Fresh Vegetables", "Fruits", "Daily Essentials"],
+    "priceRange": "₹",
+    "bestTimeToVisit": "Early Morning (6AM–9AM)",
+    "location": "Near Old Bus Stand, Sirsa",
+    "directions": {
+      "nearestRailway": "Sirsa Railway Station",
+      "railwayDistance": "1 km, 7 min auto",
+      "nearestBusStop": "Old Bus Stand Sirsa",
+      "busRoutes": ["Haryana Roadways Multiple Routes"],
+      "autoRickshaw": true,
+      "tips": "Very close to the Old Bus Stand. If arriving by train, take an auto to 'Old Bus Stand' and walk 3 mins."
+    },
+    "crowd": { "morning": "High", "afternoon": "Low", "evening": "Medium" },
+    "experience": { "behaviour": "Friendly", "bargaining": true, "familyFriendly": true, "parking": "Limited" },
+    "foodNearby": [
+      { "name": "Puri Sabji Wala", "rating": 4.7, "type": "Street Food" },
+      { "name": "Morning Tea Corner", "rating": 4.3, "type": "Tea & Snacks" }
+    ],
+    "nearbyPlaces": ["Old Bus Stand", "Hanuman Temple", "Public Library"],
+    "images": ["/images/markets/sabzi-mandi-1.jpg", "/images/markets/sabzi-mandi-2.jpg"],
+    "featured": true,
+    "rating": 4.3,
+    "reviewCount": 267
+  },
+  {
+    "id": "5",
+    "name": "Hanumangarh Road Market",
+    "slug": "hanumangarh-road-market",
+    "tagline": "Hardware, tools and building supplies for every project",
+    "city": "Sirsa",
+    "category": ["Hardware", "Tools", "Construction"],
+    "famousFor": ["Hardware", "Tools", "Plumbing", "Electrical Goods"],
+    "priceRange": "₹₹",
+    "bestTimeToVisit": "Morning (9AM–12PM)",
+    "location": "Hanumangarh Road, Sirsa",
+    "directions": {
+      "nearestRailway": "Sirsa Railway Station",
+      "railwayDistance": "4 km, 20 min auto",
+      "nearestBusStop": "Hanumangarh Road Chowk",
+      "busRoutes": ["Haryana Roadways Hanumangarh Route"],
+      "autoRickshaw": true,
+      "tips": "Autos are the easiest option from the city centre. Ask for 'Hanumangarh Road Market'."
+    },
+    "crowd": { "morning": "Medium", "afternoon": "Medium", "evening": "Low" },
+    "experience": { "behaviour": "Average", "bargaining": false, "familyFriendly": false, "parking": "Available" },
+    "foodNearby": [
+      { "name": "Roadside Dhaba No. 1", "rating": 3.9, "type": "Dhaba" },
+      { "name": "Cold Drink Corner", "rating": 3.7, "type": "Beverages" }
+    ],
+    "nearbyPlaces": ["PWD Office", "Regional Transport Office", "Highway NH9"],
+    "images": ["/images/markets/hanumangarh-road-1.jpg", "/images/markets/hanumangarh-road-2.jpg"],
+    "featured": false,
+    "rating": 3.7,
+    "reviewCount": 98
+  },
+  {
+    "id": "6",
+    "name": "Dhobiana Bazaar",
+    "slug": "dhobiana-bazaar",
+    "tagline": "Sirsa's legendary street food & budget shopping destination",
+    "city": "Sirsa",
+    "category": ["Street Food", "Budget", "Clothes"],
+    "famousFor": ["Street Food", "Budget Clothes", "Snacks"],
+    "priceRange": "₹",
+    "bestTimeToVisit": "Evening (5PM–9PM)",
+    "location": "Dhobiana Mohalla, Sirsa",
+    "directions": {
+      "nearestRailway": "Sirsa Railway Station",
+      "railwayDistance": "1.8 km, 10 min auto",
+      "nearestBusStop": "Dhobiana Chowk",
+      "busRoutes": ["Local City Route 7"],
+      "autoRickshaw": true,
+      "tips": "Ask for 'Dhobiana Mohalla' — a well-known locality. No parking nearby so prefer auto or on foot."
+    },
+    "crowd": { "morning": "Low", "afternoon": "Low", "evening": "High" },
+    "experience": { "behaviour": "Friendly", "bargaining": true, "familyFriendly": true, "parking": "None" },
+    "foodNearby": [
+      { "name": "Famous Chhole Bhature", "rating": 4.8, "type": "Street Food" },
+      { "name": "Jalebi Wala", "rating": 4.7, "type": "Sweets" },
+      { "name": "Golgappa King", "rating": 4.6, "type": "Street Food" }
+    ],
+    "nearbyPlaces": ["Dhobi Ghat", "Local Park", "Community Centre"],
+    "images": ["/images/markets/dhobiana-bazaar-1.jpg", "/images/markets/dhobiana-bazaar-2.jpg"],
+    "featured": true,
+    "rating": 4.6,
+    "reviewCount": 412
+  },
+  {
+    "id": "7",
+    "name": "Sector 17 Fashion Market",
+    "slug": "sector-17-fashion-market",
+    "tagline": "Modern fashion, trendy accessories, and lifestyle brands",
+    "city": "Sirsa",
+    "category": ["Fashion", "Accessories", "Clothes"],
+    "famousFor": ["Branded Clothes", "Accessories", "Footwear", "Cosmetics"],
+    "priceRange": "₹₹₹",
+    "bestTimeToVisit": "Afternoon (2PM–6PM) or Weekend",
+    "location": "Sector 17, Sirsa",
+    "directions": {
+      "nearestRailway": "Sirsa Railway Station",
+      "railwayDistance": "3.5 km, 18 min auto",
+      "nearestBusStop": "Sector 17 Gate",
+      "busRoutes": ["Local Sector Route"],
+      "autoRickshaw": true,
+      "tips": "Autos available from city centre. Tell driver 'Sector 17 Market'. Parking is available on weekdays."
+    },
+    "crowd": { "morning": "Low", "afternoon": "High", "evening": "High" },
+    "experience": { "behaviour": "Friendly", "bargaining": false, "familyFriendly": true, "parking": "Available" },
+    "foodNearby": [
+      { "name": "Cafe Artisan", "rating": 4.5, "type": "Cafe" },
+      { "name": "Pizza Hub", "rating": 4.2, "type": "Fast Food" },
+      { "name": "Juice Junction", "rating": 4.4, "type": "Beverages" }
+    ],
+    "nearbyPlaces": ["City Mall", "Sports Complex", "Sector Park"],
+    "images": ["/images/markets/sector-17-1.jpg", "/images/markets/sector-17-2.jpg"],
+    "featured": false,
+    "rating": 4.1,
+    "reviewCount": 183
+  },
+  {
+    "id": "8",
+    "name": "Jewelry & Gold Market",
+    "slug": "jewelry-gold-market-sirsa",
+    "tagline": "Timeless gold, silver and precious jewellery since generations",
+    "city": "Sirsa",
+    "category": ["Jewelry", "Gold", "Silver"],
+    "famousFor": ["Gold Jewelry", "Silver Items", "Bridal Sets", "Precious Stones"],
+    "priceRange": "₹₹₹",
+    "bestTimeToVisit": "Morning (10AM–1PM) on weekdays",
+    "location": "Near Ganesh Chowk, Sirsa",
+    "directions": {
+      "nearestRailway": "Sirsa Railway Station",
+      "railwayDistance": "2 km, 12 min auto",
+      "nearestBusStop": "Ganesh Chowk Bus Stop",
+      "busRoutes": ["Local City Route 3"],
+      "autoRickshaw": true,
+      "tips": "Ask for 'Ganesh Chowk' — a central landmark. The jewelry lane is 1 min walk from the chowk."
+    },
+    "crowd": { "morning": "Medium", "afternoon": "High", "evening": "Medium" },
+    "experience": { "behaviour": "Friendly", "bargaining": false, "familyFriendly": true, "parking": "Limited" },
+    "foodNearby": [
+      { "name": "Mithai Wala", "rating": 4.6, "type": "Sweets" },
+      { "name": "Sharma Restaurant", "rating": 4.3, "type": "North Indian" }
+    ],
+    "nearbyPlaces": ["Ganesh Chowk", "Old Fort Area", "Heritage Haveli"],
+    "images": ["/images/markets/jewelry-market-1.jpg", "/images/markets/jewelry-market-2.jpg"],
+    "featured": false,
+    "rating": 4.5,
+    "reviewCount": 156
+  },
+  {
+    "id": "9",
+    "name": "Electronics Hub",
+    "slug": "electronics-hub-sirsa",
+    "tagline": "Gadgets, mobile phones and tech accessories at best prices",
+    "city": "Sirsa",
+    "category": ["Electronics", "Mobile", "Gadgets"],
+    "famousFor": ["Mobile Phones", "Laptops", "Accessories", "Repairs"],
+    "priceRange": "₹₹",
+    "bestTimeToVisit": "Afternoon (11AM–3PM)",
+    "location": "Subhash Nagar Road, Sirsa",
+    "directions": {
+      "nearestRailway": "Sirsa Railway Station",
+      "railwayDistance": "2.5 km, 15 min auto",
+      "nearestBusStop": "Subhash Nagar Chowk",
+      "busRoutes": ["Local City Route 5"],
+      "autoRickshaw": true,
+      "tips": "Tell the auto 'Subhash Nagar Electronics Market'. Multiple repair shops also available here."
+    },
+    "crowd": { "morning": "Low", "afternoon": "High", "evening": "Medium" },
+    "experience": { "behaviour": "Average", "bargaining": false, "familyFriendly": true, "parking": "Limited" },
+    "foodNearby": [
+      { "name": "Tech Cafe", "rating": 4.0, "type": "Cafe" },
+      { "name": "Quick Bites", "rating": 3.8, "type": "Fast Food" }
+    ],
+    "nearbyPlaces": ["Subhash Nagar Park", "Government ITI", "Police Station"],
+    "images": ["/images/markets/electronics-hub-1.jpg", "/images/markets/electronics-hub-2.jpg"],
+    "featured": false,
+    "rating": 3.8,
+    "reviewCount": 129
+  },
+  {
+    "id": "10",
+    "name": "Purani Dilli Bazaar (Sirsa)",
+    "slug": "purani-dilli-bazaar-sirsa",
+    "tagline": "Old world charm meets everyday needs in the old city lanes",
+    "city": "Sirsa",
+    "category": ["Mixed", "Street Food", "Traditional"],
+    "famousFor": ["Traditional Handicrafts", "Spices", "Street Food", "Textiles"],
+    "priceRange": "₹₹",
+    "bestTimeToVisit": "Morning (9AM–12PM)",
+    "location": "Old City Area, Sirsa",
+    "directions": {
+      "nearestRailway": "Sirsa Railway Station",
+      "railwayDistance": "1.2 km, 8 min auto",
+      "nearestBusStop": "Old City Chowk",
+      "busRoutes": ["Local City Route 2", "Local City Route 8"],
+      "autoRickshaw": true,
+      "tips": "Very close to the railway station. Walk or take a short auto to 'Old City Chowk'. Narrow lanes — leave vehicles outside."
+    },
+    "crowd": { "morning": "High", "afternoon": "Medium", "evening": "High" },
+    "experience": { "behaviour": "Friendly", "bargaining": true, "familyFriendly": true, "parking": "None" },
+    "foodNearby": [
+      { "name": "Old City Halwai", "rating": 4.8, "type": "Sweets" },
+      { "name": "Lassi Shop 1950", "rating": 4.9, "type": "Beverages" },
+      { "name": "Parathe Wali Gali", "rating": 4.7, "type": "Street Food" }
+    ],
+    "nearbyPlaces": ["Jama Masjid Area", "Heritage Clock", "Old Haveli Tours"],
+    "images": ["/images/markets/purani-dilli-bazaar-1.jpg", "/images/markets/purani-dilli-bazaar-2.jpg"],
+    "featured": true,
+    "rating": 4.7,
+    "reviewCount": 534
+  }
+]
