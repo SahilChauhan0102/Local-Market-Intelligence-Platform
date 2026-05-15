@@ -1,7 +1,15 @@
 import marketsData from '@/data/markets.json';
+import sirsaStories from '@/data/stories-sirsa';
+import delhiStories from '@/data/stories-delhi';
+import ncrStories from '@/data/stories-ncr';
 import type { Market, City } from '@/types/market';
 
-const markets: Market[] = marketsData as Market[];
+const allStories = { ...sirsaStories, ...delhiStories, ...ncrStories };
+
+const markets: Market[] = (marketsData as Market[]).map(market => ({
+  ...market,
+  story: allStories[market.slug]
+}));
 
 export async function getAllMarkets(): Promise<Market[]> {
   return markets;

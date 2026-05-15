@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { getMarketBySlug, getAllSlugs } from '@/lib/markets';
 import ImageGallery from '@/components/detail/ImageGallery';
 import MarketOverview from '@/components/detail/MarketOverview';
+import MarketStoryWidget from '@/components/detail/MarketStoryWidget';
 import CrowdLevelWidget from '@/components/detail/CrowdLevelWidget';
 import ExperienceWidget from '@/components/detail/ExperienceWidget';
 import FoodNearbyWidget from '@/components/detail/FoodNearbyWidget';
@@ -73,10 +74,21 @@ export default async function MarketDetailPage({ params }: Props) {
         </div>
       </div>
 
-      {/* Image Gallery */}
-      <div className="mb-6">
-        <ImageGallery market={market} />
-      </div>
+      {/* Hero Section: Story & Gallery */}
+      {market.story ? (
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 mb-6">
+          <div className="lg:col-span-7">
+            <MarketStoryWidget market={market} />
+          </div>
+          <div className="lg:col-span-5">
+            <ImageGallery market={market} />
+          </div>
+        </div>
+      ) : (
+        <div className="mb-6">
+          <ImageGallery market={market} />
+        </div>
+      )}
 
       {/* Main 2-col layout */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">

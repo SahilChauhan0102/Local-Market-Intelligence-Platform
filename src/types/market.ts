@@ -34,6 +34,13 @@ export interface Directions {
   tips?: string;                 // Extra navigation tip
 }
 
+export interface MarketStory {
+  established?: string;          // e.g. "1650 AD" or "Early 1900s"
+  famousShops?: string[];        // Notable shops/vendors
+  funFacts?: string[];           // Interesting trivia
+  body: string;                  // 200-250 word blog content
+}
+
 export interface Market {
   id: string;
   name: string;
@@ -54,4 +61,5 @@ export interface Market {
   featured: boolean;
   rating: number;
   reviewCount: number;
+  story?: MarketStory;
 }
