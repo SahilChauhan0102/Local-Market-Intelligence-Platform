@@ -1,64 +1,78 @@
-import marketsData from '@/data/markets.json';
-import sirsaStories from '@/data/stories-sirsa';
-import delhiStories from '@/data/stories-delhi';
-import ncrStories from '@/data/stories-ncr';
+import connectToDatabase from './mongodb';
+import MarketModel, { IMarketDocument } from '../models/Market';
 import type { Market, City } from '@/types/market';
 
-const allStories = { ...sirsaStories, ...delhiStories, ...ncrStories };
-
-const markets: Market[] = (marketsData as Market[]).map(market => ({
-  ...market,
-  story: allStories[market.slug]
-}));
+/**
+ * Helper to convert a Mongoose document to a plain JS object
+ * matching our Market interface.
+ */
+function serializeMarket(doc: any): Market {
+  // If it's a Mongoose document, convert to JSON
+  const obj = typeof doc.toJSON === 'function' ? doc.toJSON() : { ...doc };
+  
+  // Ensure string ID
+  obj.id = obj.id || obj._id?.toString();
+  
+  // Remove MongoDB specific fields
+  delete obj._id;
+  delete obj.__v;
+  delete obj.createdAt;
+  delete obj.updatedAt;
+  
+  return obj as unknown as Market;
+}
 
 export async function getAllMarkets(): Promise<Market[]> {
-  return markets;
+  await connectToDatabase();
+  const markets = await MarketModel.find({}).lean() as IMarketDocument[];
+  return markets.map(serializeMarket);
 }
 
 export async function getMarketBySlug(slug: string): Promise<Market | null> {
-  return markets.find((m) => m.slug === slug) ?? null;
+  await connectToDatabase();
+  const market = await MarketModel.findOne({ slug }).lean() as IMarketDocument | null;
+  if (!market) return null;
+  return serializeMarket(market);
 }
 
 export async function getFeaturedMarkets(): Promise<Market[]> {
-  return markets.filter((m) => m.featured);
+  await connectToDatabase();
+  const markets = await MarketModel.find({ featured: true }).lean() as IMarketDocument[];
+  return markets.map(serializeMarket);
 }
 
 export async function getMarketsByCity(city: City): Promise<Market[]> {
-  return markets.filter((m) => m.city === city);
+  await connectToDatabase();
+  const markets = await MarketModel.find({ city }).lean() as IMarketDocument[];
+  return markets.map(serializeMarket);
 }
 
 export async function getMarketsByCategory(category: string): Promise<Market[]> {
-  return markets.filter((m) =>
-    m.category.some((c) => c.toLowerCase() === category.toLowerCase())
-  );
+  await connectToDatabase();
+  // MongoDB regex search or simple array search. Mongoose handles arrays natively:
+  // find({ category: category }) matches if the array contains the category.
+  const markets = await MarketModel.find({ 
+    category: { $regex: new RegExp(`^${category}$`, 'i') } 
+  }).lean() as IMarketDocument[];
+  return markets.map(serializeMarket);
 }
 
-export function searchMarketsClient(query: string, marketList: Market[]): Market[] {
-  const q = query.toLowerCase().trim();
-  if (!q) return marketList;
-  return marketList.filter(
-    (m) =>
-      m.name.toLowerCase().includes(q) ||
-      m.famousFor.some((f) => f.toLowerCase().includes(q)) ||
-      m.category.some((c) => c.toLowerCase().includes(q)) ||
-      m.tagline.toLowerCase().includes(q) ||
-      m.city.toLowerCase().includes(q) ||
-      m.location.toLowerCase().includes(q)
-  );
-}
+
 
 export async function getAllCategories(): Promise<string[]> {
-  const cats = new Set<string>();
-  markets.forEach((m) => m.category.forEach((c) => cats.add(c)));
-  return Array.from(cats).sort();
+  await connectToDatabase();
+  const categories = await MarketModel.distinct('category');
+  return categories.sort();
 }
 
 export async function getAllCities(): Promise<City[]> {
-  const cities = new Set<City>();
-  markets.forEach((m) => cities.add(m.city));
-  return Array.from(cities).sort() as City[];
+  await connectToDatabase();
+  const cities = await MarketModel.distinct('city');
+  return cities.sort() as City[];
 }
 
 export async function getAllSlugs(): Promise<string[]> {
-  return markets.map((m) => m.slug);
+  await connectToDatabase();
+  const slugs = await MarketModel.distinct('slug');
+  return slugs;
 }

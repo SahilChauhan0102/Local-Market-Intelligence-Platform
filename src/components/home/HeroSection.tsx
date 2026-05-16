@@ -28,9 +28,12 @@ export default function HeroSection() {
 
       <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 text-center">
         {/* Eyebrow */}
-        <div className="inline-flex items-center gap-2 bg-white/10 border border-white/20 text-gray-200 text-xs font-medium px-3 py-1.5 rounded-full mb-6 backdrop-blur-md shadow-sm">
-          <span className="w-1.5 h-1.5 bg-[#38BDF8] rounded-full animate-pulse" />
-          Covering Delhi NCR & Sirsa, Haryana
+        <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/5 border border-white/10 backdrop-blur-md mb-6 animate-fade-in-up">
+          <span className="flex h-2 w-2 relative">
+            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#38BDF8] opacity-75"></span>
+            <span className="relative inline-flex rounded-full h-2 w-2 bg-[#38BDF8]"></span>
+          </span>
+          <span className="text-xs font-semibold tracking-wide text-gray-300 uppercase">Covering Delhi NCR</span>
         </div>
 
         {/* Heading */}

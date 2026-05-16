@@ -41,6 +41,15 @@ export interface MarketStory {
   body: string;                  // 200-250 word blog content
 }
 
+export interface Review {
+  id: number;
+  author: string;
+  avatar: string;
+  rating: number;
+  date: string;
+  text: string;
+}
+
 export interface Market {
   id: string;
   name: string;
@@ -62,4 +71,5 @@ export interface Market {
   rating: number;
   reviewCount: number;
   story?: MarketStory;
+  reviews?: Review[];
 }

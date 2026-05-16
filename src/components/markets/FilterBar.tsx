@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 
-const CITIES = ['All Cities', 'Delhi', 'Noida', 'Gurgaon', 'Ghaziabad', 'Faridabad', 'Sirsa'];
+const CITIES = ['All Cities', 'Delhi', 'Noida', 'Gurgaon', 'Ghaziabad', 'Faridabad'];
 const CATEGORIES = ['All', 'Clothes', 'Street Food', 'Electronics', 'Grocery', 'Jewelry', 'Hardware', 'Fashion', 'Wholesale', 'Handicrafts', 'IT', 'Premium'];
 const CROWD_LEVELS = ['Any', 'Low', 'Medium', 'High'];
 const PRICE_RANGES = ['Any', '₹', '₹₹', '₹₹₹'];
@@ -70,7 +70,7 @@ export default function FilterBar({
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           placeholder="Search markets, items, categories..."
-          className="flex-1 text-sm text-[#111827] placeholder-[#9CA3AF] bg-transparent focus:outline-none"
+          className="flex-1 text-sm text-white placeholder-[#9CA3AF] bg-transparent focus:outline-none"
           aria-label="Search markets"
         />
         {query && (

@@ -2,41 +2,7 @@
 
 import { useState } from 'react';
 
-interface MockReview {
-  id: number;
-  author: string;
-  avatar: string;
-  rating: number;
-  date: string;
-  text: string;
-}
-
-const MOCK_REVIEWS: MockReview[] = [
-  {
-    id: 1,
-    author: 'Rajesh Kumar',
-    avatar: 'RK',
-    rating: 5,
-    date: '2 days ago',
-    text: 'Absolutely love this market! Great variety, friendly shopkeepers and amazing prices. Go in the morning for the best experience.',
-  },
-  {
-    id: 2,
-    author: 'Priya Sharma',
-    avatar: 'PS',
-    rating: 4,
-    date: '1 week ago',
-    text: 'Good selection but gets very crowded in evenings. The street food nearby is incredible — don\'t miss the chaat corner!',
-  },
-  {
-    id: 3,
-    author: 'Amit Singh',
-    avatar: 'AS',
-    rating: 4,
-    date: '2 weeks ago',
-    text: 'Nice market overall. Parking can be tricky. Bargaining works well here — always negotiate before buying.',
-  },
-];
+import { Review } from '@/types/market';
 
 function StarRow({ rating }: { rating: number }) {
   return (
@@ -54,7 +20,7 @@ function StarRow({ rating }: { rating: number }) {
   );
 }
 
-export default function ReviewSection() {
+export default function ReviewSection({ reviews = [] }: { reviews?: Review[] }) {
   const [newRating, setNewRating] = useState(0);
   const [hoverRating, setHoverRating] = useState(0);
   const [reviewText, setReviewText] = useState('');
@@ -82,7 +48,7 @@ export default function ReviewSection() {
 
       {/* Reviews list */}
       <div className="space-y-4 mb-6">
-        {MOCK_REVIEWS.map((review) => (
+        {reviews.length > 0 ? reviews.map((review) => (
           <div key={review.id} className="flex gap-3 p-4 bg-white/5 border border-white/5 rounded-xl backdrop-blur-md">
             <div className="w-9 h-9 bg-white/20 rounded-full flex items-center justify-center text-white text-xs font-bold flex-shrink-0 shadow-sm">
               {review.avatar}
@@ -96,7 +62,9 @@ export default function ReviewSection() {
               <p className="text-sm text-gray-200 mt-2 leading-relaxed">{review.text}</p>
             </div>
           </div>
-        ))}
+        )) : (
+          <p className="text-sm text-gray-400">No reviews yet. Be the first to review this market!</p>
+        )}
       </div>
 
       {/* Write a review */}

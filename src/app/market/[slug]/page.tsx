@@ -98,7 +98,7 @@ export default async function MarketDetailPage({ params }: Props) {
           <DirectionsWidget market={market} />
           <CrowdLevelWidget market={market} />
           <ExperienceWidget market={market} />
-          <ReviewSection />
+          <ReviewSection reviews={market.reviews} />
         </div>
 
         {/* Right: Sidebar */}

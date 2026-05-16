@@ -5,10 +5,10 @@ import { useSearchParams } from 'next/navigation';
 import MarketCard from '@/components/markets/MarketCard';
 import FilterBar from '@/components/markets/FilterBar';
 import type { Market } from '@/types/market';
-import { searchMarketsClient } from '@/lib/markets';
+import { searchMarketsClient } from '@/lib/markets-search';
 
 const CITY_FLAGS: Record<string, string> = {
-  Delhi: '🏛️', Noida: '🏙️', Gurgaon: '🌆', Ghaziabad: '🏗️', Faridabad: '🏭', Sirsa: '🌾',
+  Delhi: '🏛️', Noida: '🏙️', Gurgaon: '🌆', Ghaziabad: '🏗️', Faridabad: '🏭',
 };
 
 function MarketsContent({ markets }: { markets: Market[] }) {
@@ -49,7 +49,7 @@ function MarketsContent({ markets }: { markets: Market[] }) {
       {/* Header row */}
       <div className="flex items-center justify-between mb-6 gap-4">
         <div>
-          <h1 className="section-heading">Markets in Delhi NCR &amp; Sirsa</h1>
+          <h1 className="section-heading text-white">Markets in Delhi NCR</h1>
           <p className="text-[#6B7280] mt-1 text-sm">
             {filtered.length} market{filtered.length !== 1 ? 's' : ''} found
             {initialQ && <span> for &ldquo;<strong className="text-[#0F172A]">{initialQ}</strong>&rdquo;</span>}

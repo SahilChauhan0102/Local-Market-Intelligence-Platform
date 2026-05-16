@@ -21,7 +21,7 @@ export default function Navbar() {
           </div>
           <div className="leading-tight">
             <p className="text-sm font-800 text-gray-50 font-extrabold">Local Market Explorer</p>
-            <p className="text-xs text-gray-400">Delhi NCR &amp; Sirsa</p>
+            <p className="text-[10px] text-gray-400 font-medium">Delhi NCR</p>
           </div>
         </Link>
 
