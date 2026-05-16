@@ -7,7 +7,7 @@ export default function NotFound() {
         <div className="text-6xl mb-4">🏪</div>
         <h1 className="text-2xl font-extrabold text-[#0F172A] mb-2">Market Not Found</h1>
         <p className="text-[#6B7280] text-sm mb-6">
-          This market doesn&apos;t exist yet or may have moved. Explore all available markets in Sirsa.
+          This market doesn&apos;t exist yet or may have moved. Explore all available markets in Delhi NCR.
         </p>
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
           <Link href="/markets" className="btn-primary justify-center">Browse All Markets</Link>

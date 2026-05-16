@@ -14,12 +14,12 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: 'Local Market Explorer — Discover Markets in Delhi NCR & Sirsa',
+    default: 'Local Market Explorer — Discover Markets in Delhi NCR',
     template: '%s | Local Market Explorer',
   },
   description:
-    'Discover and compare local markets in Delhi NCR and Sirsa, Haryana. Get metro directions, crowd levels, price ranges, shopkeeper ratings, nearby food, and much more.',
-  keywords: ['Delhi markets', 'Chandni Chowk', 'Sarojini Nagar', 'best markets Delhi NCR', 'Sirsa markets', 'local bazaar guide', 'metro directions markets'],
+    'Discover and compare local markets in Delhi NCR. Get metro directions, crowd levels, price ranges, shopkeeper ratings, nearby food, and much more.',
+  keywords: ['Delhi markets', 'Chandni Chowk', 'Sarojini Nagar', 'best markets Delhi NCR', 'Noida markets', 'Gurgaon bazaars', 'local bazaar guide', 'metro directions markets'],
   authors: [{ name: 'Local Market Explorer' }],
   openGraph: {
     type: 'website',

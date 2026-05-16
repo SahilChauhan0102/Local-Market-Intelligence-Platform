@@ -6,8 +6,8 @@ import CTASection from '@/components/home/CTASection';
 import { getFeaturedMarkets } from '@/lib/markets';
 
 export const metadata: Metadata = {
-  title: 'Local Market Explorer — Best Markets in Sirsa, Haryana',
-  description: 'Discover and compare the best local markets in Sirsa, Haryana. Check crowd levels, prices, shopkeeper ratings, food nearby and much more.',
+  title: 'Local Market Explorer — Best Markets in Delhi NCR',
+  description: 'Discover and compare the best local markets in Delhi NCR. Check crowd levels, prices, shopkeeper ratings, food nearby and much more.',
 };
 
 export default async function HomePage() {

@@ -2,7 +2,7 @@ export type CrowdLevel = 'Low' | 'Medium' | 'High';
 export type PriceRange = '₹' | '₹₹' | '₹₹₹';
 export type BehaviourType = 'Friendly' | 'Average' | 'Rude';
 export type ParkingType = 'Available' | 'Limited' | 'None';
-export type City = 'Sirsa' | 'Delhi' | 'Noida' | 'Gurgaon' | 'Faridabad' | 'Ghaziabad';
+export type City = 'Delhi' | 'Noida' | 'Gurgaon' | 'Faridabad' | 'Ghaziabad';
 
 export interface CrowdData {
   morning: CrowdLevel;
