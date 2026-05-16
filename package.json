@@ -1,6 +1,6 @@
 {
   "name": "local-market-explorer",
-  "version": "0.1.1", // Updated for MongoDB migration
+  "version": "0.1.1",
   "private": true,
   "scripts": {
     "dev": "next dev",
