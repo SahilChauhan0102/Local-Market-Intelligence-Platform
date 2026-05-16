@@ -17,10 +17,10 @@ export default function Footer() {
               <span className="font-extrabold text-lg">Local Market Explorer</span>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed max-w-xs">
-              Your smart local guide to discover, explore, and compare markets across Sirsa, Haryana. Know before you go.
+              Your smart local guide to discover, explore, and compare markets across Delhi NCR. Know before you go.
             </p>
             <div className="flex items-center gap-2 mt-4">
-              <span className="badge badge-accent text-xs">🌿 Sirsa, Haryana</span>
+              <span className="badge badge-accent text-xs">🏛️ Delhi NCR</span>
             </div>
           </div>
 
@@ -64,7 +64,7 @@ export default function Footer() {
 
         <div className="border-t border-white/10 mt-10 pt-6 flex flex-col sm:flex-row justify-between items-center gap-3">
           <p className="text-gray-400 text-sm">
-            © {new Date().getFullYear()} Local Market Explorer. Made with ❤️ for Sirsa.
+            © {new Date().getFullYear()} Local Market Explorer | Compare before you Go 🙌
           </p>
           <p className="text-gray-300 text-xs">
             Data is for informational purposes only.

@@ -15,10 +15,10 @@ export default function CTASection() {
             Know Before You Go
           </p>
           <h2 id="cta-heading" className="text-3xl sm:text-4xl font-extrabold text-white mb-4">
-            Ready to explore Sirsa&apos;s best markets?
+            Ready to explore Delhi NCR&apos;s best markets?
           </h2>
           <p className="text-white/60 mb-8 max-w-md mx-auto text-sm leading-relaxed">
-            Compare markets side-by-side, check real crowd levels, and discover hidden gems across Sirsa, Haryana.
+            Compare markets side-by-side, check real crowd levels, and discover hidden gems across Delhi NCR.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
             <Link href="/markets" id="cta-explore-btn" className="btn-primary px-8 py-3.5">

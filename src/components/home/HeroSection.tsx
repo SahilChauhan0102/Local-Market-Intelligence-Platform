@@ -46,7 +46,7 @@ export default function HeroSection() {
 
         {/* Subtext */}
         <p className="text-gray-300 text-base sm:text-lg max-w-xl mx-auto mb-8 leading-relaxed">
-          From Chandni Chowk&apos;s 400-year-old lanes to Cyber Hub&apos;s rooftop bars — a smart guide to discover &amp; compare markets across Delhi, Noida, Gurgaon, Ghaziabad &amp; Sirsa. Metro info, crowd levels, prices, shopkeeper vibes — all in one place.
+          From Chandni Chowk&apos;s 400-year-old lanes to Cyber Hub&apos;s rooftop bars — a smart guide to discover &amp; compare markets across Delhi, Noida, Gurgaon, Ghaziabad &amp; more. Metro info, crowd levels, prices, shopkeeper vibes — all in one place.
         </p>
 
         {/* Search bar */}

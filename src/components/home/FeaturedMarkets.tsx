@@ -12,7 +12,7 @@ export default function FeaturedMarkets({ markets }: { markets: Market[] }) {
           </p>
           <h2 id="featured-heading" className="section-heading">Featured Markets</h2>
           <p className="text-[#6B7280] mt-2 text-sm">
-            The most loved markets in Sirsa, hand-picked for you
+            The most loved markets in Delhi NCR, hand-picked for you
           </p>
         </div>
         <Link href="/markets" className="btn-outline text-sm hidden sm:flex">
