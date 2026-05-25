@@ -55,8 +55,6 @@ export default async function MarketDetailPage({ params }: Props) {
       streetAddress: market.location,
       addressLocality: market.city,
     },
-    geo: market.geo,
-    openingHoursSpecification: market.openingHoursSpecification,
     image: market.images,
     url: `${process.env.NEXT_PUBLIC_BASE_URL}/market/${market.slug}`,
   }} />

@@ -80,7 +80,7 @@ export default function FilterBar({
           aria-label="Search markets"
         />
         {query && (
-          <button type="button" onClick={() => { setQuery(''); apply('', category, crowd, price, city); }} className="text-[#6B7280] hover:text-[#EF4444]">✕</button>
+          <button type="button" onClick={() => { setQuery(''); apply('', category, crowd, price, city, sort); }} className="text-[#6B7280] hover:text-[#EF4444]">✕</button>
         )}
       </form>
 
