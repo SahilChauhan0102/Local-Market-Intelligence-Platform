@@ -55,7 +55,7 @@ const NEW_MARKETS = [
     famousFor: ["Wholesale Spices", "Dry Fruits", "Herbs", "Tea Leaves"],
     priceRange: "₹",
     bestTimeToVisit: "Weekday Mornings (Closed on Sunday)",
-    location: "Near Fatehpuri Masjid, Chandni Chowk, Delhi",
+    location: "Near Fatehpuri Masjid, Chandni Chowk, Delhi — 110006",
     directions: {
       nearestMetro: "Chandni Chowk — Yellow Line",
       metroWalkTime: "10 min walk",
@@ -70,7 +70,7 @@ const NEW_MARKETS = [
     experience: { behaviour: "Average", bargaining: true, familyFriendly: false, parking: "None" },
     foodNearby: [{ name: "Giani's di Hatti", rating: 4.6, type: "Desserts/Rabri Faluda" }],
     nearbyPlaces: ["Fatehpuri Masjid", "Chandni Chowk", "Red Fort"],
-    images: ["/images/markets/chandni-chowk-1.jpg"], // Fallback image
+    images: ["https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=800"], // Fallback image
     featured: true,
     rating: 4.6,
     reviewCount: 5200,
@@ -160,7 +160,7 @@ const NEW_MARKETS = [
     famousFor: ["Fashion Boutiques", "Branded Stores", "Bridal Wear", "Cafes"],
     priceRange: "₹₹₹",
     bestTimeToVisit: "Evenings and Weekends (Closed on Tuesday)",
-    location: "Rajouri Garden, West Delhi",
+    location: "Rajouri Garden, West Delhi — 110027",
     directions: {
       nearestMetro: "Rajouri Garden — Blue & Pink Lines",
       metroWalkTime: "5 min walk",
@@ -171,7 +171,7 @@ const NEW_MARKETS = [
     experience: { behaviour: "Friendly", bargaining: false, familyFriendly: true, parking: "Limited" },
     foodNearby: [{ name: "Atul Chaat", rating: 4.5, type: "Street Food" }],
     nearbyPlaces: ["Pacific Mall"],
-    images: ["/images/markets/lajpat-1.jpg"],
+    images: ["https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800"],
     featured: true,
     rating: 4.4,
     reviewCount: 3800,
@@ -214,6 +214,7 @@ const NEW_MARKETS = [
 ];
 
 // Screenshot Data Mapping to update existing markets
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 const UPDATE_MAP: Record<string, any> = {
   "sarojini-nagar-market": {
     famousFor: ["Affordable branded/export-surplus clothes", "accessories", "household items"],
@@ -298,11 +299,10 @@ async function runSeed() {
   let oldMarkets = JSON.parse(oldDataRaw);
 
   // 1. Filter out Sirsa
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   oldMarkets = oldMarkets.filter((m: any) => m.city !== 'Sirsa');
 
   // Load stories
-  const p = path.join(process.cwd(), 'src/data/stories-delhi.ts');
-  const ncr = path.join(process.cwd(), 'src/data/stories-ncr.ts');
   // Hacky require for TS files in a script without compilation
   // Actually we can just skip importing stories dynamically if we don't have a TS loader,
   // Let's just use the stories already embedded if any, or leave it. Wait, stories are in separate files.
@@ -311,6 +311,7 @@ async function runSeed() {
 
   console.log(`Processing ${oldMarkets.length} existing Delhi NCR markets...`);
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const finalMarkets = oldMarkets.map((m: any) => {
     // Merge with updates
     if (UPDATE_MAP[m.slug]) {

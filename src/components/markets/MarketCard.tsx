@@ -79,6 +79,21 @@ export default function MarketCard({ market, showCompare = true }: MarketCardPro
             <span className="badge bg-[#10B981] text-white text-xs shadow-md">⭐ Featured</span>
           </div>
         )}
+        {/* Open Today */}
+                {/* Open/Closed badge */}
+        {(() => {
+          const today = new Date();
+          const dayNames = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+          const todayName = dayNames[today.getDay()];
+          const closedMatch = market.bestTimeToVisit.match(/Closed on (\w+)/i);
+          const isClosedToday = closedMatch && closedMatch[1] === todayName;
+          return isClosedToday ? (
+            <div className="absolute top-10 right-3"><span className="badge bg-red-600 text-white text-xs font-bold">Closed Today</span></div>
+          ) : (
+            <div className="absolute top-10 right-3"><span className="badge bg-green-600 text-white text-xs font-bold">Open Today</span></div>
+          );
+        })()}
+
 
         {/* Crowd level */}
         <div className="absolute bottom-3 left-3">
@@ -88,7 +103,8 @@ export default function MarketCard({ market, showCompare = true }: MarketCardPro
         </div>
       </div>
 
-      {/* Content */}
+                {/* Near Me button placeholder */}
+          <button onClick={() => alert('Near Me feature coming soon')} className="badge badge-primary text-xs">Near Me</button>
       <div className="p-4 flex flex-col flex-1">
         <div className="flex items-start justify-between mb-2">
           <h2 className="font-bold text-white text-base leading-tight group-hover:text-[#38BDF8] transition-colors drop-shadow-sm">

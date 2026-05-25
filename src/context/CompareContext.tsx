@@ -1,6 +1,6 @@
 'use client';
 
-import React, { createContext, useContext, useState, useCallback } from 'react';
+import React, { createContext, useContext, useState, useCallback, useEffect } from 'react';
 import type { Market } from '@/types/market';
 
 const MAX_COMPARE = 3;
@@ -18,6 +18,23 @@ const CompareContext = createContext<CompareContextType | null>(null);
 
 export function CompareProvider({ children }: { children: React.ReactNode }) {
   const [compareList, setCompareList] = useState<Market[]>([]);
+
+  // Load from local storage on mount
+  useEffect(() => {
+    try {
+      const stored = localStorage.getItem('localMarketCompare');
+      if (stored) {
+        setCompareList(JSON.parse(stored));
+      }
+    } catch (e) {
+      console.error('Failed to parse compare list from local storage', e);
+    }
+  }, []);
+
+  // Save to local storage on changes
+  useEffect(() => {
+    localStorage.setItem('localMarketCompare', JSON.stringify(compareList));
+  }, [compareList]);
 
   const addToCompare = useCallback((market: Market) => {
     setCompareList((prev) => {

@@ -48,7 +48,7 @@ export default function Footer() {
           <div>
             <h3 className="font-semibold text-sm uppercase tracking-wider text-gray-400 mb-4">Categories</h3>
             <ul className="space-y-2">
-              {['Electronics', 'Grocery', 'Jewelry', 'Hardware', 'Fashion', 'Wholesale'].map((cat) => (
+              {['Electronics', 'Grocery', 'Jewelry & Gold', 'Hardware', 'Fashion', 'Wholesale'].map((cat) => (
                 <li key={cat}>
                   <Link
                     href={`/markets?category=${cat}`}

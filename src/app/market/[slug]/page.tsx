@@ -12,6 +12,7 @@ import NearbyPlacesWidget from '@/components/detail/NearbyPlacesWidget';
 import DirectionsWidget from '@/components/detail/DirectionsWidget';
 import ReviewSection from '@/components/detail/ReviewSection';
 import AddToCompareButton from '@/components/detail/AddToCompareButton';
+import JsonLd from '@/components/seo/JsonLd';
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -44,6 +45,21 @@ export default async function MarketDetailPage({ params }: Props) {
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+  <JsonLd market={{
+    name: market.name,
+    description: market.tagline,
+    priceRange: market.priceRange,
+    rating: market.rating,
+    reviewCount: market.reviews?.length ?? 0,
+    address: {
+      streetAddress: market.location,
+      addressLocality: market.city,
+    },
+    geo: market.geo,
+    openingHoursSpecification: market.openingHoursSpecification,
+    image: market.images,
+    url: `${process.env.NEXT_PUBLIC_BASE_URL}/market/${market.slug}`,
+  }} />
       {/* Breadcrumb */}
       <nav className="flex items-center gap-2 text-xs text-gray-400 mb-6" aria-label="Breadcrumb">
         <Link href="/" className="hover:text-[#38BDF8] transition-colors">Home</Link>

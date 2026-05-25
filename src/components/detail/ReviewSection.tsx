@@ -25,10 +25,19 @@ export default function ReviewSection({ reviews = [] }: { reviews?: Review[] }) 
   const [hoverRating, setHoverRating] = useState(0);
   const [reviewText, setReviewText] = useState('');
   const [submitted, setSubmitted] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitError, setSubmitError] = useState('');
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (newRating > 0 && reviewText.trim()) {
+      setIsSubmitting(true);
+      setSubmitError('');
+      
+      // Simulate API delay
+      await new Promise((resolve) => setTimeout(resolve, 1000));
+      
+      setIsSubmitting(false);
       setSubmitted(true);
       setTimeout(() => {
         setSubmitted(false);
@@ -121,13 +130,16 @@ export default function ReviewSection({ reviews = [] }: { reviews?: Review[] }) 
               required
             />
 
+            {submitError && (
+              <p className="text-xs text-red-500">{submitError}</p>
+            )}
             <button
               type="submit"
               id="submit-review-btn"
-              disabled={newRating === 0}
+              disabled={newRating === 0 || isSubmitting}
               className="btn-primary w-full py-2.5 text-sm disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
             >
-              Submit Review
+              {isSubmitting ? 'Submitting...' : 'Submit Review'}
             </button>
           </form>
         )}

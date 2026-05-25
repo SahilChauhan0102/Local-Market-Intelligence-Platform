@@ -6,6 +6,7 @@ import type { Market, City } from '@/types/market';
  * Helper to convert a Mongoose document to a plain JS object
  * matching our Market interface.
  */
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 function serializeMarket(doc: any): Market {
   // If it's a Mongoose document, convert to JSON
   const obj = typeof doc.toJSON === 'function' ? doc.toJSON() : { ...doc };

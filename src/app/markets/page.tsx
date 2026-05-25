@@ -8,6 +8,16 @@ export const metadata: Metadata = {
 };
 
 export default async function MarketsPage() {
-  const markets = await getAllMarkets();
-  return <MarketsPageWrapper markets={markets} />;
+  try {
+    const markets = await getAllMarkets();
+    return <MarketsPageWrapper markets={markets} />;
+  } catch (error) {
+    console.error('Failed to load markets:', error);
+    return (
+      <div className="max-w-7xl mx-auto px-4 py-20 text-center">
+        <h2 className="text-2xl font-bold text-red-500 mb-2">Failed to load markets</h2>
+        <p className="text-[#6B7280]">Please try again later or refresh the page.</p>
+      </div>
+    );
+  }
 }

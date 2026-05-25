@@ -549,7 +549,7 @@ const NEW_DELHI_MARKETS = [
     name: 'South Extension Market',
     tagline: "South Delhi's premium fashion avenue — branded stores, jewellery, and curated dining",
     city: 'Delhi',
-    category: ['Fashion', 'Luxury', 'Jewellery', 'Food & Dining'],
+    category: ['Fashion', 'Luxury', 'Jewelry & Gold', 'Food & Dining'],
     famousFor: ['Branded Showrooms', 'Designer Jewellery', 'Premium Clothing', 'Fine Dining'],
     priceRange: '₹₹₹',
     bestTimeToVisit: 'Open daily except Tuesday (Closed on Tuesday)',

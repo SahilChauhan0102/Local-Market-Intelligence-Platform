@@ -95,7 +95,7 @@ export default function HeroSection() {
             { value: '28+', label: 'Markets Covered' },
             { value: '6', label: 'NCR Cities' },
             { value: '12+', label: 'Categories' },
-            { value: '1,00,000+', label: 'Reviews' },
+            { value: '10,000+', label: 'Ratings' },
           ].map(({ value, label }) => (
             <div key={label} className="text-center">
               <p className="text-xl font-extrabold text-gray-50 drop-shadow-sm">{value}</p>

@@ -5,7 +5,7 @@ const CATEGORIES = [
   { name: 'Street Food', icon: '🍜', query: 'Street Food', color: 'from-orange-500 to-amber-500', count: 5 },
   { name: 'Electronics', icon: '📱', query: 'Electronics', color: 'from-blue-500 to-cyan-500', count: 5 },
   { name: 'Grocery & Spices', icon: '🌿', query: 'Grocery', color: 'from-green-500 to-emerald-500', count: 4 },
-  { name: 'Jewelry & Gold', icon: '💍', query: 'Jewelry', color: 'from-yellow-500 to-amber-400', count: 2 },
+  { name: 'Jewelry & Gold', icon: '💍', query: 'Jewelry & Gold', color: 'from-yellow-500 to-amber-400', count: 2 },
   { name: 'IT & Gadgets', icon: '💻', query: 'IT', color: 'from-indigo-500 to-violet-500', count: 2 },
 ];
 
@@ -35,8 +35,8 @@ export default function PopularCategories() {
                 {cat.icon}
               </div>
               <div className="text-center">
-                <p className="text-xs font-semibold text-[#0F172A] leading-tight">{cat.name}</p>
-                <p className="text-[10px] text-[#6B7280] mt-0.5">{cat.count} markets</p>
+                <p className="text-xs font-semibold text-white leading-tight">{cat.name}</p>
+                <p className="text-[10px] text-gray-300 mt-0.5">{cat.count} markets</p>
               </div>
             </Link>
           ))}

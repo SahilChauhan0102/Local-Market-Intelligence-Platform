@@ -17,14 +17,22 @@ export const metadata: Metadata = {
     default: 'Local Market Explorer — Discover Markets in Delhi NCR',
     template: '%s | Local Market Explorer',
   },
-  description:
-    'Discover and compare local markets in Delhi NCR. Get metro directions, crowd levels, price ranges, shopkeeper ratings, nearby food, and much more.',
+  description: 'Discover and compare local markets in Delhi NCR. Get metro directions, crowd levels, price ranges, shopkeeper ratings, nearby food, and much more.',
   keywords: ['Delhi markets', 'Chandni Chowk', 'Sarojini Nagar', 'best markets Delhi NCR', 'Noida markets', 'Gurgaon bazaars', 'local bazaar guide', 'metro directions markets'],
   authors: [{ name: 'Local Market Explorer' }],
   openGraph: {
     type: 'website',
     locale: 'en_IN',
     siteName: 'Local Market Explorer',
+    images: [{ url: '/og-image.jpg' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Local Market Explorer',
+    description: 'Discover local markets in Delhi NCR.',
+    site: '@localmarket',
+    creator: '@localmarket',
+    images: ['https://example.com/og-image.png'],
   },
 };
 

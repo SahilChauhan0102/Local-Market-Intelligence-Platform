@@ -7,6 +7,29 @@ import type { Market } from '@/types/market';
 export default function ImageGallery({ market }: { market: Market }) {
   const [activeIdx, setActiveIdx] = useState(0);
   const [lightboxOpen, setLightboxOpen] = useState(false);
+  const [touchStart, setTouchStart] = useState<number | null>(null);
+
+  const handleTouchStart = (e: React.TouchEvent) => {
+    setTouchStart(e.targetTouches[0].clientX);
+  };
+
+  const handleTouchMove = (e: React.TouchEvent) => {
+    if (touchStart === null) return;
+    const currentX = e.targetTouches[0].clientX;
+    const diff = touchStart - currentX;
+
+    if (diff > 50) {
+      setActiveIdx((p) => Math.min(market.images.length - 1, p + 1));
+      setTouchStart(null);
+    } else if (diff < -50) {
+      setActiveIdx((p) => Math.max(0, p - 1));
+      setTouchStart(null);
+    }
+  };
+
+  const handleTouchEnd = () => {
+    setTouchStart(null);
+  };
 
   if (!market.images || market.images.length === 0) return null;
 
@@ -16,6 +39,9 @@ export default function ImageGallery({ market }: { market: Market }) {
       <div
         className="relative h-72 sm:h-96 bg-gradient-to-br from-slate-200 to-slate-300 cursor-pointer"
         onClick={() => setLightboxOpen(true)}
+        onTouchStart={handleTouchStart}
+        onTouchMove={handleTouchMove}
+        onTouchEnd={handleTouchEnd}
       >
         <Image
           src={market.images[activeIdx]}

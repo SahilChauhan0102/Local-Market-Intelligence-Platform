@@ -18,11 +18,12 @@ function MarketsContent({ markets }: { markets: Market[] }) {
   const initialCrowd = searchParams.get('crowd') || 'Any';
   const initialPrice = searchParams.get('price') || 'Any';
   const initialCity = searchParams.get('city') || 'All Cities';
+  const initialSort = searchParams.get('sort') || 'Featured';
 
   const [filtered, setFiltered] = useState<Market[]>(markets);
   const [showFilters, setShowFilters] = useState(false);
 
-  const applyFilters = (q: string, category: string, crowd: string, price: string, city: string) => {
+  const applyFilters = (q: string, category: string, crowd: string, price: string, city: string, sort: string) => {
     let result = searchMarketsClient(q, markets);
     if (city !== 'All Cities') result = result.filter((m) => m.city === city);
     if (category !== 'All') result = result.filter((m) =>
@@ -32,13 +33,23 @@ function MarketsContent({ markets }: { markets: Market[] }) {
       (m) => m.crowd.morning === crowd || m.crowd.afternoon === crowd || m.crowd.evening === crowd
     );
     if (price !== 'Any') result = result.filter((m) => m.priceRange === price);
+    
+    if (sort === 'Rating') {
+      result.sort((a, b) => b.rating - a.rating);
+    } else if (sort === 'Alphabetical') {
+      result.sort((a, b) => a.name.localeCompare(b.name));
+    } else {
+      // Featured: push featured to top
+      result.sort((a, b) => (b.featured ? 1 : 0) - (a.featured ? 1 : 0));
+    }
+    
     setFiltered(result);
     setShowFilters(false); // close drawer after applying on mobile
   };
 
   useEffect(() => {
     // eslint-disable-next-line react-hooks/set-state-in-effect
-    applyFilters(initialQ, initialCat, initialCrowd, initialPrice, initialCity);
+    applyFilters(initialQ, initialCat, initialCrowd, initialPrice, initialCity, initialSort);
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
@@ -79,6 +90,7 @@ function MarketsContent({ markets }: { markets: Market[] }) {
             initialCrowd={initialCrowd}
             initialPrice={initialPrice}
             initialCity={initialCity}
+            initialSort={initialSort}
             onFilter={applyFilters}
           />
         </div>
@@ -94,6 +106,7 @@ function MarketsContent({ markets }: { markets: Market[] }) {
               initialCrowd={initialCrowd}
               initialPrice={initialPrice}
               initialCity={initialCity}
+              initialSort={initialSort}
               onFilter={applyFilters}
             />
           </div>
@@ -115,7 +128,7 @@ function MarketsContent({ markets }: { markets: Market[] }) {
                       <div className="flex items-center gap-2 mb-4">
                         <span className="text-xl">{CITY_FLAGS[city] || '📍'}</span>
                         <h2 className="text-lg font-bold text-[#0F172A]">{city}</h2>
-                        <span className="badge badge-muted text-xs">{cityMarkets.length} markets</span>
+                                                <span className="badge bg-white/10 text-white text-xs">{cityMarkets.length} markets</span>
                       </div>
                       <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-5">
                         {cityMarkets.map((market) => <MarketCard key={market.slug} market={market} />)}
