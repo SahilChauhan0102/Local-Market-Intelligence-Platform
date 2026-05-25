@@ -1,7 +1,14 @@
 import mongoose from 'mongoose';
 import dns from 'dns';
+import { Resolver } from 'dns/promises';
 
-dns.setServers(['8.8.8.8']);
+// Force Google DNS for reliable SRV/Atlas lookups in Next.js server context
+dns.setServers(['8.8.8.8', '8.8.4.4', '1.1.1.1']);
+dns.setDefaultResultOrder('ipv4first');
+
+// Also patch the promises resolver
+const resolver = new Resolver();
+resolver.setServers(['8.8.8.8', '8.8.4.4', '1.1.1.1']);
 
 const MONGODB_URI = process.env.MONGODB_URI!;
 
