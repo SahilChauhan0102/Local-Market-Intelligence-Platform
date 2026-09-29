@@ -1,0 +1,29 @@
+/* Google Fonts must come FIRST — before any other rules including Tailwind's @import */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import "tailwindcss";
+
+/**
+ * Typography: Inter as the base sans-serif.
+ * Rationale: Inter renders time strings clearly at small sizes and on all
+ * backgrounds — critical for the time-card grid which must be legible
+ * at a glance. Its neutral personality keeps focus on the time data.
+ * Registered via Tailwind v4 @theme so `font-sans` resolves to Inter.
+ */
+@theme {
+  --font-sans: 'Inter', system-ui, sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+}

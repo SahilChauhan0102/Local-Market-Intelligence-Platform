@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bmr.localgali.in/sitemap.xml

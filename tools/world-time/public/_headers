@@ -1,0 +1,22 @@
+/*
+  # Cloudflare Pages headers for bmi.localgali.in
+  # Applied to all routes
+
+  # HSTS — enforce HTTPS for 1 year, include subdomains
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+
+  # CSP — no unsafe-eval, no unsafe-inline scripts (fonts/styles allowed from trusted CDNs)
+  # If you add an analytics script, add its domain to script-src with a nonce or hash.
+  Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'
+
+  # Prevent MIME type sniffing
+  X-Content-Type-Options: nosniff
+
+  # Block clickjacking
+  X-Frame-Options: DENY
+
+  # Referrer policy — minimal leakage
+  Referrer-Policy: strict-origin-when-cross-origin
+
+  # Permissions policy — deny features this tool doesn't use
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=()

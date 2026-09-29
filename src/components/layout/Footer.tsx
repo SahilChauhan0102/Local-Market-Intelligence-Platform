@@ -46,7 +46,7 @@ export default function Footer() {
 
           {/* Categories */}
           <div>
-            <h3 className="font-semibold text-sm uppercase tracking-wider text-gray-400 mb-4">Categories</h3>
+            <h3 className="font-semibold text-sm uppercase tracking-wider text-gray-400 mb-4">Markets</h3>
             <ul className="space-y-2">
               {['Electronics', 'Grocery', 'Jewelry & Gold', 'Hardware', 'Fashion', 'Wholesale'].map((cat) => (
                 <li key={cat}>
@@ -55,6 +55,27 @@ export default function Footer() {
                     className="text-gray-400 hover:text-[#22C55E] text-sm transition-colors"
                   >
                     {cat}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Places of Worship */}
+          <div>
+            <h3 className="font-semibold text-sm uppercase tracking-wider text-gray-400 mb-4">Places of Worship</h3>
+            <ul className="space-y-2">
+              {[
+                { href: '/places',              label: 'All Places'         },
+                { href: '/temples',             label: 'Temples in Delhi'   },
+                { href: '/mosques',             label: 'Mosques in Delhi'   },
+                { href: '/churches',            label: 'Churches in Delhi'  },
+                { href: '/dargahs',             label: 'Dargahs & Shrines'  },
+                { href: '/gurudwaras',          label: 'Gurudwaras'         },
+              ].map(({ href, label }) => (
+                <li key={href}>
+                  <Link href={href} className="text-gray-400 hover:text-[#F4A261] text-sm transition-colors">
+                    {label}
                   </Link>
                 </li>
               ))}

@@ -19,6 +19,15 @@
   --radius-card: 16px;
   --shadow-card: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
   --shadow-hover: 0 16px 40px 0 rgba(0, 0, 0, 0.3);
+
+  /* Place type accent colors */
+  --color-temple: #FF6B35;
+  --color-mosque: #2D6A4F;
+  --color-church: #4A90D9;
+  --color-dargah: #9B5DE5;
+  --color-gurudwara: #F4A261;
+  --color-monastery: #606C38;
+  --color-synagogue: #E8C84A;
 }
 
 @layer base {
@@ -165,6 +174,15 @@
 
 .animate-fade-up {
   animation: fadeUp 0.4s ease forwards;
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.6s ease forwards;
 }
 
 @keyframes shimmer {

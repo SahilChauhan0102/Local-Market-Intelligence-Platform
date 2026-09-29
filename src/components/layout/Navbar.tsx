@@ -30,6 +30,7 @@ export default function Navbar() {
           {[
             { href: '/', label: 'Home' },
             { href: '/markets', label: 'All Markets' },
+            { href: '/places', label: 'Places' },
             { href: '/compare', label: 'Compare', badge: compareList.length > 0 ? compareList.length : undefined },
           ].map(({ href, label, badge }) => (
             <Link
@@ -90,6 +91,29 @@ export default function Navbar() {
               {label}
             </Link>
           ))}
+
+          {/* Places of Worship submenu */}
+          <div className="mt-1 mb-0.5">
+            <p className="px-3 py-1 text-xs font-semibold text-gray-400 uppercase tracking-wider">Places of Worship</p>
+            {[
+              { href: '/places',              label: '🙏 All Places'        },
+              { href: '/places?type=Temple',  label: '🛕 Temples'           },
+              { href: '/places?type=Mosque',  label: '🕌 Mosques'           },
+              { href: '/places?type=Church',  label: '⛪ Churches'          },
+              { href: '/places?type=Dargah',  label: '☪️ Dargahs'           },
+              { href: '/places?type=Gurudwara', label: '🟠 Gurudwaras'      },
+            ].map(({ href, label }) => (
+              <Link
+                key={href}
+                href={href}
+                className="block px-5 py-2 text-sm text-gray-300 hover:text-[#F4A261] hover:bg-white/5 rounded-lg transition-colors"
+                onClick={() => setMenuOpen(false)}
+              >
+                {label}
+              </Link>
+            ))}
+          </div>
+
           <Link href="/markets" className="btn-primary text-sm py-2.5 mt-2" onClick={() => setMenuOpen(false)}>
             Explore Markets
           </Link>

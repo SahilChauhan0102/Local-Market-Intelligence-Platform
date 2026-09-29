@@ -11,14 +11,17 @@
 !.yarn/versions
 
 # testing
-/coverage
+coverage/
+**/coverage/
 
-# next.js
+# build & production
 /.next/
 /out/
-
-# production
 /build
+dist/
+**/dist/
+node_modules/
+**/node_modules/
 
 # misc
 .DS_Store

@@ -89,13 +89,34 @@ export default function HeroSection() {
           ))}
         </div>
 
+        {/* Places of Worship chips */}
+        <div className="flex flex-wrap items-center justify-center gap-2 mt-4">
+          <span className="text-gray-400 text-xs font-medium">Sacred Places:</span>
+          {[
+            { emoji: '🛕', label: 'Temples',    type: 'Temple'    },
+            { emoji: '🕌', label: 'Mosques',    type: 'Mosque'    },
+            { emoji: '⛪', label: 'Churches',   type: 'Church'    },
+            { emoji: '🟠', label: 'Gurudwaras', type: 'Gurudwara' },
+            { emoji: '☪️', label: 'Dargahs',    type: 'Dargah'    },
+          ].map(({ emoji, label, type }) => (
+            <button
+              key={type}
+              id={`hero-worship-${type.toLowerCase()}`}
+              onClick={() => router.push(`/places?type=${type}`)}
+              className="text-xs text-gray-300 hover:text-white border border-white/10 hover:border-[#F4A261]/50 px-2.5 py-1 rounded-full transition-all bg-white/5 backdrop-blur-sm hover:bg-white/10"
+            >
+              {emoji} {label}
+            </button>
+          ))}
+        </div>
+
         {/* Stats */}
         <div className="grid grid-cols-2 sm:flex sm:items-center sm:justify-center gap-6 sm:gap-8 mt-12 pt-8 border-t border-white/10">
           {[
             { value: '28+', label: 'Markets Covered' },
-            { value: '6', label: 'NCR Cities' },
-            { value: '12+', label: 'Categories' },
-            { value: '10,000+', label: 'Ratings' },
+            { value: '30+', label: 'Sacred Places'   },
+            { value: '6',   label: 'NCR Cities'      },
+            { value: '20+', label: 'Categories'      },
           ].map(({ value, label }) => (
             <div key={label} className="text-center">
               <p className="text-xl font-extrabold text-gray-50 drop-shadow-sm">{value}</p>

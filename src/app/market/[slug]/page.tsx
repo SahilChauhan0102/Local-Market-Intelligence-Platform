@@ -9,6 +9,7 @@ import CrowdLevelWidget from '@/components/detail/CrowdLevelWidget';
 import ExperienceWidget from '@/components/detail/ExperienceWidget';
 import FoodNearbyWidget from '@/components/detail/FoodNearbyWidget';
 import NearbyPlacesWidget from '@/components/detail/NearbyPlacesWidget';
+import NearbyWorshipPlacesWidget from '@/components/detail/NearbyWorshipPlacesWidget';
 import DirectionsWidget from '@/components/detail/DirectionsWidget';
 import ReviewSection from '@/components/detail/ReviewSection';
 import AddToCompareButton from '@/components/detail/AddToCompareButton';
@@ -119,6 +120,7 @@ export default async function MarketDetailPage({ params }: Props) {
         <aside className="space-y-6">
           <FoodNearbyWidget market={market} />
           <NearbyPlacesWidget market={market} />
+          <NearbyWorshipPlacesWidget marketSlug={market.slug} />
 
           {/* Quick info */}
           <div className="card p-5 bg-white/5 border border-white/10 text-white">

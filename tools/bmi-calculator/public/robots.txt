@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bmi.localgali.in/sitemap.xml

@@ -1,0 +1,35 @@
+/* Google Fonts must come FIRST — before any other rules including Tailwind's @import */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import "tailwindcss";
+
+/**
+ * Typography: Inter for prose/UI text (FAQ, labels, options).
+ * font-mono (JetBrains Mono / system monospace) is intentionally preserved for
+ * the password display output — this is a deliberate design choice to evoke
+ * a terminal/security aesthetic for the generated password itself.
+ *
+ * Rationale for Inter in non-password areas: the FAQ section and option labels
+ * should be readable body text, not monospace. The contrast between `font-mono`
+ * (password) and `font-sans` (UI) reinforces that the password display is
+ * a special, distinct element.
+ *
+ * Registered via Tailwind v4 @theme so `font-sans` resolves to Inter.
+ */
+@theme {
+  --font-sans: 'Inter', system-ui, sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+}

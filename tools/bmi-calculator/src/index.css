@@ -1,0 +1,30 @@
+/* Google Fonts must come FIRST — before any other rules including Tailwind's @import */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import "tailwindcss";
+
+/**
+ * Typography: Inter as the base sans-serif.
+ * Rationale: Inter is optimised for screen readability at small sizes,
+ * has strong numeric tabular figures (important for BMI values), and
+ * conveys a trustworthy/medical-neutral aesthetic appropriate for health tools.
+ * Registered via Tailwind v4 @theme so `font-sans` resolves to Inter
+ * rather than the system-ui default.
+ */
+@theme {
+  --font-sans: 'Inter', system-ui, sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+}
